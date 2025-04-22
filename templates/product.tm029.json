@@ -69,6 +69,7 @@
         },
         "inventory_AL7d8F": {
           "type": "inventory",
+          "disabled": true,
           "settings": {
             "low_inventory_threshold": 20
           }
@@ -87,23 +88,23 @@
           "type": "product_countdown",
           "settings": {
             "coupoun_enable": true,
-            "heading": "Spring Sale, Ends After",
-            "time": "2025-04-30 15:59:59",
+            "heading": "Easter Sale, Ends After",
+            "time": "2025-04-21 15:59:59",
             "bakc_background": "#ffffff",
             "color_background": "#f83a3a",
             "ending_text": ""
           }
         },
-        "text_hUyCGf": {
+        "text_Dibdnj": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>⚠️ Prices Go Up After 4/30! ⏳ Due to Upcoming Tariff 📈</strong><br/><br/><strong>Lock Your Price Before Price Adjustment 🔒</strong></p>"
+            "text": "<p><strong>⚠️ Prices Go Up After 4/20! ⏳ Due to Upcoming Tariff 📈</strong><br/><br/><strong>Lock Your Price Before Price Adjustment 🔒</strong></p>"
           }
         },
         "text_RihDXq": {
           "type": "text",
           "settings": {
-            "text": "<p>🐦 <strong>Early Bird Price:</strong> $799 🎯✨<br/>⏳ <strong>Hurry!</strong> Price will return to <strong>$899 </strong>soon.<br/>🔥 <strong>Buy Early, Save More!</strong> 🚀💰</p>"
+            "text": "<p>🐦 <strong>Early Bird Price:</strong> $799 for pre-sale orders! 🎯✨<br/>⏳ <strong>Hurry!</strong> Price will return to <strong>$899</strong> after it is back in stock.<br/>🔥 <strong>Buy Early, Save More!</strong> 🚀💰</p><p>⚠️<strong>Pre-Sale Notice:</strong> The <strong>TM029</strong> is <strong>sold out</strong> since its release in February. Orders<strong> after</strong> 4th, April will be shipped out around <strong>23th-24th, April</strong></p>"
           }
         },
         "code_PdAfir": {
@@ -112,7 +113,7 @@
             "box-width": 73,
             "svg_background": "#f0c417",
             "discount_amount": "50",
-            "ending_times": "2025/4/20-2025/4/30",
+            "ending_times": "2025/3/15-2025/4/20",
             "discount_code": "NEWTM029",
             "show_code": false,
             "box-widths": 40,
@@ -192,8 +193,9 @@
         },
         "text_MAk4z7": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>🚚 Estimated Delivery: 📅 23 Apr - 27 Apr 🏃‍♂️</p>"
+            "text": "<p>🚚 Estimated Delivery: 📅 8 Mar - 12 Mar 🏃‍♂️</p>"
           }
         },
         "image_JkLRMr": {
@@ -234,7 +236,7 @@
         "text_jnwG7n": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Presale </strong>☎️<strong>Hotline: +1(281)777-8190</strong></p><p><strong>Calling Open Time: PST 9:00AM-3:00PM(Mon-Fri)</strong></p><p><strong>Contact Email: service@wellfittreadmill.com<br/><br/>Fast delivery in 1-5 days, shipped from California, Georgia, Texas and New Jersey</strong></p>"
+            "text": "<p><strong>Presale </strong>☎️<strong>Hotline: +1(281)777-8190</strong></p><p><strong>Calling Open Time: PST 9:00AM-3:00PM(Mon-Fri)</strong></p><p><strong>Contact Email: service@wellfittreadmill.com<br/><br/>Fast delivery in 1-5 days, shipped from California, Georgia, Texas</strong> <strong>and New Jersey</strong></p>"
           }
         },
         "collapsible_text_RqT9H9": {
@@ -250,7 +252,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "Main Specs",
-            "content": "<ul><li>450 Lbs Weight Capacity</li><li>Running Area Size：20×55 in</li><li><a href=\"https://youtu.be/7Fzz6WkTisk\" target=\"_blank\" title=\"https://youtu.be/7Fzz6WkTisk\">0-10% Auto Incline, 10 Levels</a></li><li>Good for tall people</li><li>Speed of 1.0-10.0mph(Adjustable)</li><li>Package Weight：62.82 Kg/138.5Lbs. If you can lift 33     LBS(15Kg) moving the treadmill will be a breeze.</li><li><a href=\"https://youtu.be/B4NkI76A-0o\" target=\"_blank\" title=\"https://youtu.be/B4NkI76A-0o\">Comes 95% Pre-assembled</a></li><li>Heart Rate Monitor</li><li>12 Preset Programs</li><li>3-year warranty</li><li>30-day risk free trial</li><li>AI Voice Control | Console Control | 3D VR</li><li>Built-in Bluetooth music player</li><li>Product Folded Size: 63 x 27.6 x 8.26 in</li></ul>",
+            "content": "<ul><li>450 Lbs Weight Capacity</li><li>Running Area Size：20×55 in</li><li><a href=\"https://youtu.be/SR2cuPUdZ2c\" target=\"_blank\" title=\"https://youtu.be/SR2cuPUdZ2c\">0-10% Auto Incline, 10 Levels</a></li><li>Good for tall people</li><li>Speed of 1.0-10.0mph(Adjustable)</li><li>Package Weight：62.82 Kg/138.5Lbs. If you can lift 33     LBS(15Kg) moving the treadmill will be a breeze.</li><li><a href=\"https://youtu.be/B4NkI76A-0o\" target=\"_blank\" title=\"https://youtu.be/B4NkI76A-0o\">Comes 95% Pre-assembled</a></li><li>Heart Rate Monitor</li><li>12 Preset Programs</li><li>3-year warranty</li><li>30-day risk free trial</li><li>AI Voice Control | Console Control | 3D VR</li><li>Built-in Bluetooth music player</li><li>Product Folded Size: 63 x 27.6 x 8.26 in</li></ul>",
             "page": ""
           }
         },
@@ -258,7 +260,7 @@
           "type": "collapsible_text",
           "settings": {
             "title": "What's the Difference between TM029 & TM024?",
-            "content": "<p>The TM029 features a 55-inch running belt, <strong>10 inches longer</strong> than the TM024. It also offers a<strong> </strong><a href=\"https://youtu.be/7Fzz6WkTisk\" target=\"_blank\" title=\"https://youtu.be/7Fzz6WkTisk\"><strong>10% auto incline</strong></a>, compared to the TM024’s 5% manual incline, making adjustments easier and workouts more intense. With <strong>higher-quality materials</strong>, the TM029 has a more premium look and feel.</p>",
+            "content": "<p>The TM029 features a 55-inch running belt, <strong>10 inches longer</strong> than the TM024. It also offers a<strong> </strong><a href=\"https://youtu.be/t13MRKuq050\" target=\"_blank\" title=\"https://youtu.be/t13MRKuq050\"><strong>10% auto incline</strong></a>, compared to the TM024’s 5% manual incline, making adjustments easier and workouts more intense. With <strong>higher-quality materials</strong>, the TM029 has a more premium look and feel.</p>",
             "page": ""
           }
         },
@@ -297,7 +299,7 @@
         "inventory_AL7d8F",
         "product_variations_X8xFdE",
         "product_countdown_BxQWDh",
-        "text_hUyCGf",
+        "text_Dibdnj",
         "text_RihDXq",
         "code_PdAfir",
         "payment_terms",
@@ -410,8 +412,8 @@
         "image_ajppdx": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Spring_sale_banner_1920x300_4478754f-eed4-48f2-a003-54872fd7cd63.jpg",
-            "mobile_image": "shopify://shop_images/Spring_sale_banner_1920x600_b10cb995-44ff-4ec1-945b-d77c68e57a8a.jpg",
+            "image": "shopify://shop_images/easter_banner_style2_1920x300_b8cc24a1-ec2a-40ed-92a6-5485cf74c55f.jpg",
+            "mobile_image": "shopify://shop_images/easter_banner_style2_1920x600_1.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -680,7 +682,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "10% Auto Incline Adjustable For Different Workout Intensity",
-            "content": "<p>Effortlessly customize your workout intensity with the <a href=\"https://youtu.be/7Fzz6WkTisk\" target=\"_blank\" title=\"https://youtu.be/7Fzz6WkTisk\">10% auto incline feature</a>. Whether you're looking to challenge yourself with uphill climbs or keep it light with a steady walk, the adjustable incline lets you tailor your routine to meet your fitness goals, all at the touch of a button.</p>",
+            "content": "<p>Effortlessly customize your workout intensity with the <a href=\"https://youtu.be/t13MRKuq050\" target=\"_blank\" title=\"https://youtu.be/t13MRKuq050\">10% auto incline feature</a>. Whether you're looking to challenge yourself with uphill climbs or keep it light with a steady walk, the adjustable incline lets you tailor your routine to meet your fitness goals, all at the touch of a button.</p>",
             "link_text": "",
             "link_url": "",
             "background": "#f0f0f0",
@@ -1424,7 +1426,7 @@
           "type": "item",
           "settings": {
             "title": "Does it require assembly?",
-            "content": "<p>Yes, but it comes with 95% assembled, just unfold and secure frame with tools provided. 2-Step installation, super easy! </p><p>Assemble Video: <br/><a href=\"https://youtu.be/B4NkI76A-0o\" target=\"_blank\" title=\"https://youtu.be/B4NkI76A-0o\">https://youtu.be/B4NkI76A-0o</a></p><p>*Note: The folding mechanism requires to unscrew the screws on the arm joint to fold</p>"
+            "content": "<p>Yes, but it comes with 95% assembled, just unfold and secure frame with tools provided. 2-Step installation, super easy! </p><p>Assemble Video: <a href=\"https://youtu.be/XOvg9YXo-Bw\" target=\"_blank\" title=\"https://youtu.be/XOvg9YXo-Bw\">https://youtu.be/XOvg9YXo-Bw</a></p><p>*Note: The folding mechanism requires to unscrew the screws on the arm joint to fold</p>"
           }
         },
         "item_w8de94": {
@@ -1446,7 +1448,7 @@
           "type": "item",
           "settings": {
             "title": "Does it have any incline level? Automatic or Manual?",
-            "content": "<p>Yes, <a href=\"https://youtu.be/7Fzz6WkTisk\" target=\"_blank\" title=\"https://youtu.be/7Fzz6WkTisk\">Auto 10% incline.</a></p>"
+            "content": "<p>Yes, Auto 10% incline.</p>"
           }
         },
         "item_3969iU": {

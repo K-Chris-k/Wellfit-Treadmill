@@ -35,6 +35,160 @@ the underlying logic of the menu.
     z-index: 10;
   }
 
+  /* Fix for dropdown menu not affecting logo and cart */
+  .header__wrapper {
+    position: relative;
+    z-index: 1;
+  }
+  .link--text.focus-inset.custom-menu-item-custom {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    font-weight: 600;
+
+  }
+  .header__submenu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+
+  /* Style for NEW tag */
+  .product-tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff0000;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  /* Drawer Ebikes Menu Styles */
+  .drawer-ebikes-menu-container {
+    margin: 0;
+    border-bottom: 1px solid rgba(var(--border-color-rgb), 0.08);
+  }
+  
+  .drawer-menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem var(--spacing-6);
+    font-weight: 400;
+    font-size: 1rem;
+    background: none;
+    border: none;
+    text-align: left;
+    color: inherit;
+    cursor: pointer;
+  }
+  
+  .drawer-menu-item svg {
+    transition: transform 0.2s ease;
+    width: 12px;
+    height: 12px;
+  }
+  
+  .drawer-menu-item[aria-expanded="true"] svg {
+    transform: rotate(180deg);
+  }
+  
+  .drawer-submenu {
+    margin: 0;
+  }
+  
+  /* 面板中的Ebikes菜单样式 */
+  .ebikes-menu-content {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .ebikes-menu-content .custom-mega-menu-container {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  
+  .ebikes-menu-content .custom-menu__left-column {
+    background: white !important;
+    padding: 15px 24px !important;
+    margin-bottom: 15px !important;
+  }
+  
+  .ebikes-menu-content .custom-menu__center-column {
+    padding: 0 !important;
+  }
+  
+  .ebikes-menu-content .custom-menu__tabs {
+    padding: 0 24px;
+  }
+  
+  .ebikes-menu-content .custom-menu__products,
+  .ebikes-menu-content .custom-menu__categories {
+    padding: 15px 24px !important;
+  }
+  
+  /* 抽屉面板中的Ebikes菜单 */
+  .drawer-ebikes-panel {
+    margin-top: 10px;
+    margin-left: -24px;
+    margin-right: -24px;
+    border-top: 1px solid rgba(var(--border-color-rgb), 0.08);
+    border-bottom: 1px solid rgba(var(--border-color-rgb), 0.08);
+    background-color: #ffffff;
+  }
+  
+  .drawer-ebikes-panel .custom-mega-menu-container {
+    padding: 0;
+  }
+  
+  .drawer-ebikes-panel .custom-menu__left-column {
+    background-color: #f7f7f7;
+    padding: 15px 0;
+  }
+  
+  .drawer-ebikes-panel .custom-menu__center-column {
+    margin-top: 0;
+  }
+  
+  .drawer-ebikes-panel .custom-menu__container {
+    gap: 0;
+  }
+  
+  .custom-mega-menu-container.drawer-mode {
+    padding: 0;
+  }
+  
+  .custom-mega-menu-container.drawer-mode .custom-menu__container {
+    flex-direction: column;
+    gap: var(--spacing-4);
+    padding: 0;
+  }
+  
+  .custom-mega-menu-container.drawer-mode .custom-menu__left-column,
+  .custom-mega-menu-container.drawer-mode .custom-menu__right-column,
+  .custom-mega-menu-container.drawer-mode .custom-menu__center-column {
+    width: 100%;
+  }
+  
+  .custom-mega-menu-container.drawer-mode .custom-menu__tabs-content {
+    max-height: none;
+    overflow: visible;
+  }
+  
+  .custom-mega-menu-container.drawer-mode .custom-menu__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-3);
+  }
+
   {%- if section.settings.enable_sticky -%}
     .shopify-section--announcement-bar ~ #shopify-section-{{ section.id }} {
       top: calc(var(--sticky-announcement-bar-enabled, 0) * var(--announcement-bar-height, 0px));
@@ -73,11 +227,18 @@ the underlying logic of the menu.
       }
     }
   {%- endif -%}
+  
 </style>
+
+{%- if section.settings.custom_menu != blank -%}
+  {%- if section.settings.custom_menu_position == 'top' -%}
+    {%- render 'custom-menu', section: section -%}
+  {%- endif -%}
+{%- endif -%}
 
 <height-observer variable="header">
   <store-header class="header" {% if section.settings.hide_on_scroll %}hide-on-scroll="100"{% endif %} {% if section.settings.enable_sticky %}sticky{% endif %}>
-    <div class="header__wrapper">
+    <div class="header__wrapper custom-header-wrapper">
       {%- comment -%}
       --------------------------------------------------------------------------------------------------------------------
       MAIN NAV AREA
@@ -99,6 +260,14 @@ the underlying logic of the menu.
           {%- if section.settings.layout != 'drawer' and section.settings.menu.links.size > 0 -%}
             <nav class="header__link-list {% if section.settings.layout == 'logo_left_navigation_center' %}justify-center{% endif %} wrap" role="navigation">
               <ul class="contents" role="list">
+                {% assign ebikes_block = false %}
+                {% for block in section.blocks %}
+                  {% if block.type == 'ebikes_menu' %}
+                    {% assign ebikes_block = block %}
+                    {% break %}
+                  {% endif %}
+                {% endfor %}
+                
                 {%- for link in section.settings.menu.links -%}
                   {% liquid
                     assign link_title_downcase = link.title | strip | downcase
@@ -111,13 +280,39 @@ the underlying logic of the menu.
                         assign mega_menu_block = block
                         break
                       endif
-
                     endfor
                   %}
 
                   <li>
                     {%- if link.levels == 0 and mega_menu_block == '' -%}
-                      <a href="{{ link.url }}" class="bold link-faded-reverse" {% if link.current %}aria-current="page"{% endif %}>{{- link.title -}}</a>
+                      <!-- 检查是否存在Ebikes菜单块 -->
+                      {% assign ebikes_menu_block = false %}
+                      {% for block in section.blocks %}
+                        {% if block.type == 'ebikes_menu' %}
+                          {% assign block_title_downcase = block.settings.menu_title | strip | downcase %}
+                          {% assign link_title_downcase = link.title | strip | downcase %}
+                          {% if link_title_downcase == block_title_downcase %}
+                            {% assign ebikes_menu_block = block %}
+                            {% break %}
+                          {% endif %}
+                        {% endif %}
+                      {% endfor %}
+                      
+                      {%- if ebikes_menu_block != false -%}
+                        <details class="header__menu-disclosure" is="dropdown-disclosure" trigger="{{ section.settings.menu_open_trigger | escape }}" {{ ebikes_menu_block.shopify_attributes }}>
+                          <summary class="header__menu-item header__menu-item--top list-menu__item link link--text focus-inset">
+                            <span>{{ ebikes_menu_block.settings.menu_title | default: 'Ebikes' }}</span>
+                            {% render 'icon-caret' %}
+                          </summary>
+                          <div class="header__submenu motion-reduce global-settings-popup">
+                            <div class="custom-mega-menu-container">
+                              {%- render 'custom-menu', block: ebikes_menu_block, section: section -%}
+                            </div>
+                          </div>
+                        </details>
+                      {%- else -%}
+                        <a href="{{ link.url }}" class="bold link-faded-reverse" {% if link.current %}aria-current="page"{% endif %}>{{- link.title -}}</a>
+                      {%- endif -%}
                     {%- else -%}
                       {%- if mega_menu_block != '' -%}
                         {%- comment -%}
@@ -185,6 +380,27 @@ the underlying logic of the menu.
                       {%- endif -%}
                     {%- endif -%}
                   </li>
+                  
+                  <!-- 在Home菜单项后添加Ebikes菜单 -->
+                  {% if link.title == 'Home' or link.title == '首页' %}
+                    {% if ebikes_block %}
+                      <li class="header__inline-menu-item">
+                        <details class="header__menu-disclosure" is="dropdown-disclosure" trigger="{{ section.settings.menu_open_trigger | escape }}" {{ ebikes_block.shopify_attributes }}>
+                          <summary class="header__menu-item header__menu-item--top list-menu__item link--text focus-inset custom-menu-item-custom">
+                            <span>{{ ebikes_block.settings.menu_title | default: 'Ebikes' }}</span>
+                            <span class="text-with-icon gap-2.5 bold link-faded-reverse">
+                              {%- render 'icon' with 'chevron-bottom' -%}
+                            </span>
+                          </summary>
+                          <div class="header__submenu motion-reduce global-settings-popup">
+                            <div class="custom-mega-menu-container">
+                              {%- render 'custom-menu', block: ebikes_block, section: section -%}
+                            </div>
+                          </div>
+                        </details>
+                      </li>
+                    {% endif %}
+                  {% endif %}
                 {%- endfor -%}
               </ul>
             </nav>
@@ -296,6 +512,15 @@ the underlying logic of the menu.
       {%- render 'icon' with 'close', width: 19, height: 19 -%}
     </button>
 
+    {% comment %} 检查是否存在Ebikes菜单块 {% endcomment %}
+    {% assign ebikes_block_for_drawer = false %}
+    {% for block in section.blocks %}
+      {% if block.type == 'ebikes_menu' %}
+        {% assign ebikes_block_for_drawer = block %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
     {%- render 'navigation-panel',
       is_mega_menu: false,
       main_menu: main_menu,
@@ -306,7 +531,8 @@ the underlying logic of the menu.
       show_country_selector: section.settings.show_country_selector,
       show_country_name: section.settings.show_country_name,
       show_country_flag: section.settings.show_country_flag,
-      show_locale_selector: section.settings.show_locale_selector -%}
+      show_locale_selector: section.settings.show_locale_selector,
+      ebikes_block: ebikes_block_for_drawer -%}
   </navigation-drawer>
 {%- endif -%}
 
@@ -540,6 +766,32 @@ the underlying logic of the menu.
       "unit": "px",
       "label": "Background blur radius",
       "default": 4
+    },
+    {
+      "type": "header",
+      "content": "Custom Menu"
+    },
+    {
+      "type": "link_list",
+      "id": "custom_menu",
+      "label": "Custom Menu",
+      "info": "Select a menu to display as a custom menu"
+    },
+    {
+      "type": "select",
+      "id": "custom_menu_position",
+      "label": "Custom Menu Position",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top of header"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom of header"
+        }
+      ],
+      "default": "top"
     }
   ],
   "blocks": [
@@ -732,6 +984,273 @@ the underlying logic of the menu.
             }
           ],
           "default": "hide"
+        }
+      ]
+    },
+    {
+      "type": "ebikes_menu",
+      "name": "Ebikes Menu",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "menu_title",
+          "label": "Menu title",
+          "default": "Ebikes"
+        },
+        {
+          "type": "header",
+          "content": "Left Column Settings"
+        },
+        {
+          "type": "text",
+          "id": "left_column_title",
+          "label": "Left Column Title",
+          "default": "Tour Our Ebike Collection"
+        },
+        {
+          "type": "link_list",
+          "id": "left_menu",
+          "label": "Left Menu Links",
+          "info": "If not set, default links will be displayed"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_certifications",
+          "label": "Show Certifications",
+          "default": true
+        },
+        {
+          "type": "header",
+          "content": "Certification Badge 1"
+        },
+        {
+          "type": "text",
+          "id": "certification_1_title",
+          "label": "Badge 1 Title",
+          "default": "1,800+ Bike Shops"
+        },
+        {
+          "type": "text",
+          "id": "certification_1_text",
+          "label": "Badge 1 Description",
+          "default": "Ebike service & test rides"
+        },
+        {
+          "type": "image_picker",
+          "id": "certification_1_icon",
+          "label": "Badge 1 Icon"
+        },
+        {
+          "type": "header",
+          "content": "Certification Badge 2"
+        },
+        {
+          "type": "text",
+          "id": "certification_2_title",
+          "label": "Badge 2 Title",
+          "default": "Safety Certified"
+        },
+        {
+          "type": "text",
+          "id": "certification_2_text",
+          "label": "Badge 2 Description",
+          "default": "Certified in accordance with UL 2849 / UL 2271"
+        },
+        {
+          "type": "image_picker",
+          "id": "certification_2_icon",
+          "label": "Badge 2 Icon"
+        },
+        {
+          "type": "header",
+          "content": "Certification Badge 3"
+        },
+        {
+          "type": "text",
+          "id": "certification_3_title",
+          "label": "Badge 3 Title",
+          "default": "Time Magazine Award"
+        },
+        {
+          "type": "text",
+          "id": "certification_3_text",
+          "label": "Badge 3 Description",
+          "default": "Ranked #1 Ebike Brand"
+        },
+        {
+          "type": "image_picker",
+          "id": "certification_3_icon",
+          "label": "Badge 3 Icon"
+        },
+        {
+          "type": "header",
+          "content": "Tab Settings"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_tabs",
+          "label": "Show Tabs",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "tab1_title",
+          "label": "Tab 1 Title",
+          "default": "Shop By Model"
+        },
+        {
+          "type": "collection",
+          "id": "tab1_collection",
+          "label": "Tab 1 Collection",
+          "info": "Select the product collection to display in the first tab"
+        },
+        {
+          "type": "text",
+          "id": "tab2_title",
+          "label": "Tab 2 Title",
+          "default": "Shop By Category"
+        },
+        {
+          "type": "link_list",
+          "id": "tab2_menu",
+          "label": "Tab 2 Menu",
+          "info": "Select the category menu to display in the second tab"
+        },
+        {
+          "type": "header",
+          "content": "Product Badge Settings"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_badges",
+          "label": "Show Product Badges",
+          "default": true
+        },
+        {
+          "type": "html",
+          "id": "badge_1_icon",
+          "label": "Badge 1 Icon (SVG)",
+          "info": "Enter SVG code"
+        },
+        {
+          "type": "text",
+          "id": "badge_1_text",
+          "label": "Badge 1 Text",
+          "default": "2 Year Warranty"
+        },
+        {
+          "type": "html",
+          "id": "badge_2_icon",
+          "label": "Badge 2 Icon (SVG)",
+          "info": "Enter SVG code"
+        },
+        {
+          "type": "text",
+          "id": "badge_2_text",
+          "label": "Badge 2 Text",
+          "default": "Free Shipping"
+        },
+        {
+          "type": "html",
+          "id": "badge_3_icon",
+          "label": "Badge 3 Icon (SVG)",
+          "info": "Enter SVG code"
+        },
+        {
+          "type": "text",
+          "id": "badge_3_text",
+          "label": "Badge 3 Text",
+          "default": "14-Day Returns"
+        },
+        {
+          "type": "header",
+          "content": "Right Side Promotion Settings"
+        },
+        {
+          "type": "image_picker",
+          "id": "right_promotion_image",
+          "label": "Promotion Image",
+          "info": "Recommended size 600x800px"
+        },
+        {
+          "type": "url",
+          "id": "right_promotion_url",
+          "label": "Promotion Link"
+        },
+        {
+          "type": "text",
+          "id": "right_promotion_title",
+          "label": "Promotion Title (for image alt)",
+          "default": "Special Promotion"
+        }
+      ]
+    },
+    {
+      "type": "ebikes_product",
+      "name": "Ebikes Product Item",
+      "settings": [
+        {
+          "type": "select",
+          "id": "tab_id",
+          "label": "Display in Tab",
+          "options": [
+            {
+              "value": "tab1",
+              "label": "Tab 1 (Models)"
+            },
+            {
+              "value": "tab2",
+              "label": "Tab 2 (Categories)"
+            }
+          ],
+          "default": "tab1"
+        },
+        {
+          "type": "image_picker",
+          "id": "product_image",
+          "label": "Product Image",
+          "info": "Recommended size 300x300px"
+        },
+        {
+          "type": "url",
+          "id": "product_url",
+          "label": "Product Link"
+        },
+        {
+          "type": "text",
+          "id": "product_title",
+          "label": "Product Title"
+        },
+        {
+          "type": "text",
+          "id": "product_subtitle",
+          "label": "Product Subtitle"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_tag",
+          "label": "Show NEW Tag",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "tag_text",
+          "label": "Tag Text",
+          "default": "NEW"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Header",
+      "blocks": [
+        {
+          "type": "ebikes_menu",
+          "settings": {
+            "menu_title": "Ebikes"
+          }
         }
       ]
     }

@@ -87,17 +87,17 @@
           "type": "product_countdown",
           "settings": {
             "coupoun_enable": true,
-            "heading": "Spring Sale, Ends After",
-            "time": "2025-04-30 15:59:59",
+            "heading": "Easter Sale, Ends After",
+            "time": "2025-04-21 15:59:59",
             "bakc_background": "#ffffff",
             "color_background": "#f83a3a",
             "ending_text": ""
           }
         },
-        "text_FqqqFn": {
+        "text_ReYc3a": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>⚠️ Prices Go Up After 4/30! ⏳ Due to Upcoming Tariff 📈</strong><br/><br/><strong>Lock Your Price Before Price Adjustment 🔒</strong></p>"
+            "text": "<p><strong>⚠️ Prices Go Up After 4/20! ⏳ Due to Upcoming Tariff 📈</strong><br/><br/><strong>Lock Your Price Before Price Adjustment 🔒</strong></p>"
           }
         },
         "code_PdAfir": {
@@ -106,7 +106,7 @@
             "box-width": 73,
             "svg_background": "#f0c417",
             "discount_amount": "40",
-            "ending_times": "2025/4/20-2025/4/30",
+            "ending_times": "2025/3/15-2025/4/20",
             "discount_code": "NEWTM024",
             "show_code": false,
             "box-widths": 40,
@@ -208,7 +208,7 @@
         "text_aQWAYP": {
           "type": "text",
           "settings": {
-            "text": "<p>🚚 Estimated Delivery: 📅 23 Apr - 27 Apr 🏃‍♂️</p>"
+            "text": "<p>🚚 Estimated Delivery: 📅 19 Apr - 23 Apr 🏃‍♂️</p>"
           }
         },
         "image_JkLRMr": {
@@ -249,7 +249,7 @@
         "text_jnwG7n": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Presale </strong>☎️<strong>Hotline: +1(281)777-8190</strong></p><p><strong>Calling Open Time: PST 9:00AM-3:00PM(Mon-Fri)</strong></p><p><strong>Contact Email: service@wellfittreadmill.com<br/><br/>Fast delivery in 1-5 days, shipped from California, Georgia, Texas and New Jersey</strong></p>"
+            "text": "<p><strong>Presale </strong>☎️<strong>Hotline: +1(281)777-8190</strong></p><p><strong>Calling Open Time: PST 9:00AM-3:00PM(Mon-Fri)</strong></p><p><strong>Contact Email: service@wellfittreadmill.com<br/><br/>Fast delivery in 1-5 days, shipped from California, Georgia, Texas</strong> <strong>and New Jersey</strong></p>"
           }
         },
         "collapsible_text_RqT9H9": {
@@ -321,7 +321,7 @@
         "inventory_AL7d8F",
         "product_variations_X8xFdE",
         "product_countdown_BxQWDh",
-        "text_FqqqFn",
+        "text_ReYc3a",
         "code_PdAfir",
         "payment_terms",
         "separator",
@@ -437,8 +437,8 @@
         "image_ajppdx": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Spring_sale_banner_1920x300_4478754f-eed4-48f2-a003-54872fd7cd63.jpg",
-            "mobile_image": "shopify://shop_images/Spring_sale_banner_1920x600_b10cb995-44ff-4ec1-945b-d77c68e57a8a.jpg",
+            "image": "shopify://shop_images/easter_banner_style2_1920x300_b8cc24a1-ec2a-40ed-92a6-5485cf74c55f.jpg",
+            "mobile_image": "shopify://shop_images/easter_banner_style2_1920x600_1.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -953,163 +953,6 @@
         "text_color_outside": "#000000"
       }
     },
-    "media_grid_FNAftU": {
-      "type": "media-grid",
-      "blocks": {
-        "video_j39WqC": {
-          "type": "video",
-          "disabled": true,
-          "settings": {
-            "video": "shopify://files/videos/TM007-3D-20S(788x598).mp4",
-            "external_video_url": "https://youtu.be/bY2s75X81Ek",
-            "show_video_controls": false,
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_TXiCtB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/TM006_Running_Area_500x600_ff506dd6-34b4-4986-aa3c-bc8cc6149059.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-start text-start",
-            "desktop_column_span": 2,
-            "desktop_row_span": 3,
-            "desktop_text_position": "sm:place-self-start sm:text-start",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#f8ec6e",
-            "text_gradient": "linear-gradient(136deg, rgba(10, 234, 237, 1) 11%, rgba(250, 13, 253, 1) 84%)",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_HDgWzP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/TM006_Motor_600x600_de0faa9b-cf5f-469c-9134-f37d621903d3.jpg",
-            "title": "",
-            "heading_tag": "h6",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-start text-start",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-start sm:text-start",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_p3TjaE": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/TM006Heart_Rate_Monitor_600X600_9fd949c3-94d3-41d9-94c4-2d5976e980e9.jpg",
-            "title": "",
-            "heading_tag": "h6",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-start text-start",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_GXMajx": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/TM006_Shock_800_x_400.jpg",
-            "title": "",
-            "heading_tag": "h6",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-start text-start",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-start sm:text-start",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "image_UieBKC": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/TM006_Motor-2_800x400_f2cb359f-f81d-4638-888e-9428a890aa7f.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "",
-            "link_text": "",
-            "mobile_text_position": "place-self-start text-start",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-start sm:text-start",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#ffffff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "video_j39WqC",
-        "image_TXiCtB",
-        "image_HDgWzP",
-        "image_p3TjaE",
-        "image_GXMajx",
-        "image_UieBKC"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "reduce_width": false,
-        "desktop_row_height": 290,
-        "mobile_row_height": 150,
-        "background": "rgba(0,0,0,0)",
-        "background_gradient": ""
-      }
-    },
     "media_with_text_wqtRre": {
       "type": "media-with-text",
       "blocks": {
@@ -1432,7 +1275,7 @@
           "type": "item",
           "settings": {
             "title": "I am 5.5 feet 420 lbs, is this treadmill suitable for me?",
-            "content": "<p>The TM024 treadmill is designed for individuals up to 6 feet in height and has a maximum <a href=\"https://www.youtube.com/watch?v=vSWhEumDgmQ\" target=\"_blank\" title=\"https://www.youtube.com/watch?v=vSWhEumDgmQ\">weight capacity of 450lbs</a> ,making it <a href=\"https://www.youtube.com/watch?v=vSWhEumDgmQ\" target=\"_blank\" title=\"https://www.youtube.com/watch?v=vSWhEumDgmQ\">ideal for tall people</a>.</p>"
+            "content": "<p>The TM024 treadmill is designed for individuals up to 6 feet in height and has a maximum weight capacity of 450lbs ,making it ideal for tall people.</p>"
           }
         },
         "item_xByMc4": {
@@ -1598,10 +1441,157 @@
         "accordion_text_color": ""
       }
     },
-    "1742781406d2b12514": {
+    "comparison_table_pQiKXq": {
+      "type": "comparison-table",
+      "blocks": {
+        "headings_FeY8jA": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Incline",
+            "heading_2": "Speed",
+            "heading_3": "With Handle",
+            "heading_4": "Compatible App",
+            "heading_5": "Sync Apple Health",
+            "heading_6": "AI Voice Control",
+            "heading_7": "Running Area",
+            "heading_8": "Horsepower",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "values_48xmAF": {
+          "type": "values",
+          "settings": {
+            "product": "wellfit-tm007-foldable-auto-incline-treadmill",
+            "value_1": "<p>0-15%, Auto Incline</p>",
+            "value_2": "<p>0.6-8.7mph</p>",
+            "value_3": "<p>Yes</p>",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_MYFRHg": {
+          "type": "values",
+          "settings": {
+            "product": "wellfit-wp003-walking-pad-treadmill-with-incline",
+            "value_1": "<p>0-5-9%, Manual Incline</p>",
+            "value_2": "<p>0.6-3.8mph</p>",
+            "value_3": "<p>No</p>",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "values_PTPKJ8": {
+          "type": "values",
+          "settings": {
+            "product": "wellfit-tm012-2-in-1-smart-treadmill-with-incline",
+            "value_1": "<p>0-3%, Manual Incline</p>",
+            "value_2": "<p>0.6-3.8mph</p>",
+            "value_3": "<p>Yes</p>",
+            "value_4": "",
+            "value_5": "",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "headings_FeY8jA",
+        "values_48xmAF",
+        "values_MYFRHg",
+        "values_PTPKJ8"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Product comparison",
+        "content": "<p>Choose the one best for you!</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "show_product_info": true,
+        "show_product_swatch": true,
+        "viewing_product": "",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "17449650564c8bcbcb": {
       "type": "apps",
       "blocks": {
-        "reelup_shoppable_videos_reels_reelup_playlist_7DRyqM": {
+        "reelup_shoppable_videos_reels_reelup_playlist_GLWNq3": {
           "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup-playlist/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
           "settings": {
             "playlist_id": "rl_pl_14929",
@@ -1610,7 +1600,7 @@
         }
       },
       "block_order": [
-        "reelup_shoppable_videos_reels_reelup_playlist_7DRyqM"
+        "reelup_shoppable_videos_reels_reelup_playlist_GLWNq3"
       ],
       "settings": {
         "full_width": true,
@@ -1680,14 +1670,14 @@
     "image_with_text_overlay_LnR4HL",
     "video_4THBNx",
     "revealed_image_on_scroll_FPHrXU",
-    "media_grid_FNAftU",
     "media_with_text_wqtRre",
     "image_with_text_overlay_AnY7QQ",
     "media_with_text_dnwWad",
     "slideshow_gxP4MK",
     "specification_table_6LQr9b",
     "accordion_content_k7PhRH",
-    "1742781406d2b12514",
+    "comparison_table_pQiKXq",
+    "17449650564c8bcbcb",
     "related-products",
     "1719178498b64761e3"
   ]

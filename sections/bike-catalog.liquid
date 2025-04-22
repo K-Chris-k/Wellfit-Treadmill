@@ -1,0 +1,440 @@
+{% schema %}
+  {
+  "name": "Bike Catalog",
+  "settings": [
+  {
+  "type": "text",
+  "id": "section_title",
+  "label": "Section Title",
+  "default": "Our Bikes"
+  },
+  {
+  "type": "image_picker",
+  "id": "image",
+  "label": "Image"
+  }
+  ],
+  "blocks": [
+  {
+  "type": "navigation_menu",
+  "name": "Navigation Menu",
+  "limit": 1,
+  "settings": [
+  {
+  "type": "link_list",
+  "id": "menu",
+  "label": "Menu",
+  "default": "main-menu"
+  }
+  ]
+  },
+  {
+  "type": "product_base",
+  "name": "Product Base Information",
+  "settings": [
+  {
+  "type": "text",
+  "id": "product_name",
+  "label": "Product Name"
+  },
+  {
+  "type": "text",
+  "id": "product_id",
+  "label": "Product ID for Judge.me"
+  },
+  {
+  "type": "text",
+  "id": "subtitle",
+  "label": "Product Subtitle"
+  },
+  {
+  "type": "text",
+  "id": "reviews_name",
+  "label": "Reviews Number"
+  },
+  {
+  "type": "text",
+  "id": "reviews_count",
+  "label": "Reviews Count"
+  },
+  {
+  "type": "image_picker",
+  "id": "main_image",
+  "label": "Main Image"
+  },
+  {
+  "type": "image_picker",
+  "id": "hover_image",
+  "label": "Hover Image"
+  },
+  {
+  "type": "text",
+  "id": "price",
+  "label": "Price"
+  },
+  {
+  "type": "text",
+  "id": "compare_price",
+  "label": "Compare Price"
+  },
+  {
+  "type": "text",
+  "id": "read_more_text",
+  "label": "Read More Text"
+  },
+ 
+  {
+  "type": "url",
+  "id": "product_url",
+  "label": "product url"
+  }
+  ]
+  },
+  {
+  "type": "product_variant",
+  "name": "Product Variant",
+  "settings": [
+  {
+  "type": "text",
+  "id": "product_name",
+  "label": "Product Name"
+  },
+  {
+  "type": "text",
+  "id": "variant_title",
+  "label": "Variant Title"
+  },
+  {
+  "type": "image_picker",
+  "id": "variant_title_image",
+  "label": "Variant Title Image"
+  },
+  {
+  "type": "image_picker",
+  "id": "variant_main_image",
+  "label": "Variant Main Image"
+  },
+  {
+  "type": "image_picker",
+  "id": "variant_hover_image",
+  "label": "Variant Hover Image"
+  },
+  
+  {
+  "type": "text",
+  "id": "variant_price",
+  "label": "Variant Price"
+  },
+  {
+  "type": "text",
+  "id": "variant_compare_price",
+  "label": "Variant Compare Price"
+  }
+  ]
+  },
+  {
+  "type": "product_specs",
+  "name": "Product Specifications",
+  "settings": [
+  {
+  "type": "text",
+  "id": "product_name",
+  "label": "Product Name"
+  },
+  {
+  "type": "text",
+  "id": "spec_group1_title",
+  "label": "Specification Group 1 Title"
+  },
+  {
+  "type": "text",
+  "id": "spec_group1_value",
+  "label": "Specification Group 1 Value"
+  },
+  {
+  "type": "text",
+  "id": "spec_group2_title",
+  "label": "Specification Group 2 Title"
+  },
+  {
+  "type": "text",
+  "id": "spec_group2_value",
+  "label": "Specification Group 2 Value"
+  },
+  {
+  "type": "text",
+  "id": "spec_group3_title",
+  "label": "Specification Group 3 Title"
+  },
+  {
+  "type": "text",
+  "id": "spec_group3_value",
+  "label": "Specification Group 3 Value"
+  },
+  {
+  "type": "text",
+  "id": "spec_group4_title",
+  "label": "Specification Group 4 Title"
+  },
+  {
+  "type": "text",
+  "id": "spec_group4_value",
+  "label": "Specification Group 4 Value"
+  },
+  {
+  "type": "text",
+  "id": "spec_group5_title",
+  "label": "Specification Group 5 Title"
+  },
+  {
+  "type": "text",
+  "id": "spec_group5_value",
+  "label": "Specification Group 5 Value"
+  },
+  {
+  "type": "text",
+  "id": "spec_group6_title",
+  "label": "Specification Group 6 Title"
+  },
+  {
+  "type": "text",
+  "id": "spec_group6_value",
+  "label": "Specification Group 6 Value"
+  },
+  {
+  "type": "text",
+  "id": "spec_group7_title",
+  "label": "Specification Group 7 Title"
+  },
+  {
+  "type": "text",
+  "id": "spec_group7_value",
+  "label": "Specification Group 7 Value"
+  },
+  {
+  "type": "text",
+  "id": "spec_group8_title",
+  "label": "Specification Group 8 Title"
+  },
+  {
+  "type": "text",
+  "id": "spec_group8_value",
+  "label": "Specification Group 8 Value"
+  },
+  {
+  "type": "text",
+  "id": "spec_group9_title",
+  "label": "Specification Group 9 Title"
+  },
+  {
+  "type": "text",
+  "id": "spec_group9_value",
+  "label": "Specification Group 9 Value"
+  }
+  ]
+  }
+  ],
+  "presets": [
+  {
+  "name": "Bike Catalog",
+  "blocks": [
+  {
+  "type": "navigation_menu"
+  }
+  ]
+  }
+  ]
+  }
+  {% endschema %}
+  {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
+  <link rel="preload" href="{{ 'bike-catalog.css' | asset_url }}" as="style"
+    onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>{{ 'bike-catalog.css' | asset_url | stylesheet_tag }}</noscript>
+  <script type="module" src="{{ 'bike-catalog.js' | asset_url }}"></script>
+  
+  <!-- Judge.me Scripts -->
+  <script src="https://cdn.judge.me/widget.js" async></script>
+  <!-- End Judge.me Scripts -->
+  
+  <div class="bike-catalog" data-section-id="{{ section.id }}" data-section-type="bike-catalog">
+    <div class="bike-catalog__nav section">
+      {% for block in section.blocks %}
+      {% if block.type == 'navigation_menu' %}
+      <nav class="bike-categories">
+        {% for link in linklists[block.settings.menu].links %}
+        <a href="{{ link.url }}" class="bike-category {% if link.active %}bike-category--active{% endif %}">
+          {{ link.title }}
+        </a>
+        {% endfor %}
+      </nav>
+      {% endif %}
+      {% endfor %}
+    </div>
+  <div class="bike-catalog__container-section">
+    <div class="bike-catalog_container">
+      <div class="bike-catalog__products section">
+        {% for block in section.blocks %}
+        {% if block.type == 'product_base' %}
+        <div class="product-card" {{ block.shopify_attributes }} data-product-name="{{ block.settings.product_name }}"
+          data-section-id="{{ section.id }}">
+          <div class="product-card__image product-card__image-custom">
+            <div class="product-card__image-container" data-main-image-container>
+              {% if block.settings.main_image != blank %}
+              <img src="{{ block.settings.main_image | img_url: 'master' }}" alt="{{ block.settings.product_name }}-1"
+                class="product-card__image-main" data-main-image>
+              {% endif %}
+              {% if block.settings.hover_image != blank %}
+              <img src="{{ block.settings.hover_image | img_url: 'master' }}" alt="{{ block.settings.product_name }}-2"
+                class="product-card__image-hover" data-hover-image>
+              {% endif %}
+            </div>
+  
+          </div>
+          {% if section.settings.image != blank %}
+            <div class="bike-catalog__image_container_custom">
+              <img src="{{ section.settings.image | img_url: 'master' }}" alt="{{ section.settings.image_alt }}">
+            </div>
+            {% endif %}
+          <div class="product-card__info product-card__info-custom">
+            {% if block.settings.product_name != blank %}
+            <h2 class="product-card__title">{{ block.settings.product_name }}</h2>
+            {% endif %}
+            {% if block.settings.subtitle != blank %}
+            <p class="product-card__subtitle">{{ block.settings.subtitle }}</p>
+            {% endif %}
+          
+            <div class="product-card__reviews">
+              <!-- Start of Judge.me code -->
+              {% assign product_link = block.settings.product_url %}
+              {% if product_link != blank %}
+                {% assign product_handle = product_link | split: '/products/' | last | split: '?' | first %}
+                {% if product_handle != blank %}
+                  <div class="jdgm-widget jdgm-preview-badge" data-handle="{{ product_handle }}"></div>
+                {% endif %}
+              {% endif %}
+              <!-- End of Judge.me code -->
+            </div>
+ 
+  
+            <div class="product-card__variants">
+              <div class="variant-images">
+                {% assign has_variants = false %}
+                {% for variant_block in section.blocks %}
+                {% if variant_block.type == 'product_variant' and variant_block.settings.product_name ==
+                block.settings.product_name %}
+                {% assign has_variants = true %}
+                <button class="variant-image-button {% if forloop.first %}variant-image-button--active{% endif %}"
+                  data-variant-title="{{ variant_block.settings.variant_title }}"
+                  data-variant-price="{{ variant_block.settings.variant_price }}"
+                  data-variant-compare-price="{{ variant_block.settings.variant_compare_price }}"
+                  data-variant-image="{{ variant_block.settings.variant_main_image | img_url: 'master' }}"
+                  data-variant-hover-image="{{ variant_block.settings.variant_hover_image | img_url: 'master' }}"
+                  data-variant-image-alt="{{ block.settings.product_name }}-{{ variant_block.settings.variant_title }}-1"
+                  data-variant-hover-image-alt="{{ block.settings.product_name }}-{{ variant_block.settings.variant_title }}-2">
+                  <img src="{{ variant_block.settings.variant_title_image | img_url: '100x' }}"
+                    alt="{{ variant_block.settings.variant_title }}" class="variant-title-image">
+                </button>
+                {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+  
+            <div class="product-card__specs">
+              {% for spec_block in section.blocks %}
+              {% if spec_block.type == 'product_specs' and spec_block.settings.product_name == block.settings.product_name
+              %}
+              <div class="spec-group">
+                {% if spec_block.settings.spec_group1_title != blank and spec_block.settings.spec_group1_value != blank %}
+                <div class="spec-item">
+                  <h3>{{ spec_block.settings.spec_group1_title }}</h3>
+                  <p>{{ spec_block.settings.spec_group1_value }}</p>
+                </div>
+                {% endif %}
+  
+                {% if spec_block.settings.spec_group2_title != blank and spec_block.settings.spec_group2_value != blank %}
+                <div class="spec-item">
+                  <h3>{{ spec_block.settings.spec_group2_title }}</h3>
+                  <p>{{ spec_block.settings.spec_group2_value }}</p>
+                </div>
+                {% endif %}
+  
+                {% if spec_block.settings.spec_group3_title != blank and spec_block.settings.spec_group3_value != blank %}
+                <div class="spec-item">
+                  <h3>{{ spec_block.settings.spec_group3_title }}</h3>
+                  <p>{{ spec_block.settings.spec_group3_value }}</p>
+                </div>
+                {% endif %}
+  
+                {% if spec_block.settings.spec_group4_title != blank and spec_block.settings.spec_group4_value != blank %}
+                <div class="spec-item">
+                  <h3>{{ spec_block.settings.spec_group4_title }}</h3>
+                  <p>{{ spec_block.settings.spec_group4_value }}</p>
+                </div>
+                {% endif %}
+  
+                {% if spec_block.settings.spec_group5_title != blank and spec_block.settings.spec_group5_value != blank %}
+                <div class="spec-item">
+                  <h3>{{ spec_block.settings.spec_group5_title }}</h3>
+                  <p>{{ spec_block.settings.spec_group5_value }}</p>
+                </div>
+                {% endif %}
+  
+                {% if spec_block.settings.spec_group6_title != blank and spec_block.settings.spec_group6_value != blank %}
+                <div class="spec-item">
+                  <h3>{{ spec_block.settings.spec_group6_title }}</h3>
+                  <p>{{ spec_block.settings.spec_group6_value }}</p>
+                </div>
+                {% endif %}
+  
+                {% if spec_block.settings.spec_group7_title != blank and spec_block.settings.spec_group7_value != blank %}
+                <div class="spec-item">
+                  <h3>{{ spec_block.settings.spec_group7_title }}</h3>
+                  <p>{{ spec_block.settings.spec_group7_value }}</p>
+                </div>
+                {% endif %}
+  
+                {% if spec_block.settings.spec_group8_title != blank and spec_block.settings.spec_group8_value != blank %}
+                <div class="spec-item">
+                  <h3>{{ spec_block.settings.spec_group8_title }}</h3>
+                  <p>{{ spec_block.settings.spec_group8_value }}</p>
+                </div>
+                {% endif %}
+  
+                {% if spec_block.settings.spec_group9_title != blank and spec_block.settings.spec_group9_value != blank %}
+                <div class="spec-item">
+                  <h3>{{ spec_block.settings.spec_group9_title }}</h3>
+                  <p>{{ spec_block.settings.spec_group9_value }}</p>
+                </div>
+                {% endif %}
+              </div>
+              {% endif %}
+              {% endfor %}
+            </div>
+            
+            <div class="product-card__read-more-btn-custom">
+              <div class="product-card__pricing" data-price-container>
+                {% if block.settings.compare_price != blank and block.settings.price != blank %}
+                <div class="product-card__pricing-container">
+                  <div class="original-price" data-compare-price>${{ block.settings.compare_price }}</div>
+                  <div class="save-text">Save ${{ block.settings.compare_price | remove: '$' | times: 1 | minus: block.settings.price | remove: '$' | times: 1 }}.00</div>
+                  <div class="sale-price" data-price>${{ block.settings.price }}</div>
+                </div>
+                {% elsif block.settings.price != blank %}
+                <div class="regular-price" data-price>${{ block.settings.price }}</div>
+                {% endif %}
+              </div>
+              <div class="product-card__read-more-btn">
+                <a href="{{ block.settings.product_url }}" class="read-more-btn">{{ block.settings.read_more_text }} {% render 'icon-arrow-right' %}</a>
+              </div> 
+            </div>
+            
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+
+     
+    </div>
+    </div>
+  </div>

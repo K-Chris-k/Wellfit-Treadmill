@@ -30,7 +30,7 @@ only way to do it on Shopify right now.
     {%- endif -%}
   {%- endfor -%}
 {%- endif -%}
-
+<div class="product-tw-product">
 <product-gallery form="{{ product_form_id }}" {%- if section.settings.enable_image_zoom -%}allow-zoom="{{ section.settings.max_image_zoom_level }}"{% endif %} class="product-gallery {% if section.settings.mobile_carousel_control contains 'dots' %}product-gallery--mobile-dots{% endif %} {% if section.settings.desktop_media_layout contains 'grid' %}product-gallery--desktop-grid{% else %}product-gallery--desktop-carousel{% endif %} {% if section.settings.desktop_media_layout == 'carousel_thumbnails_left' %}product-gallery--desktop-thumbnails-left{% endif %} {% if section.settings.mobile_media_size == 'expanded' %}product-gallery--mobile-expanded{% endif %}">
   {%- capture page_dots -%}
     <page-dots class="page-dots {% if section.settings.mobile_carousel_control == 'floating_dots' %}page-dots--blurred{% endif %} md:hidden" aria-controls="{{ product_gallery_id }}">
@@ -42,7 +42,7 @@ only way to do it on Shopify right now.
     </page-dots>
   {%- endcapture -%}
 
-  <div class="product-gallery__ar-wrapper">
+  <div class="product-gallery__ar-wrapper 12122">
     <div class="product-gallery__media-list-wrapper">
       {%- if section.settings.desktop_media_layout contains 'carousel' and product.media.size > 1 -%}
         <custom-cursor class="product-gallery__cursor" {% if default_media.media_type != 'image' %}hidden{% endif %}>
@@ -161,6 +161,169 @@ only way to do it on Shopify right now.
           {%- endfor -%}
         </page-dots>
       </scroll-shadow>
+    
     {%- endif -%}
   {%- endif -%}
+
+
 </product-gallery>
+<div class="gallery-block_section product-tw-product-desktop">
+  <div class="gallery-block__container">
+    <div class="gallery-block__grid">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'gallery_item' -%}
+            <div class="gallery-block__item" {{ block.shopify_attributes }}>
+              {%- if block.settings.image != blank -%}
+                <div class="gallery-block__image-wrapper">
+                  {{- block.settings.image | image_url: width: master | image_tag: 
+                    loading: 'lazy',
+                    sizes: '(max-width: 749px) calc(100vw - 30px), (min-width: 750px) calc(50vw - 60px)',
+                    widths: '275,375,550,750,1100',
+                    class: 'gallery-block__image'
+                  -}}
+                </div>
+              {%- endif -%}
+              
+              {%- if block.settings.title != blank or block.settings.text != blank -%}
+                <div class="gallery-block__content">
+                  {%- if block.settings.title != blank -%}
+                    <h3 class="gallery-block__title h4">{{ block.settings.title }}</h3>
+                  {%- endif -%}
+                  
+                  {%- if block.settings.text != blank -%}
+                    <div class="gallery-block__text">{{ block.settings.text }}</div>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+            </div>
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+</div>
+
+<style>
+.gallery-block_section {
+  padding: 40px 0;
+}
+
+.gallery-block__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.gallery-block__grid {
+  display: grid;
+  gap: 20px;
+}
+.gallery-block__grid {
+    
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+.gallery-block__item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.gallery-block__content {
+  padding: 15px 0;
+}
+
+.gallery-block__title {
+  margin: 0 0 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.gallery-block__text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+.product-tw-product {
+    position: sticky;
+    top: 50px;
+}
+.gallery-block_section.product-tw-product-mobile{
+    display: none;
+  }
+@media screen and (max-width: 1440px) {
+  .gallery-block__grid {
+
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+}
+/* 移动端布局 */
+@media screen and (max-width: 1280px) {
+  .gallery-block__grid {
+
+grid-template-columns: repeat(2, 1fr);
+gap: 10px;
+}
+  .gallery-block__title {
+  margin: 0 0 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.gallery-block__container{
+  padding: 0;
+}
+
+.gallery-block__text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+}
+@media screen and (max-width: 749px) {
+  .gallery-block_section.product-tw-product-desktop{
+    display: none;
+  }
+  .gallery-block_section.product-tw-product-mobile{
+    display: block;
+  }
+  .gallery-block__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    }
+  
+  .gallery-block__item {
+    margin-bottom: 10px;
+  }
+  .product-tw-product {
+    position: unset;
+}
+.gallery-block__title {
+  margin: 0 0 0px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.gallery-block__text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+.gallery-block_section.product-tw-product-mobile .gallery-block__content {
+    padding: 0;
+}
+.gallery-block_section.product-tw-product-mobile{
+  padding: 0;
+}
+}
+
+/* PC端布局 */
+@media screen and (min-width: 750px) {
+
+}
+
+
+</style>

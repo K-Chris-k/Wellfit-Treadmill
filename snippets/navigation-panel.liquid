@@ -16,12 +16,6 @@ Supported variables
 * layout
 {%- endcomment -%}
 
-<style>
-    .sub-mega-menu-link-box {
-      font-size: initial;
-      margin-bottom:18px;
-    }
-</style>
 
 <div class="panel-list__wrapper">
   <div class="panel">
@@ -77,6 +71,37 @@ Supported variables
                 </a>
               {%- endif -%}
             </li>
+            
+            {% comment %} 在首个菜单项后添加Ebikes菜单 {% endcomment %}
+            {%- if forloop.first and ebikes_block != blank -%}
+              <li class="h3 sm:h4">
+                <button class="text-with-icon w-full group justify-between" aria-expanded="false" data-panel="1-{% increment level_1 %}">
+                  <span class="ebikes-menu-title-mobile-custom">{{ ebikes_block.settings.menu_title | default: 'Ebikes' }}</span>
+                  <span class="circle-chevron group-hover:colors group-expanded:colors">{%- render 'icon' with 'chevron-right-small', direction_aware: true -%}</span>
+                </button>
+              </li>
+              
+              {%- capture link_level_2 -%}
+                {{- link_level_2 -}}
+
+                <div class="panel__wrapper" {% if mega_menu_block.settings.promo_content_layout == 'grid' or
+                   mega_menu_block.settings.promo_content_layout == 'collage' %}style="--panel-wrapper-justify-content: flex-start"{% endif %} hidden>
+                  <ul class="v-stack {% if is_mega_menu and is_image_shown == 'show' %}gap-3{% else %}gap-4{% endif %}">
+                    <li class="{% if layout != 'drawer' %}lg:hidden{% endif %}">
+                      <button class="text-with-icon h6 text-subdued" data-panel="0">
+                        {%- render 'icon' with 'chevron-left', direction_aware: true -%} {{ ebikes_block.settings.menu_title | default: 'Ebikes' }}
+                      </button>
+                    </li>
+                    
+                    <li class="ebikes-menu-content w-full">
+                      <div class="custom-mega-menu-container drawer-mode">
+                        {%- render 'custom-menu', block: ebikes_block, section: section, for_drawer: true -%}
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              {%- endcapture -%}
+            {%- endif -%}
 
             {%- if link.links.size > 0 or mega_menu_block != '' and is_mega_menu == false -%}
               {%- capture link_level_2 -%}
@@ -265,3 +290,21 @@ Supported variables
     </div>
   {%- endif -%}
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // 监听面板变化，当任何面板显示时检查是否是Ebikes面板
+    document.addEventListener('drawer:panel-switched', function(e) {
+      setTimeout(function() {
+        // 当面板显示后，查找并初始化Ebikes中的标签
+        const tabsInEbikes = document.querySelector('.ebikes-menu-content .custom-menu__tabs');
+        if (tabsInEbikes) {
+          const tabs = tabsInEbikes.querySelectorAll('.custom-menu__tab');
+          if (tabs.length > 0) {
+            tabs[0].click();
+          }
+        }
+      }, 100);
+    });
+  });
+</script>
