@@ -531,41 +531,6 @@
           <div class="product-info__buy-buttons" {{ block.shopify_attributes }}>
             {%- render 'buy-buttons', product: product, form_id: product_form_id, show_payment_button: block.settings.show_payment_button, show_gift_card_recipient: block.settings.show_gift_card_recipient, atc_button_background: block.settings.atc_button_background, atc_button_text_color: block.settings.atc_button_text_color, payment_button_background: block.settings.payment_button_background, payment_button_text_color: block.settings.payment_button_text_color -%}
           </div>
-          <div class="gallery-block_section product-tw-product-mobile">
-            <div class="gallery-block__container">
-              <div class="gallery-block__grid">
-                {%- for block in section.blocks -%}
-                  {%- case block.type -%}
-                    {%- when 'gallery_item' -%}
-                      <div class="gallery-block__item" {{ block.shopify_attributes }}>
-                        {%- if block.settings.image != blank -%}
-                          <div class="gallery-block__image-wrapper">
-                            {{- block.settings.image | image_url: width: master | image_tag: 
-                              loading: 'lazy',
-                              sizes: '(max-width: 749px) calc(100vw - 30px), (min-width: 750px) calc(50vw - 60px)',
-                              widths: '275,375,550,750,1100',
-                              class: 'gallery-block__image'
-                            -}}
-                          </div>
-                        {%- endif -%}
-                        
-                        {%- if block.settings.title != blank or block.settings.text != blank -%}
-                          <div class="gallery-block__content">
-                            {%- if block.settings.title != blank -%}
-                              <h3 class="gallery-block__title h4">{{ block.settings.title }}</h3>
-                            {%- endif -%}
-                            
-                            {%- if block.settings.text != blank -%}
-                              <div class="gallery-block__text">{{ block.settings.text }}</div>
-                            {%- endif -%}
-                          </div>
-                        {%- endif -%}
-                      </div>
-                  {%- endcase -%}
-                {%- endfor -%}
-              </div>
-            </div>
-          </div>
         {%- endif -%}
 
       {%- when 'pickup_availability' -%}

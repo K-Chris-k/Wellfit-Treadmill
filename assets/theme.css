@@ -2881,7 +2881,7 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 }
 
 .product-card__info--center {
-  text-align: left;
+  text-align: center;
   justify-content: center;
   justify-items: center;
 }
@@ -7795,8 +7795,8 @@ split-lines {
   .product-gallery--desktop-thumbnails-left {
     grid: auto / auto-flow auto minmax(0, 1fr);
     align-items: start;
-    /* position: sticky;
-    top: 50PX; */
+    position: sticky;
+    top: 50PX;
 
   }
 

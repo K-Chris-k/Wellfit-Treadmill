@@ -86,17 +86,17 @@
           "type": "product_countdown",
           "settings": {
             "coupoun_enable": true,
-            "heading": "Easter Sale, Ends After",
-            "time": "2025-04-21 15:59:59",
+            "heading": "Spring Sale, Ends After",
+            "time": "2025-04-30 15:59:59",
             "bakc_background": "#ffffff",
             "color_background": "#f83a3a",
             "ending_text": ""
           }
         },
-        "text_UJgrUk": {
+        "text_jdpNKn": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>⚠️ Prices Go Up After 4/20! ⏳ Due to Upcoming Tariff 📈</strong><br/><br/><strong>Lock Your Price Before Price Adjustment 🔒</strong></p>"
+            "text": "<p><strong>⚠️ Prices Go Up After 4/30! ⏳ Due to Upcoming Tariff 📈</strong><br/><br/><strong>Lock Your Price Before Price Adjustment 🔒</strong></p>"
           }
         },
         "code_PdAfir": {
@@ -105,7 +105,7 @@
             "box-width": 73,
             "svg_background": "#f0c417",
             "discount_amount": "20",
-            "ending_times": "2025/3/15-2025/4/20",
+            "ending_times": "2025/4/20-2025/4/30",
             "discount_code": "NEWWP017",
             "show_code": false,
             "box-widths": 40,
@@ -186,7 +186,7 @@
         "text_MAk4z7": {
           "type": "text",
           "settings": {
-            "text": "<p>🚚 Estimated Delivery: 📅 19 Apr - 23 Apr 🏃‍♂️</p>"
+            "text": "<p>🚚 Estimated Delivery: 📅 23 Apr - 27 Apr 🏃‍♂️</p>"
           }
         },
         "image_JkLRMr": {
@@ -299,7 +299,7 @@
         "inventory_AL7d8F",
         "product_variations_X8xFdE",
         "product_countdown_BxQWDh",
-        "text_UJgrUk",
+        "text_jdpNKn",
         "code_PdAfir",
         "payment_terms",
         "separator",
@@ -412,8 +412,8 @@
         "image_ajppdx": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/easter_banner_style2_1920x300_b8cc24a1-ec2a-40ed-92a6-5485cf74c55f.jpg",
-            "mobile_image": "shopify://shop_images/easter_banner_style2_1920x600_1.jpg",
+            "image": "shopify://shop_images/Spring_sale_banner_1920x300_4478754f-eed4-48f2-a003-54872fd7cd63.jpg",
+            "mobile_image": "shopify://shop_images/Spring_sale_banner_1920x600_b10cb995-44ff-4ec1-945b-d77c68e57a8a.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
