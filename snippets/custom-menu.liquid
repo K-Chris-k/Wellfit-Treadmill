@@ -1,0 +1,1135 @@
+{%- if block -%}
+<div class="custom-mega-menu-content {% if for_drawer %}drawer-mode{% endif %}">
+  <div class="custom-menu__container">
+    <!-- 左侧 - 集合标题和主要链接 -->
+    <div class="custom-menu__left-column">
+      <h2 class="custom-menu__title">{{ block.settings.left_column_title | default: 'Tour Our Ebike Collection' }}</h2>
+      
+      <ul class="custom-menu__main-links">
+        {%- for link in linklists[block.settings.left_menu].links -%}
+          <li><a href="{{ link.url }}" class="custom-menu__main-link">{{ link.title }}</a></li>
+        {%- else -%}
+          <!-- 默认链接，如果没有设置菜单 -->
+          <li><a href="{{ routes.collections_url }}/all-electric-bikes" class="custom-menu__main-link">Shop All Electric Bikes</a></li>
+          <li><a href="{{ routes.collections_url }}/best-sellers" class="custom-menu__main-link">Best Sellers</a></li>
+          <li><a href="{{ routes.collections_url }}/sale" class="custom-menu__main-link">Sale</a></li>
+          <li><a href="{{ routes.pages_url }}/financing" class="custom-menu__main-link">Financing Available</a></li>
+          <li><a href="{{ routes.pages_url }}/compare" class="custom-menu__main-link">Compare Ebikes</a></li>
+        {%- endfor -%}
+      </ul>
+      
+      {%- if block.settings.show_certifications and for_drawer != true -%}
+      <div class="custom-menu__certifications">
+        {%- if block.settings.certification_1_title != blank -%}
+        <div class="custom-menu__certification">
+          <div class="custom-menu__certification-icon">
+            {%- if block.settings.certification_1_icon != blank -%}
+              <img src="{{ block.settings.certification_1_icon | img_url: '50x' }}" alt="{{ block.settings.certification_1_title }}">
+            {%- else -%}
+              <img src="{{ 'shop-icon.png' | asset_url | default: '#' }}" alt="Certification Icon">
+            {%- endif -%}
+          </div>
+          <div class="custom-menu__certification-content">
+            <p class="custom-menu__certification-title">{{ block.settings.certification_1_title }}</p>
+            <p class="custom-menu__certification-text">{{ block.settings.certification_1_text }}</p>
+          </div>
+        </div>
+        {%- endif -%}
+        
+        {%- if block.settings.certification_2_title != blank -%}
+        <div class="custom-menu__certification">
+          <div class="custom-menu__certification-icon">
+            {%- if block.settings.certification_2_icon != blank -%}
+              <img src="{{ block.settings.certification_2_icon | img_url: '50x' }}" alt="{{ block.settings.certification_2_title }}">
+            {%- else -%}
+              <img src="{{ 'safety-icon.png' | asset_url | default: '#' }}" alt="Certification Icon">
+            {%- endif -%}
+          </div>
+          <div class="custom-menu__certification-content">
+            <p class="custom-menu__certification-title">{{ block.settings.certification_2_title }}</p>
+            <p class="custom-menu__certification-text">{{ block.settings.certification_2_text }}</p>
+          </div>
+        </div>
+        {%- endif -%}
+        
+        {%- if block.settings.certification_3_title != blank -%}
+        <div class="custom-menu__certification">
+          <div class="custom-menu__certification-icon">
+            {%- if block.settings.certification_3_icon != blank -%}
+              <img src="{{ block.settings.certification_3_icon | img_url: '50x' }}" alt="{{ block.settings.certification_3_title }}">
+            {%- else -%}
+              <img src="{{ 'award-icon.png' | asset_url | default: '#' }}" alt="Certification Icon">
+            {%- endif -%}
+          </div>
+          <div class="custom-menu__certification-content">
+            <p class="custom-menu__certification-title">{{ block.settings.certification_3_title }}</p>
+            <p class="custom-menu__certification-text">{{ block.settings.certification_3_text }}</p>
+          </div>
+        </div>
+        {%- endif -%}
+      </div>
+      {%- endif -%}
+    </div>
+    
+    <!-- 中间 - 标签页内容 -->
+    <div class="custom-menu__center-column">
+      <!-- 标签导航 -->
+      {%- if block.settings.show_tabs -%}
+      <div class="custom-menu__tabs">
+        <button class="custom-menu__tab custom-menu__tab--active" data-tab="tab1">{{ block.settings.tab1_title | default: 'Shop By Model' }}</button>
+        <button class="custom-menu__tab" data-tab="tab2">{{ block.settings.tab2_title | default: 'Shop By Category' }}</button>
+      </div>
+      {%- endif -%}
+      
+      <!-- 产品徽章/优势 -->
+      {%- if block.settings.show_badges -%}
+      <div class="custom-menu__badge-list">
+        {%- if block.settings.badge_1_text != blank -%}
+        <div class="custom-menu__badge">
+          <span class="custom-menu__badge-icon">
+            {{ block.settings.badge_1_icon }}
+          </span>
+          <span class="custom-menu__badge-text">{{ block.settings.badge_1_text }}</span>
+        </div>
+        {%- else -%}
+        <div class="custom-menu__badge">
+          <span class="custom-menu__badge-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M12 6v6l4 2"></path>
+            </svg>
+          </span>
+          <span class="custom-menu__badge-text">2 Year Warranty</span>
+        </div>
+        {%- endif -%}
+        
+        {%- if block.settings.badge_2_text != blank -%}
+        <div class="custom-menu__badge">
+          <span class="custom-menu__badge-icon">
+            {{ block.settings.badge_2_icon }}
+          </span>
+          <span class="custom-menu__badge-text">{{ block.settings.badge_2_text }}</span>
+        </div>
+        {%- else -%}
+        <div class="custom-menu__badge">
+          <span class="custom-menu__badge-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="1" y="3" width="15" height="13"></rect>
+              <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+              <circle cx="5.5" cy="18.5" r="2.5"></circle>
+              <circle cx="18.5" cy="18.5" r="2.5"></circle>
+            </svg>
+          </span>
+          <span class="custom-menu__badge-text">Free Shipping</span>
+        </div>
+        {%- endif -%}
+        
+        {%- if block.settings.badge_3_text != blank -%}
+        <div class="custom-menu__badge">
+          <span class="custom-menu__badge-icon">
+            {{ block.settings.badge_3_icon }}
+          </span>
+          <span class="custom-menu__badge-text">{{ block.settings.badge_3_text }}</span>
+        </div>
+        {%- else -%}
+        <div class="custom-menu__badge">
+          <span class="custom-menu__badge-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 14l-5-5 5-5"></path>
+              <path d="M4 9h12a4 4 0 0 1 0 8h-3"></path>
+            </svg>
+          </span>
+          <span class="custom-menu__badge-text">14-Day Returns</span>
+        </div>
+        {%- endif -%}
+      </div>
+      {%- endif -%}
+      
+      <!-- 标签页内容 -->
+      <div class="custom-menu__tab-content custom-menu__tab-content--active" data-tab-content="tab1">
+        <div class="custom-menu__products">
+          {%- comment -%}从区块中筛选出标签页1的产品{%- endcomment -%}
+          {%- assign tab1_products = false -%}
+          {%- if section != blank -%}
+            {%- for product_block in section.blocks -%}
+              {%- if product_block.type == 'ebikes_product' and product_block.settings.tab_id == 'tab1' -%}
+                {%- assign tab1_products = true -%}
+                <div class="custom-menu__product">
+                  <a href="{{ product_block.settings.product_url }}" class="custom-menu__product-link">
+                    <div class="custom-menu__product-image-container">
+                      {%- if product_block.settings.product_image != blank -%}
+                        <img src="{{ product_block.settings.product_image | img_url: '300x300', crop: 'center' }}" alt="{{ product_block.settings.product_title }}" class="custom-menu__product-image">
+                      {%- else -%}
+                        <div class="custom-menu__product-image-placeholder"></div>
+                      {%- endif -%}
+                    </div>
+                    {%- if product_block.settings.show_tag -%}
+                      <span class="custom-menu__product-tag">{{ product_block.settings.tag_text | default: 'NEW' }}</span>
+                    {%- endif -%}
+                    <h3 class="custom-menu__product-title">{{ product_block.settings.product_title }}</h3>
+                    <p class="custom-menu__product-subtitle">{{ product_block.settings.product_subtitle }}</p>
+                  </a>
+                </div>
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
+
+          {%- if tab1_products != true -%}
+            {%- comment -%}如果没有添加任何产品区块，显示默认产品{%- endcomment -%}
+            {%- for product in collections[block.settings.tab1_collection].products limit: 8 -%}
+              <div class="custom-menu__product">
+                <a href="{{ product.url }}" class="custom-menu__product-link">
+                  <div class="custom-menu__product-image-container">
+                    {%- if product.featured_image -%}
+                      <img src="{{ product.featured_image | img_url: '300x300', crop: 'center' }}" alt="{{ product.title }}" class="custom-menu__product-image">
+                    {%- else -%}
+                      <div class="custom-menu__product-image-placeholder"></div>
+                    {%- endif -%}
+                  </div>
+                  <div class="custom-menu__product-info">
+                    <h3 class="custom-menu__product-title">{{ product.title }}</h3>
+                    {%- if product.metafields.custom.new_product or product.tags contains 'new' -%}
+                      <span class="custom-menu__product-tag">NEW</span>
+                    {%- endif -%}
+                    <p class="custom-menu__product-subtitle">{{ product.metafields.custom.subtitle | default: product.type }}</p>
+                  </div>
+                </a>
+              </div>
+            {%- else -%}
+              <!-- 默认产品，如果集合为空 -->
+              <div class="custom-menu__product">
+                <a href="{{ routes.collections_url }}/abound" class="custom-menu__product-link">
+                  <div class="custom-menu__product-image-container">
+                    <img src="{{ 'abound.jpg' | asset_url | default: '#' }}" alt="Abound" class="custom-menu__product-image">
+                  </div>
+                  <div class="custom-menu__product-info">
+                    <h3 class="custom-menu__product-title">Abound</h3>
+                    <p class="custom-menu__product-subtitle">Cargo & Utility Ebike</p>
+                  </div>
+                </a>
+              </div>
+              
+              <div class="custom-menu__product">
+                <a href="{{ routes.collections_url }}/aventure" class="custom-menu__product-link">
+                  <div class="custom-menu__product-image-container">
+                    <img src="{{ 'aventure.jpg' | asset_url | default: '#' }}" alt="Aventure" class="custom-menu__product-image">
+                  </div>
+                  <div class="custom-menu__product-info">
+                    <h3 class="custom-menu__product-title">Aventure</h3>
+                    <p class="custom-menu__product-subtitle">Fat Tire Off Road Ebike</p>
+                  </div>
+                </a>
+              </div>
+              
+              <div class="custom-menu__product">
+                <a href="{{ routes.collections_url }}/level" class="custom-menu__product-link">
+                  <div class="custom-menu__product-image-container">
+                    <img src="{{ 'level.jpg' | asset_url | default: '#' }}" alt="Level" class="custom-menu__product-image">
+                  </div>
+                  <div class="custom-menu__product-info">
+                    <h3 class="custom-menu__product-title">Level</h3>
+                    <p class="custom-menu__product-subtitle">Commuter Ebike</p>
+                  </div>
+                </a>
+              </div>
+              
+              <div class="custom-menu__product">
+                <a href="{{ routes.collections_url }}/pace" class="custom-menu__product-link">
+                  <div class="custom-menu__product-image-container">
+                    <img src="{{ 'pace.jpg' | asset_url | default: '#' }}" alt="Pace" class="custom-menu__product-image">
+                  </div>
+                  <div class="custom-menu__product-info">
+                    <h3 class="custom-menu__product-title">Pace</h3>
+                    <p class="custom-menu__product-subtitle">Cruiser Ebike</p>
+                  </div>
+                </a>
+              </div>
+            {%- endfor -%}
+          {%- endif -%}
+        </div>
+      </div>
+      
+      <div class="custom-menu__tab-content" data-tab-content="tab2">
+        <div class="custom-menu__categories">
+          {%- comment -%}从区块中筛选出标签页2的产品{%- endcomment -%}
+          {%- assign tab2_products = false -%}
+          {%- if section != blank -%}
+            {%- for product_block in section.blocks -%}
+              {%- if product_block.type == 'ebikes_product' and product_block.settings.tab_id == 'tab2' -%}
+                {%- assign tab2_products = true -%}
+                <div class="custom-menu__category">
+                  <a href="{{ product_block.settings.product_url }}" class="custom-menu__category-link">
+                    <div class="custom-menu__category-image-container">
+                      {%- if product_block.settings.product_image != blank -%}
+                        <img src="{{ product_block.settings.product_image | img_url: '300x300', crop: 'center' }}" alt="{{ product_block.settings.product_title }}" class="custom-menu__category-image">
+                      {%- else -%}
+                        <div class="custom-menu__category-image-placeholder"></div>
+                      {%- endif -%}
+                    </div>
+                    <div class="custom-menu__category-info">
+                      {%- if product_block.settings.show_tag -%}
+                        <span class="custom-menu__product-tag">{{ product_block.settings.tag_text | default: 'NEW' }}</span>
+                      {%- endif -%}
+                      <h3 class="custom-menu__category-title">{{ product_block.settings.product_title }}</h3>
+                  
+                      <p class="custom-menu__category-subtitle">{{ product_block.settings.product_subtitle }}</p>
+                    </div>
+                  </a>
+                </div>
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
+
+          {%- if tab2_products != true -%}
+            {%- comment -%}如果没有添加任何产品区块，显示默认分类{%- endcomment -%}
+            {%- for link in linklists[block.settings.tab2_menu].links -%}
+              <div class="custom-menu__category">
+                <a href="{{ link.url }}" class="custom-menu__category-link">
+                  <div class="custom-menu__category-image-container">
+                    {%- if link.object.featured_image -%}
+                      <img src="{{ link.object.featured_image | img_url: '300x300', crop: 'center' }}" alt="{{ link.title }}" class="custom-menu__category-image">
+                    {%- else -%}
+                      <div class="custom-menu__category-image-placeholder"></div>
+                    {%- endif -%}
+                  </div>
+                  <div class="custom-menu__category-info">
+                    <h3 class="custom-menu__category-title">{{ link.title }}</h3>
+                    {%- if link.object.metafields.custom.subtitle -%}
+                      <p class="custom-menu__category-subtitle">{{ link.object.metafields.custom.subtitle }}</p>
+                    {%- endif -%}
+                  </div>
+                </a>
+              </div>
+            {%- else -%}
+              <!-- 默认类别，如果菜单为空 -->
+              <div class="custom-menu__category">
+                <a href="{{ routes.collections_url }}/emtb" class="custom-menu__category-link">
+                  <div class="custom-menu__category-image-container">
+                    <img src="{{ 'category-emtb.jpg' | asset_url | default: '#' }}" alt="eMTB Mid-Drive" class="custom-menu__category-image">
+                  </div>
+                  <div class="custom-menu__category-info">
+                    <h3 class="custom-menu__category-title">eMTB Mid-Drive</h3>
+                    <p class="custom-menu__category-subtitle">Nowhere it can't go</p>
+                  </div>
+                </a>
+              </div>
+              
+              <div class="custom-menu__category">
+                <a href="{{ routes.collections_url }}/commuter" class="custom-menu__category-link">
+                  <div class="custom-menu__category-image-container">
+                    <img src="{{ 'category-commuter.jpg' | asset_url | default: '#' }}" alt="Commuter" class="custom-menu__category-image">
+                  </div>
+                  <div class="custom-menu__category-info">
+                    <h3 class="custom-menu__category-title">Commuter</h3>
+                    <p class="custom-menu__category-subtitle">It's part of the job</p>
+                  </div>
+                </a>
+              </div>
+              
+              <div class="custom-menu__category">
+                <a href="{{ routes.collections_url }}/fat-tire" class="custom-menu__category-link">
+                  <div class="custom-menu__category-image-container">
+                    <img src="{{ 'category-fat-tire.jpg' | asset_url | default: '#' }}" alt="Fat Tire, Off Road" class="custom-menu__category-image">
+                  </div>
+                  <div class="custom-menu__category-info">
+                    <h3 class="custom-menu__category-title">Fat Tire, Off Road</h3>
+                    <p class="custom-menu__category-subtitle">Nowhere it can't go</p>
+                  </div>
+                </a>
+              </div>
+              
+              <div class="custom-menu__category">
+                <a href="{{ routes.collections_url }}/folding" class="custom-menu__category-link">
+                  <div class="custom-menu__category-image-container">
+                    <img src="{{ 'category-folding.jpg' | asset_url | default: '#' }}" alt="Folding" class="custom-menu__category-image">
+                  </div>
+                  <div class="custom-menu__category-info">
+                    <h3 class="custom-menu__category-title">Folding</h3>
+                    <p class="custom-menu__category-subtitle">It fits where most can't</p>
+                  </div>
+                </a>
+              </div>
+            {%- endfor -%}
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+    
+    <!-- 右侧 - 广告位 -->
+
+    <div class="custom-menu__right-column">
+      {%- if block.settings.right_promotion_image != blank -%}
+        <a href="{{ block.settings.right_promotion_url }}" class="custom-menu__promo-link">
+          <img 
+            src="{{ block.settings.right_promotion_image | img_url: '600x', crop: 'center' }}" 
+            alt="{{ block.settings.right_promotion_title | default: 'Promotion' }}" 
+            class="custom-menu__promo-image"
+          >
+        </a>
+      {%- endif -%}
+    </div>
+
+  </div>
+</div>
+
+<style>
+  .custom-mega-menu-container {
+  padding: 40px;
+  /* width: 100%; */
+  background: rgb(var(--header-background));
+  /* color: rgb(var(--header-text)); */
+  position: relative;
+  z-index: 1;
+  margin-top: 30px;
+}
+.custom-menu__product {
+    text-align: center;
+}
+  /* 与主题的下拉菜单保持一致的样式 */
+  .custom-mega-menu-content {
+    padding: 0;
+    width: 100%;
+    background: rgb(var(--header-background));
+    color: rgb(var(--header-text));
+    border-block-start-width: 1px;
+  }
+  
+  .custom-mega-menu-content.drawer-mode {
+    padding: 0;
+    border-block-start-width: 0;
+  }
+  
+  /* 面板内的Ebikes菜单特殊样式 */
+  .ebikes-menu-content .custom-mega-menu-container.drawer-mode {
+    padding: 0;
+    margin: 0 -24px;
+    width: calc(100% + 48px);
+  }
+  
+  .ebikes-menu-content .custom-mega-menu-content {
+    padding: 0;
+    border: none;
+  }
+  
+  .custom-menu__container {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0;
+  }
+  
+  .custom-menu__left-column {
+    width: 18%;
+    padding: 40px 20px 40px 10px;
+    border-right: 1px solid rgba(var(--border-color-rgb), 0.15);
+  }
+  
+  .custom-menu__center-column {
+    flex: 1;
+    padding: 40px 20px;
+  }
+  
+  .custom-menu__right-column {
+    width: 22%;
+    padding: 40px 30px 40px 0px;
+  }
+  
+  .custom-menu__promo-link {
+    display: block;
+    position: relative;
+    top: 80px;
+  }
+  
+  .custom-menu__promo-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .custom-menu__title {
+    font-size: var(--heading-h4-font-size);
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .custom-menu__main-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px 0;
+  }
+  
+  .custom-menu__main-link {
+    display: block;
+    padding: 10px 0;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+  
+  .custom-menu__main-link:hover {
+    color: var(--primary-button-background);
+  }
+  
+  /* 认证部分 */
+  .custom-menu__certifications {
+    margin-top: 30px;
+  }
+  
+  .custom-menu__certification {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .custom-menu__certification-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-menu__certification-icon img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .custom-menu__certification-content {
+    flex: 1;
+  }
+  
+  .custom-menu__certification-title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  
+  .custom-menu__certification-text {
+    margin: 0;
+    font-size: 0.8rem;
+    color: rgba(var(--text-color-rgb), 0.7);
+  }
+  
+  /* 标签页 */
+  .custom-menu__tabs {
+    display: flex;
+    border-bottom: 2px solid rgba(var(--border-color-rgb), 0.15);
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .custom-menu__tab {
+    padding: 12px 30px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--text-color);
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .custom-menu__tab--active {
+    color: var(--primary-button-background);
+    border-bottom-color: var(--primary-button-background);
+  }
+  
+  .custom-menu__tab:hover {
+    color: var(--primary-button-background);
+  }
+  
+  /* 徽章列表 */
+  .custom-menu__badge-list {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  .custom-menu__category-info{
+    padding-top: 0px;
+    text-align: center;
+  }
+  .custom-menu__badge {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .custom-menu__badge-icon {
+    color: var(--primary-button-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custom-menu__badge-text {
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  
+  /* 标签内容 */
+  .custom-menu__tab-content {
+    display: none;
+  }
+  
+  .custom-menu__tab-content--active {
+    display: block;
+  }
+  
+  /* 产品和分类网格 */
+  .custom-menu__products,
+  .custom-menu__categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:16px;
+  }
+  .custom-menu__category {
+    flex: 0 0 calc(25% - 12px);
+}
+  .custom-menu__product{
+    flex: 0 0 calc(25% - 12px);
+  }
+  /* 抽屉模式下的产品网格 */
+  .drawer-mode .custom-menu__products,
+  .drawer-mode .custom-menu__categories {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  .custom-menu__product-image-container,
+  .custom-menu__category-image-container {
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: rgba(var(--border-color-rgb), 0.1);
+    height: 0;
+    padding-bottom: 100%; /* 正方形比例 */
+  }
+  
+  .custom-menu__product-image-placeholder,
+  .custom-menu__category-image-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(var(--border-color-rgb), 0.1);
+  }
+  
+  .custom-menu__product-image,
+  .custom-menu__category-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  
+  .custom-menu__product-link:hover .custom-menu__product-image,
+  .custom-menu__category-link:hover .custom-menu__category-image {
+    transform: scale(1.05);
+  }
+  
+  .custom-menu__product-tag {
+    position: static;
+    display: inline-block;
+    background-color: #ff0000;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: bold;
+    margin-right: 3px;
+    vertical-align: baseline;
+  }
+  
+  .custom-menu__product-info {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .custom-menu__product-title,
+  .custom-menu__category-title {
+    margin: 0 0 4px 0;
+    font-size:12px;
+    font-weight: 600;
+    color: var(--text-color);
+    display: inline-block;
+  }
+  
+  .custom-menu__product-subtitle{
+    margin: 0;
+    font-size: 12px;
+    color: rgba(var(--text-color-rgb), 0.7);
+    display: block;
+  }
+  .custom-menu__category-subtitle {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(var(--text-color-rgb), 0.7);
+    display: block;
+  }
+  
+  /* 抽屉模式特殊样式 */
+  .drawer-mode .custom-menu__container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+  }
+  
+  .drawer-mode .custom-menu__left-column {
+    width: 100%;
+    padding-right: 0;
+    border-right: none;
+    border-bottom: 1px solid rgba(var(--border-color-rgb), 0.15);
+    padding-bottom: 15px;
+    margin-bottom: 0;
+  }
+  
+  .drawer-mode .custom-menu__title {
+    font-size: 1.1rem;
+    margin-top: 0;
+    padding: 0 var(--spacing-4);
+  }
+  
+  .drawer-mode .custom-menu__main-links {
+    padding: 0 var(--spacing-4);
+    margin-bottom: 15px;
+  }
+  
+  .drawer-mode .custom-menu__main-link {
+    padding: 8px 0;
+    font-size: 0.95rem;
+  }
+  
+  .drawer-mode .custom-menu__center-column {
+    background-color: #f5f5f5;
+    padding: 0;
+  }
+  
+  .drawer-mode .custom-menu__tabs {
+    background: white;
+    margin-bottom: 0;
+    position: relative;
+  }
+  
+  .drawer-mode .custom-menu__tab {
+    flex: 1;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .drawer-mode .custom-menu__tab--active {
+    border-bottom-color: var(--primary-button-background);
+    color: var(--primary-button-background);
+  }
+  
+  .drawer-mode .custom-menu__products,
+  .drawer-mode .custom-menu__categories {
+    padding: 15px var(--spacing-4);
+  }
+  
+  .drawer-mode .custom-menu__product-title,
+  .drawer-mode .custom-menu__category-title {
+    font-size: 0.9rem;
+  }
+  
+  .drawer-mode .custom-menu__product-subtitle,
+  .drawer-mode .custom-menu__category-subtitle {
+    font-size: 0.8rem;
+  }
+  
+  .drawer-mode .custom-menu__right-column {
+    width: 100%;
+    padding: 0 var(--spacing-4) var(--spacing-4);
+  }
+  
+  /* 响应式样式 */
+  @media (max-width: 1150px) {
+
+  .drawer-mode .custom-menu__title{
+    padding: 0;
+  }
+  .drawer-mode .custom-menu__main-links{
+    padding: 0;
+  }
+  .ebikes-menu-content .custom-menu__tabs{
+    padding: 0;
+  }
+  .custom-menu__center-column {
+    order: 1;
+}
+.custom-menu__category {
+    flex: 0 0 calc(50% - 12px);
+    background-color: #fff;
+}
+  .custom-menu__product{
+    flex: 0 0 calc(50% - 12px);
+    background-color: #fff;
+  }
+  
+  .custom-menu__left-column { 
+    order: 2;
+}
+
+.custom-menu__right-column {
+    order: 3;
+}
+
+.ebikes-menu-content .custom-menu__products, .ebikes-menu-content .custom-menu__categories{
+  padding: 0 !important;
+  background: #fff;
+}
+
+.custom-menu__badge-list {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 0px;
+    justify-content: center;
+    padding-top: 40px;
+    background: #fff;
+}
+.custom-menu__badge {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.custom-mega-menu-container.drawer-mode .custom-menu__container {
+ 
+    background: #fff;
+}
+
+.custom-menu__products, .custom-menu__categories{
+  justify-content: unset;
+}
+
+
+}
+  @media (max-width: 1100px) {
+    .custom-menu__products,
+    .custom-menu__categories {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+
+
+  }
+  
+  @media (max-width: 900px) {
+    .custom-menu__promo-link {
+    display: block;
+    position: relative;
+    top: 40px;
+  }
+    .custom-menu__container {
+      flex-direction: column;
+    }
+    
+    .custom-menu__left-column {
+      width: 100%;
+      border-right: none;
+      border-bottom: 1px solid rgba(var(--border-color-rgb), 0.15);
+      padding-right: 0;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .custom-menu__right-column {
+      width: 100%;
+      margin-top: 20px;
+    }
+    .custom-menu__product-title,
+    .custom-menu__category-title {
+      margin: 0 0 4px 0;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-color);
+      display: inline-block;
+    }
+    .custom-menu__badge-list {
+      flex-wrap: wrap;
+      padding-top: 40px;
+    }
+    .custom-menu__products {
+    background: #fff;
+}
+
+.custom-menu__categories {
+    background: #fff;
+}
+.custom-menu__badge{
+  flex-direction: column;
+}
+.custom-mega-menu-container.drawer-mode .custom-menu__container{
+  background: #fff;
+}
+  }
+  
+  @media (max-width: 768px) {
+    .custom-menu__center-column {
+    order: 1;
+}
+.custom-menu__category {
+    flex: 0 0 calc(50% - 12px);
+    background-color: #fff;
+}
+  .custom-menu__product{
+    flex: 0 0 calc(50% - 12px);
+    background-color: #fff;
+  }
+
+.custom-menu__left-column { 
+    order: 2;
+}
+
+.custom-menu__right-column {
+    order: 3;
+}
+    .custom-menu__products,
+    .custom-menu__categories {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .custom-menu__products, .custom-menu__categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: unset;
+    gap: 10px;
+}
+.custom-menu__promo-link {
+    display: block;
+    position: relative;
+    top: 10px;
+  }
+  }
+  
+  @media (max-width: 480px) {
+    .custom-menu__products,
+    .custom-menu__categories {
+      grid-template-columns: 1fr;
+    }
+    .custom-menu__promo-link {
+    display: block;
+    position: relative;
+    top: 0px;
+  }
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // 立即确保第一个标签页内容是显示的
+    document.querySelectorAll('.custom-mega-menu-content').forEach(function(menuContent) {
+      const firstTab = menuContent.querySelector('.custom-menu__tab');
+      const firstTabContent = menuContent.querySelector('.custom-menu__tab-content');
+      
+      if (firstTab && firstTabContent) {
+        // 确保第一个标签是激活的
+        firstTab.classList.add('custom-menu__tab--active');
+        
+        // 确保第一个内容是显示的
+        firstTabContent.classList.add('custom-menu__tab-content--active');
+      }
+    });
+  
+    // 标签切换功能
+    function setupTabFunctionality() {
+      const tabs = document.querySelectorAll('.custom-menu__tab');
+      const tabContents = document.querySelectorAll('.custom-menu__tab-content');
+      
+      tabs.forEach(tab => {
+        // 移除已有的事件监听器，避免重复绑定
+        tab.removeEventListener('click', handleTabClick);
+        // 添加新的事件监听器
+        tab.addEventListener('click', handleTabClick);
+      });
+    }
+    
+    // 标签点击处理函数
+    function handleTabClick() {
+      // 获取该标签所在的菜单容器
+      const menuContainer = this.closest('.custom-mega-menu-content');
+      
+      // 找到同一容器内的所有标签和内容
+      const containerTabs = menuContainer.querySelectorAll('.custom-menu__tab');
+      const containerContents = menuContainer.querySelectorAll('.custom-menu__tab-content');
+      
+      // 移除所有标签的活动类
+      containerTabs.forEach(t => t.classList.remove('custom-menu__tab--active'));
+      
+      // 给点击的标签添加活动类
+      this.classList.add('custom-menu__tab--active');
+      
+      // 隐藏所有标签内容
+      containerContents.forEach(content => {
+        content.classList.remove('custom-menu__tab-content--active');
+      });
+      
+      // 显示选中的标签内容
+      const tabName = this.getAttribute('data-tab');
+      const activeContent = menuContainer.querySelector(`[data-tab-content="${tabName}"]`);
+      if (activeContent) {
+        activeContent.classList.add('custom-menu__tab-content--active');
+      }
+    }
+    
+    // 初始设置标签功能
+    setupTabFunctionality();
+    
+    // 当抽屉菜单打开时，重新初始化标签功能
+    document.addEventListener('navigation-drawer:opened', function() {
+      setTimeout(setupTabFunctionality, 100);
+    });
+    
+    // 监听面板系统的面板变化事件
+    document.addEventListener('panels:changed', function() {
+      setTimeout(setupTabFunctionality, 100);
+    });
+    
+    // 当网页内容变化时检查新添加的标签
+    const observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+        if (mutation.type === 'childList' && mutation.addedNodes.length > 0) {
+          // 检查添加的节点中是否包含.custom-menu__tab元素
+          let hasNewTabs = false;
+          mutation.addedNodes.forEach(node => {
+            if (node.nodeType === 1 && (node.classList?.contains('custom-mega-menu-container') || node.querySelector?.('.custom-menu__tab'))) {
+              hasNewTabs = true;
+            }
+          });
+          
+          if (hasNewTabs) {
+            setTimeout(function() {
+              setupTabFunctionality();
+              // 同时确保新添加的菜单中第一个标签也是激活的
+              document.querySelectorAll('.custom-mega-menu-content').forEach(function(menuContent) {
+                // 检查这个菜单是否已有激活的标签
+                const hasActiveTab = menuContent.querySelector('.custom-menu__tab--active');
+                if (!hasActiveTab) {
+                  const firstTab = menuContent.querySelector('.custom-menu__tab');
+                  const firstTabContent = menuContent.querySelector('.custom-menu__tab-content');
+                  
+                  if (firstTab && firstTabContent) {
+                    // 确保第一个标签是激活的
+                    firstTab.classList.add('custom-menu__tab--active');
+                    
+                    // 确保第一个内容是显示的
+                    firstTabContent.classList.add('custom-menu__tab-content--active');
+                  }
+                }
+              });
+            }, 50);
+          }
+        }
+      });
+    });
+    
+    // 监听DOM树变化
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true
+    });
+  });
+</script>
+
+<!-- 直接添加一个内联脚本，确保在页面完全加载后立即激活标签 -->
+<script>
+  window.addEventListener('load', function() {
+    document.querySelectorAll('.custom-mega-menu-content').forEach(function(menuContent) {
+      const activeTab = menuContent.querySelector('.custom-menu__tab--active');
+      const activeContent = menuContent.querySelector('.custom-menu__tab-content--active');
+      
+      // 如果没有激活的标签内容，则激活第一个
+      if (!activeContent) {
+        const firstTabContent = menuContent.querySelector('.custom-menu__tab-content');
+        if (firstTabContent) {
+          firstTabContent.classList.add('custom-menu__tab-content--active');
+        }
+      }
+      
+      // 如果没有激活的标签，则激活第一个
+      if (!activeTab) {
+        const firstTab = menuContent.querySelector('.custom-menu__tab');
+        if (firstTab) {
+          firstTab.classList.add('custom-menu__tab--active');
+        }
+      }
+    });
+  });
+</script>
+
+{%- if for_drawer -%}
+<script>
+  (function() {
+    // 初始化标签功能
+    function initTabs() {
+      const tabs = document.querySelectorAll('.custom-menu__tab');
+      const tabContents = document.querySelectorAll('.custom-menu__tab-content');
+      
+      tabs.forEach(tab => {
+        tab.addEventListener('click', function() {
+          const tabId = this.getAttribute('data-tab');
+          
+          // 激活当前标签
+          tabs.forEach(t => t.classList.remove('custom-menu__tab--active'));
+          this.classList.add('custom-menu__tab--active');
+          
+          // 显示对应内容
+          tabContents.forEach(content => {
+            content.classList.remove('custom-menu__tab-content--active');
+            if (content.getAttribute('data-tab-content') === tabId) {
+              content.classList.add('custom-menu__tab-content--active');
+            }
+          });
+        });
+      });
+      
+      // 默认激活第一个标签
+      if (tabs.length > 0) {
+        // 先确保第一个标签有active类
+        tabs[0].classList.add('custom-menu__tab--active');
+        
+        // 确保第一个内容面板也有active类
+        const firstTabId = tabs[0].getAttribute('data-tab');
+        const firstContent = document.querySelector(`.custom-menu__tab-content[data-tab-content="${firstTabId}"]`);
+        if (firstContent) {
+          tabContents.forEach(content => {
+            content.classList.remove('custom-menu__tab-content--active');
+          });
+          firstContent.classList.add('custom-menu__tab-content--active');
+        }
+        
+        // 触发点击事件来初始化标签
+        tabs[0].click();
+      }
+    }
+    
+    // 当内容加载到抽屉中时初始化标签
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      setTimeout(initTabs, 10);
+    } else {
+      document.addEventListener('DOMContentLoaded', initTabs);
+    }
+    
+    // 在面板显示后再次检查以确保激活
+    document.addEventListener('drawer:panel-switched', function() {
+      setTimeout(initTabs, 50);
+    });
+  })();
+</script>
+{%- endif -%}
+{%- endif -%} 

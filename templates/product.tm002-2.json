@@ -59,24 +59,24 @@
         "inventory_hKUrc9": {
           "type": "inventory",
           "settings": {
-            "low_inventory_threshold": 20
+            "low_inventory_threshold": 0
           }
         },
         "product_countdown_AFp9gi": {
           "type": "product_countdown",
           "settings": {
             "coupoun_enable": true,
-            "heading": "Spring Sale, Ends After",
-            "time": "2025-04-30 15:59:59",
+            "heading": "Easter Sale, Ends After",
+            "time": "2025-04-21 15:59:59",
             "bakc_background": "#ffffff",
             "color_background": "#f83a3a",
             "ending_text": ""
           }
         },
-        "text_fGdCDY": {
+        "text_kKAVxi": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>⚠️ Prices Go Up After 4/30! ⏳ Due to Upcoming Tariff 📈</strong><br/><br/><strong>Lock Your Price Before Price Adjustment 🔒</strong><br/><br/><br/></p>"
+            "text": "<p><strong>⚠️ Prices Go Up After 4/20! ⏳ Due to Upcoming Tariff 📈</strong><br/><br/><strong>Lock Your Price Before Price Adjustment 🔒</strong><br/></p>"
           }
         },
         "code_XgNUyX": {
@@ -85,7 +85,7 @@
             "box-width": 74,
             "svg_background": "#f0c417",
             "discount_amount": "20",
-            "ending_times": "2025/4/20-2025/4/30",
+            "ending_times": "2025/3/15-2025/4/20",
             "discount_code": "Gift002",
             "show_code": false,
             "box-widths": 40,
@@ -187,7 +187,7 @@
         "text_eQRG6M": {
           "type": "text",
           "settings": {
-            "text": "<p>🚚 Estimated Delivery: 📅 23 Apr - 27 Apr 🏃‍♂️</p>"
+            "text": "<p>🚚 Estimated Delivery: 📅 19 Apr - 23 Apr 🏃‍♂️</p>"
           }
         },
         "image_AhPCtP": {
@@ -297,7 +297,7 @@
         "klarna_on_site_messaging_app_block_ALKBNM",
         "inventory_hKUrc9",
         "product_countdown_AFp9gi",
-        "text_fGdCDY",
+        "text_kKAVxi",
         "code_XgNUyX",
         "payment_terms",
         "separator",
@@ -368,8 +368,8 @@
         "image_GppDWW": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Spring_sale_banner_1920x300_4478754f-eed4-48f2-a003-54872fd7cd63.jpg",
-            "mobile_image": "shopify://shop_images/Spring_sale_banner_1920x600_b10cb995-44ff-4ec1-945b-d77c68e57a8a.jpg",
+            "image": "shopify://shop_images/easter_banner_style2_1920x300_b8cc24a1-ec2a-40ed-92a6-5485cf74c55f.jpg",
+            "mobile_image": "shopify://shop_images/easter_banner_style2_1920x600_1.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -453,7 +453,7 @@
       "settings": {
         "full_width": true,
         "stack_mobile": true,
-        "text_alignment": "start",
+        "text_alignment": "center",
         "impact_text_style": "fill",
         "text_divider": "line",
         "impact_text_size_ratio": 0.5,

@@ -77,17 +77,17 @@
           "type": "product_countdown",
           "settings": {
             "coupoun_enable": true,
-            "heading": "Spring Sale, Ends After",
-            "time": "2025-04-30 15:59:59",
+            "heading": "Easter Sale, Ends After",
+            "time": "2025-04-21 15:59:59",
             "bakc_background": "#ffffff",
             "color_background": "#f83a3a",
             "ending_text": ""
           }
         },
-        "text_WR3Khx": {
+        "text_r9PEGq": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>⚠️ Prices Go Up After 4/30! ⏳ Due to Upcoming Tariff 📈</strong><br/><br/><strong>Lock Your Price Before Price Adjustment 🔒</strong></p>"
+            "text": "<p><strong>⚠️ Prices Go Up After 4/20! ⏳ Due to Upcoming Tariff 📈</strong><br/><br/><strong>Lock Your Price Before Price Adjustment 🔒</strong></p>"
           }
         },
         "payment_terms": {
@@ -185,15 +185,8 @@
         },
         "text_gJkG93": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p><strong>⚠️ Pink Color Pre-Sale Notice ⚠️</strong></p><p>The <strong>pink color</strong> is available for <strong>pre-sale</strong> and will be shipped around <strong>Apr 10</strong> 📅, while the <strong>black color</strong> is <strong>in stock and ready to ship</strong> 🚀</p>"
-          }
-        },
-        "text_9aVpW8": {
-          "type": "text",
-          "settings": {
-            "text": "<p>🚚 Estimated Delivery: 📅 23 Apr - 27 Apr 🏃‍♂️</p>"
+            "text": "<p>🚚 Estimated Delivery: 📅 19 Apr - 23 Apr 🏃‍♂️</p>"
           }
         },
         "image_bfqyF3": {
@@ -248,7 +241,7 @@
         "text_t74r6H": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Presale </strong>☎️<strong>Hotline: +1(281)777-8190</strong></p><p><strong>Calling Open Time: PST 9:00AM-3:00PM(Mon-Fri)</strong></p><p><strong>Contact Email: service@wellfittreadmill.com<br/><br/>Fast delivery in 1-5 days, shipped from California, Georgia, Texas and New Jersey</strong></p>"
+            "text": "<p><strong>Presale </strong>☎️<strong>Hotline: +1(281)777-8190</strong></p><p><strong>Calling Open Time: PST 9:00AM-3:00PM(Mon-Fri)</strong></p><p><strong>Contact Email: service@wellfittreadmill.com<br/><br/>Fast delivery in 1-5 days, shipped from California, Georgia, Texas</strong> <strong>and New Jersey</strong></p>"
           }
         },
         "collapsible_text_YRDbEn": {
@@ -305,6 +298,54 @@
           "settings": {
             "alignment": "start"
           }
+        },
+        "gallery_item_VdKxUd": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/006.png",
+            "title": "Max 340 Lbs",
+            "text": "<p>Weight Capacity 340 Lbs</p>"
+          }
+        },
+        "gallery_item_NDjF48": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/product-icon-4.png",
+            "title": "16*41 Inch",
+            "text": "<p>Spacious Running Area</p>"
+          }
+        },
+        "gallery_item_K9D8XG": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/Incline.png",
+            "title": "10% Incline",
+            "text": "<p>0-3-10% Manual Incline</p>"
+          }
+        },
+        "gallery_item_xbztD3": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/005.png",
+            "title": "Motor 2.5HP",
+            "text": "<p>Quiet Brushless Motor</p>"
+          }
+        },
+        "gallery_item_Y86G8t": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/002.png",
+            "title": "0.6-7.6MPH",
+            "text": "<p>Speed Increments of 0.2mph<br/><br/></p>"
+          }
+        },
+        "gallery_item_jKettz": {
+          "type": "gallery_item",
+          "settings": {
+            "image": "shopify://shop_images/003.png",
+            "title": "Folding",
+            "text": "<p>No tools needed</p>"
+          }
         }
       },
       "block_order": [
@@ -318,7 +359,7 @@
         "image_J8jqff",
         "inventory_hBWegP",
         "product_countdown_ibgA9y",
-        "text_WR3Khx",
+        "text_r9PEGq",
         "payment_terms",
         "separator",
         "product_variations_X8xFdE",
@@ -331,7 +372,6 @@
         "image_LtNPBk",
         "buy_buttons",
         "text_gJkG93",
-        "text_9aVpW8",
         "image_bfqyF3",
         "text_QVjpmr",
         "offer_AAmRX3",
@@ -344,7 +384,13 @@
         "collapsible_text_LCitMU",
         "collapsible_text_etCW8W",
         "collapsible_text_WdLUJM",
-        "share_buttons_3aAPHC"
+        "share_buttons_3aAPHC",
+        "gallery_item_VdKxUd",
+        "gallery_item_NDjF48",
+        "gallery_item_K9D8XG",
+        "gallery_item_xbztD3",
+        "gallery_item_Y86G8t",
+        "gallery_item_jKettz"
       ],
       "settings": {
         "full_width": true,
@@ -370,8 +416,8 @@
         "image_ratwCY": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Spring_sale_banner_1920x300_4478754f-eed4-48f2-a003-54872fd7cd63.jpg",
-            "mobile_image": "shopify://shop_images/Spring_sale_banner_1920x600_b10cb995-44ff-4ec1-945b-d77c68e57a8a.jpg",
+            "image": "shopify://shop_images/easter_banner_style2_1920x300_b8cc24a1-ec2a-40ed-92a6-5485cf74c55f.jpg",
+            "mobile_image": "shopify://shop_images/easter_banner_style2_1920x600_1.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -499,7 +545,7 @@
         "heading_gkajGn": {
           "type": "heading",
           "settings": {
-            "text": "",
+            "text": "Watch Video",
             "heading_tag": "h3"
           }
         }

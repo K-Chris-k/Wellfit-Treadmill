@@ -15,8 +15,8 @@
         "image_FCb63Q": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Spring_sale_banner_1920x800_no_button.jpg",
-            "mobile_image": "shopify://shop_images/Spring_sale_banner_1080x1350_no_button.jpg",
+            "image": "shopify://shop_images/easter_banner_1920x650_no_button.jpg",
+            "mobile_image": "shopify://shop_images/easter_banner_1080x1350_no_button.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
@@ -36,7 +36,6 @@
         },
         "image_my6Aja": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/easter_banner_024_pc_no_button.jpg",
             "mobile_image": "shopify://shop_images/easter_banner_024_mb5_208c7e7a-7cfb-4432-a0a6-a058014c9c9c.jpg",
@@ -609,8 +608,8 @@
         "image_iWWDXc": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/TM010_spring_sale_219_1600x1600_54d0fced-5feb-4bbc-a673-fa96d3deee5b.jpg",
-            "media_width": 50,
+            "image": "shopify://shop_images/easter_tm010_219_1_1.jpg",
+            "media_width": 60,
             "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
@@ -643,15 +642,15 @@
         "image_RHTDm3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/TM007_spring_sale_549_1600x1600_ba92d565-bbe4-4e51-bf27-1e7e0460ff38.jpg",
-            "media_width": 50,
+            "image": "shopify://shop_images/newtm007_easter_sale_549_1_1.jpg",
+            "media_width": 60,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "TM007-2025 Upgraded 6-Level Height Ajustable & 15% Auto Incline",
-            "content": "<ul><li>🔥Adjustbale height from <strong>39.5-52</strong> inch</li><li><strong>Good for kids, elders and tall users</strong> (Over 5’8\")</li><li>15% auto incline</li><li>350Lbs weight capacity</li><li>18x45 Inch running area</li><li>Fodable and easy to store</li><li>Hydraulic soft-drop system</li><li>95% Pre-assembled</li><li>3-Year Free Warranty</li><li>With Bluetooth Speaker</li></ul>",
+            "title": "TM007- Heavy-duty Treadmill with 15% Auto Incline & Decline",
+            "content": "<ul><li>Your ultimate home gym</li><li>350Lbs Weight Capacity</li><li>18x45 Inch running area</li><li>Hydraulic soft-drop system</li><li>95% Pre-assembled</li><li>3-Year Free Warranty</li><li>With Bluetooth Speaker</li></ul>",
             "link_text": "Shop Now(Save $350,Only $549.99)",
             "link_url": "shopify://products/tm007",
             "background": "#f0f0f0",
@@ -713,8 +712,8 @@
         "image_pChfyb": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/TM024_spring_sale_559_1600x1600_2c5d173f-ca22-42a2-a5be-9f4c5f5b3e08.jpg",
-            "media_width": 50,
+            "image": "shopify://shop_images/easter_024_559_1_1.jpg",
+            "media_width": 60,
             "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
@@ -747,8 +746,8 @@
         "image_MnPtE7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/TM030_spring_sale_159_1600x1600_af3c3993-9ab1-4d6d-866d-9bd784403b42.jpg",
-            "media_width": 50,
+            "image": "shopify://shop_images/easter_030_159_1_1.jpg",
+            "media_width": 60,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
@@ -781,15 +780,15 @@
         "image_6HDKnV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/TM029_spring_sale_799_1600x1600_9e37dba5-48c7-4932-a34a-491560a2cc6a.jpg",
-            "media_width": 50,
+            "image": "shopify://shop_images/easter_tm029_799_1_1.jpg",
+            "media_width": 60,
             "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
             "title": "20x55 Inch-10% Auto Incline Treadmill with 450 lbs Capacity",
-            "content": "<ul><li><strong>450 Lbs</strong> Weight Capacity</li><li>Running Area Size：<strong>20x55 in</strong></li><li><a href=\"https://youtu.be/7Fzz6WkTisk\" target=\"_blank\" title=\"https://youtu.be/7Fzz6WkTisk\"><strong>0-10% Auto Incline, 10 Levels</strong></a></li><li>Good for tall people</li><li>Speed of <strong>1.0-10.0</strong>mph(Adjustable)</li><li><a href=\"https://youtu.be/B4NkI76A-0o\" target=\"_blank\" title=\"https://youtu.be/B4NkI76A-0o\">Comes 95% Pre-assembled</a></li><li>Heart Rate Monitor</li><li><strong>12</strong> Preset Programs</li><li>3-year warranty</li></ul>",
+            "content": "<ul><li><strong>450 Lbs</strong> Weight Capacity</li><li>Running Area Size：<strong>20x55 in</strong></li><li><a href=\"https://youtu.be/t13MRKuq050\" target=\"_blank\" title=\"https://youtu.be/t13MRKuq050\"><strong>0-10% Auto Incline, 10 Levels</strong></a></li><li>Good for tall people</li><li>Speed of <strong>1.0-10.0</strong>mph(Adjustable)</li><li><a href=\"https://youtu.be/XOvg9YXo-Bw\" target=\"_blank\" title=\"https://youtu.be/XOvg9YXo-Bw\">Comes 95% Pre-assembled</a></li><li>Heart Rate Monitor</li><li><strong>12</strong> Preset Programs</li><li>3-year warranty</li></ul>",
             "link_text": "Shop Now(Save $500, Only $799.99)",
             "link_url": "shopify://products/tm029-auto-incline-folding-treadmill",
             "background": "#f0f0f0",
@@ -809,49 +808,15 @@
         "spacing": "small"
       }
     },
-    "media_with_text_8n8rAf": {
-      "type": "media-with-text",
-      "blocks": {
-        "image_JVG8WW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/TM006_spring_sale_399_1600x1600_e6a1eb95-0d95-4b9c-9ead-36ea8f1290e7.jpg",
-            "media_width": 50,
-            "media_position": "start",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "TM006 Smart Folding Treadmill with Desk",
-            "content": "<ul><li>350Lbs Weight Capacity</li><li>98% Pre-assembled</li><li>12 Preset Programs</li><li>Speed of 0.6-8.7mph</li><li>0-5% Incline</li><li>Built-in Bluetooth music player</li><li>Running Area：18 x 43.5 in</li><li>3-Year Free Warranty</li></ul>",
-            "link_text": "Shop Now(Save $500, Only $399.99)",
-            "link_url": "shopify://products/wellfit-tm006-incline-foldable-treadmill-walking-pad-treadmill-with-voice-control",
-            "background": "#f0f0f0",
-            "background_gradient": "",
-            "text_color": "#1a1a1a",
-            "text_gradient": "",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_JVG8WW"
-      ],
-      "settings": {
-        "full_width": false,
-        "spacing": "small"
-      }
-    },
     "media_with_text_YziL4z": {
       "type": "media-with-text",
       "blocks": {
         "image_tHgJkk": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/TM020_spring_sale_259_1600x1600_5b4793d2-c5bc-4398-8bb2-60e2aebc111f.jpg",
-            "media_width": 50,
-            "media_position": "end",
+            "image": "shopify://shop_images/easter_020_259_1_1.jpg",
+            "media_width": 60,
+            "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
@@ -883,9 +848,9 @@
         "image_nVwCeb": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/TM015_spring_sale_279_1600x1600_f6dacd70-6862-484a-9c55-080abba8f6f4.jpg",
-            "media_width": 50,
-            "media_position": "start",
+            "image": "shopify://shop_images/easter_tm015_279_1_1.jpg",
+            "media_width": 60,
+            "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
@@ -917,9 +882,9 @@
         "image_AC98XD": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/WP017_spring_sale_209_1600x1600_f2835393-1cf2-4bb4-a1fe-7809f9aba5b7.jpg",
-            "media_width": 50,
-            "media_position": "end",
+            "image": "shopify://shop_images/easter_017_209_1_1.jpg",
+            "media_width": 60,
+            "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
@@ -951,8 +916,8 @@
         "image_HAtrMg": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/TM027_spring_sale_159.99_1600x1600_424cd1b0-98c3-4dba-bb95-6e3213989ebf.jpg",
-            "media_width": 50,
+            "image": "shopify://shop_images/TM027_easter_159.99_1080.jpg",
+            "media_width": 60,
             "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
@@ -974,7 +939,6 @@
       "block_order": [
         "image_HAtrMg"
       ],
-      "disabled": true,
       "settings": {
         "full_width": false,
         "spacing": "small"
@@ -986,15 +950,15 @@
         "image_zdkhLQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/TM002_spring_sale_259_1600x1600_f2e9c8a0-7063-4a46-affa-fe3f7a0bd722.jpg",
-            "media_width": 50,
+            "image": "shopify://shop_images/easter_002_259_1_1_0d873647-12a7-40f8-9a00-debbbdff2efe.jpg",
+            "media_width": 60,
             "media_position": "start",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
             "title": "TM002-Folding Treadmill with 340Lbs Max Load",
-            "content": "<ul><li>Comes Pre-assembled, no assembly needed</li><li>0-3%-10% Manual Incline</li><li>Speed of 0.6-7.6 mph(Adjustable)</li><li>Running Belt Size：<strong>16x44 in</strong></li><li>340 Lbs Weight Capacity</li><li>Foldable handbar to hang onto</li><li>With phone/pad holder</li><li>🏃‍♀️ Discover the joy of running anytime</li></ul>",
+            "content": "<ul><li>Comes Pre-assembled, no assembly needed</li><li>0-3% Manual Incline</li><li>Speed of 0.6-7.6 mph(Adjustable)</li><li>Running Belt Size：<strong>16x44 in</strong></li><li>340 Lbs Weight Capacity</li><li>Foldable handbar to hang onto</li><li>With phone/pad holder</li><li>🏃‍♀️ Discover the joy of running anytime</li></ul>",
             "link_text": "Buy It Now(Save $240, Only $259.99)",
             "link_url": "shopify://products/wellfit-tm002-walking-pad-treadmills-with-handle",
             "background": "#f0f0f0",
@@ -1014,23 +978,23 @@
         "spacing": "small"
       }
     },
-    "media_with_text_WhjWej": {
+    "media_with_text_8n8rAf": {
       "type": "media-with-text",
       "blocks": {
-        "image_twdrih": {
+        "image_JVG8WW": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/WP023_spring_sale_139_1600x1600_36c89700-fd1c-4da0-bd10-7d113199f912.jpg",
-            "media_width": 50,
+            "image": "shopify://shop_images/easter_006_399_1_1.jpg",
+            "media_width": 60,
             "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "WP023 Under Desk Walking Pad With 10% Incline",
-            "content": "<ul><li>Ready To Use Out Of The Box</li><li>Small Office & Home Friendly</li><li>Running Area：15 x 36 in</li><li>265 Lbs Capacity</li><li>One-Touch Mute Mode</li><li>AI Voice Control | Remote Control | 3D VR</li><li>0-3-6-10% Manual Incline</li><li>Net Weight: 30 Lbs</li><li>Product Size: 42.9 x 18.3 x 4.1 in</li></ul>",
-            "link_text": "Shop Now(Save $140, Only $139.99)",
-            "link_url": "shopify://products/wp023",
+            "title": "TM006 Smart Folding Treadmill with Desk",
+            "content": "<ul><li>350Lbs Weight Capacity</li><li>98% Pre-assembled</li><li>12 Preset Programs</li><li>Speed of 0.6-8.7mph</li><li>0-5% Incline</li><li>Built-in Bluetooth music player</li><li>Running Area：18 x 43.5 in</li><li>3-Year Free Warranty</li></ul>",
+            "link_text": "Shop Now(Save $500, Only $399.99)",
+            "link_url": "shopify://products/wellfit-tm006-incline-foldable-treadmill-walking-pad-treadmill-with-voice-control",
             "background": "#f0f0f0",
             "background_gradient": "",
             "text_color": "#1a1a1a",
@@ -1041,7 +1005,7 @@
         }
       },
       "block_order": [
-        "image_twdrih"
+        "image_JVG8WW"
       ],
       "settings": {
         "full_width": false,
@@ -1088,13 +1052,12 @@
     "media_with_text_Uc6fYx",
     "media_with_text_kdmwWY",
     "media_with_text_eANDXg",
-    "media_with_text_8n8rAf",
     "media_with_text_YziL4z",
     "media_with_text_RFrNh7",
     "media_with_text_aYa9EW",
     "media_with_text_QEXHK6",
     "media_with_text_x3yLr9",
-    "media_with_text_WhjWej",
+    "media_with_text_8n8rAf",
     "17247443137e326c7b"
   ]
 }
