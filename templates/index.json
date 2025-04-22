@@ -15,8 +15,8 @@
         "image_TqcCn4": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Spring_sale_banner_1920x800_28303979-7f5c-471b-bb64-8afbd49b45c7.jpg",
-            "mobile_image": "shopify://shop_images/Spring_sale_banner_1080x1350_0d78afe7-922e-4266-89f0-079e148beb88.jpg",
+            "image": "shopify://shop_images/easter_banner_1920x650_e38b2163-9e9f-4cbe-a4c1-2a2c531744ae.jpg",
+            "mobile_image": "shopify://shop_images/easter_banner_1080x1350_d5932bfa-2e90-4578-87dd-3437ed05abf8.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-start text-start",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
@@ -36,7 +36,6 @@
         },
         "image_736Fqn": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/easter_banner_024_pc_7be1e0e8-6cc8-4460-99f6-b2247333c109.jpg",
             "mobile_image": "shopify://shop_images/easter_banner_024_mb5_208c7e7a-7cfb-4432-a0a6-a058014c9c9c.jpg",
@@ -57,20 +56,20 @@
             "background_gradient": ""
           }
         },
-        "image_kDxGr4": {
+        "slide-1": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/tm007ah_virtual_banner_run_1920x800_1335a9b4-7a92-4d07-81e6-b17298e3e3d2.jpg",
             "mobile_image": "shopify://shop_images/tm007ah_virtual_run_banner_1080x1350.2.jpg",
             "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
+            "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
             "title": "",
-            "heading_tag": "h0",
+            "heading_tag": "h1",
             "button_text": "",
             "button_link": "shopify://products/tm007",
-            "text_color": "#ffffff",
+            "text_color": "#f2f2f2",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
             "overlay_color": "#000000",
@@ -110,10 +109,10 @@
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "Lowest price Ever! Up to $500 OFF",
-            "title": "Spring Sale Now On",
+            "title": "Easter Sale Now On",
             "heading_tag": "h0",
             "button_text": "Buy It Now",
-            "button_link": "shopify://products/tm015",
+            "button_link": "shopify://pages/deals",
             "text_color": "#f0f0f0",
             "button_background": "#ffffff",
             "button_text_color": "#f83a3a",
@@ -127,7 +126,7 @@
       "block_order": [
         "image_TqcCn4",
         "image_736Fqn",
-        "image_kDxGr4",
+        "slide-1",
         "image_8z4PwB",
         "video_9DJ9T8"
       ],
@@ -148,17 +147,197 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "collection-list": {
+    "product_section_custom_LdEcxC": {
+      "type": "product-section-custom",
+      "blocks": {
+        "tab_gVFnVk": {
+          "type": "tab",
+          "settings": {
+            "tab_index": "1",
+            "tab_label": "121212qwqwqw"
+          }
+        },
+        "tab_zi43Gz": {
+          "type": "tab",
+          "settings": {
+            "tab_index": "2",
+            "tab_label": "121212regwgwe"
+          }
+        },
+        "tab_xwPDpf": {
+          "type": "tab",
+          "settings": {
+            "tab_index": "3",
+            "tab_label": "121212fwefwef"
+          }
+        },
+        "tab_content_7VyEYH": {
+          "type": "tab_content",
+          "settings": {
+            "tab_index": "1",
+            "title": "11",
+            "product_url": "shopify://collections/0-6-3-8-mph",
+            "description": "221122121",
+            "show_price": true,
+            "regular_price": "212121",
+            "sale_price": "2122",
+            "discount_percentage": "50",
+            "button_text": "211221",
+            "button_url": "shopify://products/replacement-10-incline-foot-pads-for-wellfit-treadmill",
+            "secondary_button_text": "ffwewe",
+            "secondary_button_url": "shopify://products/tm029-auto-incline-folding-treadmill",
+            "video_i1": "",
+            "video_url1": "http://aipasbike.com/cdn/shop/videos/c/vp/e5357184d51b4e28a6966d2d409db2de/e5357184d51b4e28a6966d2d409db2de.HD-1080p-7.2Mbps-33438455.mp4?v=0",
+            "feature_title_1": "",
+            "feature_des_1": "",
+            "position_x1": 36,
+            "position_y1": 51,
+            "video_i2": "",
+            "video_url2": "http://aipasbike.com/cdn/shop/videos/c/vp/e5357184d51b4e28a6966d2d409db2de/e5357184d51b4e28a6966d2d409db2de.HD-1080p-7.2Mbps-33438455.mp4?v=0",
+            "feature_title_2": "",
+            "feature_des_2": "",
+            "position_x2": 48,
+            "position_y2": 42,
+            "video_i3": "",
+            "video_url3": "",
+            "feature_title_3": "",
+            "feature_des_3": "",
+            "position_x3": 67,
+            "position_y3": 14,
+            "video_i4": "",
+            "video_url4": "",
+            "feature_title_4": "",
+            "feature_des_4": "",
+            "position_x4": 15,
+            "position_y4": 70,
+            "product_image": "shopify://shop_images/V1-BK-4_3.webp"
+          }
+        },
+        "tab_content_9yHgFQ": {
+          "type": "tab_content",
+          "settings": {
+            "tab_index": "2",
+            "title": "1212122wfwefwef",
+            "product_url": "shopify://collections/0-6-3-8-mph",
+            "description": "221122121",
+            "show_price": true,
+            "regular_price": "212121",
+            "sale_price": "2122",
+            "discount_percentage": "40",
+            "button_text": "211221",
+            "button_url": "shopify://products/replacement-10-incline-foot-pads-for-wellfit-treadmill",
+            "secondary_button_text": "ffwewe",
+            "secondary_button_url": "shopify://products/tm029-auto-incline-folding-treadmill",
+            "video_i1": "product_EYbxwJ2",
+            "video_url1": "http://aipasbike.com/cdn/shop/videos/c/vp/e5357184d51b4e28a6966d2d409db2de/e5357184d51b4e28a6966d2d409db2de.HD-1080p-7.2Mbps-33438455.mp4?v=0",
+            "video_poster1": "shopify://shop_images/F3shock.jpg",
+            "feature_1": "shopify://shop_images/V1-BK-4_3.webp",
+            "feature_title_1": "111",
+            "feature_des_1": "sfsdfsd",
+            "position_x1": 36,
+            "position_y1": 51,
+            "video_i2": "product_EYbxwJ3",
+            "video_url2": "http://aipasbike.com/cdn/shop/videos/c/vp/e5357184d51b4e28a6966d2d409db2de/e5357184d51b4e28a6966d2d409db2de.HD-1080p-7.2Mbps-33438455.mp4?v=0",
+            "video_poster2": "shopify://shop_images/F3shock.jpg",
+            "feature_2": "shopify://shop_images/V1-BK-4_3.webp",
+            "feature_title_2": "wefwefwe",
+            "feature_des_2": "wefwefwe",
+            "position_x2": 48,
+            "position_y2": 42,
+            "video_i3": "product_EYbxwJ4",
+            "video_url3": "shopify://products/tm029-auto-incline-folding-treadmill",
+            "video_poster3": "shopify://shop_images/F3shock.jpg",
+            "feature_3": "shopify://shop_images/F3shock.jpg",
+            "feature_title_3": "wfwe",
+            "feature_des_3": "5554555454545",
+            "position_x3": 67,
+            "position_y3": 14,
+            "video_i4": "product_EYbxwJ5",
+            "video_url4": "http://aipasbike.com/cdn/shop/videos/c/vp/e5357184d51b4e28a6966d2d409db2de/e5357184d51b4e28a6966d2d409db2de.HD-1080p-7.2Mbps-33438455.mp4?v=0",
+            "video_poster4": "shopify://shop_images/F3shock.jpg",
+            "feature_4": "shopify://shop_images/V1-BK-4_3.webp",
+            "feature_title_4": "wefwefw",
+            "feature_des_4": "fwefew",
+            "position_x4": 15,
+            "position_y4": 70,
+            "product_image": "shopify://shop_images/V1-BK-4_3.webp"
+          }
+        },
+        "tab_content_KA8bE3": {
+          "type": "tab_content",
+          "settings": {
+            "tab_index": "3",
+            "title": "1212122wfwefwef",
+            "product_url": "shopify://collections/0-6-3-8-mph",
+            "description": "221122121",
+            "show_price": true,
+            "regular_price": "212121",
+            "sale_price": "2122",
+            "discount_percentage": "60",
+            "button_text": "211221",
+            "button_url": "shopify://products/replacement-10-incline-foot-pads-for-wellfit-treadmill",
+            "secondary_button_text": "ffwewe",
+            "secondary_button_url": "shopify://products/tm029-auto-incline-folding-treadmill",
+            "video_i1": "1_1",
+            "video_url1": "http://aipasbike.com/cdn/shop/videos/c/vp/e5357184d51b4e28a6966d2d409db2de/e5357184d51b4e28a6966d2d409db2de.HD-1080p-7.2Mbps-33438455.mp4?v=0",
+            "video_poster1": "shopify://shop_images/F3shock.jpg",
+            "feature_1": "shopify://shop_images/V1-BK-4_3.webp",
+            "feature_title_1": "fsfsd",
+            "feature_des_1": "sfsdfsd",
+            "position_x1": 36,
+            "position_y1": 51,
+            "video_i2": "2_2",
+            "video_url2": "http://aipasbike.com/cdn/shop/videos/c/vp/e5357184d51b4e28a6966d2d409db2de/e5357184d51b4e28a6966d2d409db2de.HD-1080p-7.2Mbps-33438455.mp4?v=0",
+            "video_poster2": "shopify://shop_images/F3shock.jpg",
+            "feature_2": "shopify://shop_images/V1-BK-4_3.webp",
+            "feature_title_2": "wefwefwe",
+            "feature_des_2": "wefwefwe",
+            "position_x2": 48,
+            "position_y2": 42,
+            "video_i3": "3_3",
+            "video_url3": "shopify://products/tm029-auto-incline-folding-treadmill",
+            "video_poster3": "shopify://shop_images/F3shock.jpg",
+            "feature_3": "shopify://shop_images/F3shock.jpg",
+            "feature_title_3": "wfwe",
+            "feature_des_3": "",
+            "position_x3": 67,
+            "position_y3": 14,
+            "video_i4": "4_4",
+            "video_url4": "http://aipasbike.com/cdn/shop/videos/c/vp/e5357184d51b4e28a6966d2d409db2de/e5357184d51b4e28a6966d2d409db2de.HD-1080p-7.2Mbps-33438455.mp4?v=0",
+            "video_poster4": "shopify://shop_images/F3shock.jpg",
+            "feature_4": "shopify://shop_images/V1-BK-4_3.webp",
+            "feature_title_4": "wefwefw",
+            "feature_des_4": "fwefew",
+            "position_x4": 15,
+            "position_y4": 70,
+            "product_image": "shopify://shop_images/V1-BK-4_3.webp"
+          }
+        }
+      },
+      "block_order": [
+        "tab_gVFnVk",
+        "tab_zi43Gz",
+        "tab_xwPDpf",
+        "tab_content_7VyEYH",
+        "tab_content_9yHgFQ",
+        "tab_content_KA8bE3"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_title": "Explore Our Cool Models"
+      }
+    },
+    "collection_list_dYmiqY": {
       "type": "collection-list",
       "blocks": {
-        "collection_ijTeTH": {
+        "collection_NyfzWD": {
           "type": "collection",
           "settings": {
             "collection": "heavy-duty-treadmiii",
             "image": "shopify://shop_images/TM024_application_scenario_1080x1080_47a41bd2-c0e4-4dd5-b943-cf71a3c77049.jpg",
             "subheading": "",
-            "title": "Heavy-Duty Treadmill",
-            "url": "",
+            "title": "",
+            "url": "shopify://collections/heavy-duty-treadmiii",
             "heading_tag": "h4",
             "text_position": "place-self-end-center text-center",
             "text_color": "#ffffff",
@@ -166,7 +345,7 @@
             "overlay_opacity": 0
           }
         },
-        "collection-3": {
+        "collection_CpGmqQ": {
           "type": "collection",
           "settings": {
             "collection": "smart-2-in-1-treadmill",
@@ -181,7 +360,7 @@
             "overlay_opacity": 0
           }
         },
-        "collection-1": {
+        "collection_XGxRqq": {
           "type": "collection",
           "settings": {
             "collection": "under-desk-walking-pad",
@@ -191,22 +370,6 @@
             "url": "shopify://collections/under-desk-walking-pad",
             "heading_tag": "h4",
             "text_position": "place-self-end-center text-center",
-            "text_color": "#eaf2ed",
-            "overlay_color": "#1a1a1a",
-            "overlay_opacity": 5
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "folding-treadmill",
-            "image": "shopify://shop_images/TM010_800X800_c637d52e-27b7-4d39-b65f-13e6d48b36ec.jpg",
-            "subheading": "",
-            "title": "",
-            "url": "shopify://collections/folding-treadmill",
-            "heading_tag": "h4",
-            "text_position": "place-self-end-center text-center",
             "text_color": "#ffffff",
             "overlay_color": "#000000",
             "overlay_opacity": 0
@@ -214,15 +377,14 @@
         }
       },
       "block_order": [
-        "collection_ijTeTH",
-        "collection-3",
-        "collection-1",
-        "collection-2"
+        "collection_NyfzWD",
+        "collection_CpGmqQ",
+        "collection_XGxRqq"
       ],
       "settings": {
-        "full_width": false,
-        "stack_collections": false,
-        "collections_per_row_mobile": "2",
+        "full_width": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
         "collections_per_row": 3,
         "show_progress_bar": true,
         "subheading": "",
@@ -230,21 +392,21 @@
         "content": "",
         "link_url": "shopify://collections/treadmill-with-handle",
         "link_text": "View all",
-        "background": "#ffffff",
+        "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
       }
     },
-    "slideshow_HnTbbC": {
+    "slideshow_XcRpwb": {
       "type": "slideshow",
       "blocks": {
-        "image_W48zJM": {
+        "image_f4QWyp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Spring_sale_banner_1920x300_4478754f-eed4-48f2-a003-54872fd7cd63.jpg",
-            "mobile_image": "shopify://shop_images/Spring_sale_banner_1920x600_b10cb995-44ff-4ec1-945b-d77c68e57a8a.jpg",
+            "image": "shopify://shop_images/easter_banner_style2_1920x300_b8cc24a1-ec2a-40ed-92a6-5485cf74c55f.jpg",
+            "mobile_image": "shopify://shop_images/easter_banner_style2_1920x600_1.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -264,7 +426,7 @@
         }
       },
       "block_order": [
-        "image_W48zJM"
+        "image_f4QWyp"
       ],
       "settings": {
         "full_width": true,
@@ -279,37 +441,60 @@
         "background_gradient": ""
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
+    "tabbed_collections_yPzrf6": {
+      "type": "tabbed-collections",
+      "blocks": {
+        "collection_tab_Y9y8kA": {
+          "type": "collection_tab",
+          "settings": {
+            "title": "Best Seller",
+            "collection": "best-selling"
+          }
+        },
+        "collection_tab_FqVFpp": {
+          "type": "collection_tab",
+          "settings": {
+            "title": "New In",
+            "collection": "new-arrival"
+          }
+        },
+        "collection_tab_MpUgxN": {
+          "type": "collection_tab",
+          "settings": {
+            "title": "Sale",
+            "collection": "treadmill"
+          }
+        }
+      },
+      "block_order": [
+        "collection_tab_Y9y8kA",
+        "collection_tab_FqVFpp",
+        "collection_tab_MpUgxN"
+      ],
       "settings": {
-        "collection": "best-selling",
-        "products": [
-          "wellfit-tm010-2-in-1-folding-incline-treadmill",
-          "tm007",
-          "tm024-folding-treadmill",
-          "tm020-treadmill-with-desk"
-        ],
         "full_width": true,
         "stack_products": true,
-        "show_progress_bar": true,
-        "products_count": 6,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
         "subheading": "",
-        "title": "Best Sellers",
+        "title": "",
         "content": "",
-        "link_url": "",
-        "link_text": "View all",
+        "button_background_color": "#ffffff",
+        "button_border_color": "#e0e0e0",
+        "button_active_background_color": "#0095d9",
+        "button_active_border_color": "#0095d9",
+        "button_hover_background_color": "#f5f5f5",
+        "button_hover_border_color": "#d0d0d0",
         "background": "",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
         "product_card_background": "",
-        "product_card_text_color": ""
+        "product_card_text_color": "",
+        "product_card_background_color": "#0095d9"
       }
     },
-    "scrolling-text": {
+    "scrolling_text_L4Dzjy": {
       "type": "scrolling-text",
       "settings": {
         "full_width": true,
@@ -324,10 +509,10 @@
         "text_gradient": ""
       }
     },
-    "impact-text": {
+    "impact_text_eKK7ky": {
       "type": "impact-text",
       "blocks": {
-        "1664424181b38582d5-0": {
+        "item_FMNWEp": {
           "type": "item",
           "settings": {
             "title": "3D VR & AI Voice Control",
@@ -341,7 +526,7 @@
         }
       },
       "block_order": [
-        "1664424181b38582d5-0"
+        "item_FMNWEp"
       ],
       "settings": {
         "full_width": true,
@@ -354,37 +539,6 @@
         "background_gradient": "",
         "heading_text_color": "",
         "heading_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "multiple_images_with_text_AdCXXA": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_JAFmCK": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/TM007-3_1000x1000_6330bb52-c756-42cc-9f38-4628f33e55de.jpg",
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "TM007 Foldable Treadmill-350LBS-8.7mph-Auto 15% Incline",
-            "content": "<p>Unleash your potential with this high-performance treadmill, It's good for runners of any levels. With a spacious <strong>18x45 inch</strong> running surface, a powerful <strong>3.5HP</strong> motor, and a <strong>350lbs weight capacity</strong>, it's designed to take your training to the next level. <strong>Featuring a 15% auto incline</strong>, heart rate monitor, and a intuitive control panel, this treadmill combines strength, comfort, and innovation to help you achieve your fitness goals.</p>",
-            "button_url": "shopify://products/wellfit-tm007-foldable-auto-incline-treadmill",
-            "button_text": "SHOP NOW"
-          }
-        }
-      },
-      "block_order": [
-        "item_JAFmCK"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
@@ -435,13 +589,13 @@
             "media_position": "end",
             "text_position": "place-self-center text-center",
             "icon": "none",
-            "icon_width": 48,
+            "icon_width": 24,
             "subheading": "",
             "title": "TM024 450LBS Capacity Incline Treadmill With 9.9MPH Max Speed",
-            "content": "<p>Unleash your potential with this high-performance treadmill, It's good for runners of any levels, even for runners over <strong>6 feet tall</strong>. With a spacious <strong>20x45 inch</strong> running surface, a powerful <strong>4HP</strong> motor, and a <strong>450lbs weight capacity</strong>, it's designed to take your training to the next level. <strong>Featuring a 5% incline</strong>, heart rate monitor, and a intuitive control panel, this treadmill combines strength, comfort, and innovation to help you achieve your fitness goals.</p>",
+            "content": "<p>Unleash your potential with this high-performance treadmill, It's good for runners of any levels, even for runners over <strong>6 feet tall</strong>. With a spacious <strong>22x45 inch</strong> running surface, a powerful <strong>4HP</strong> motor, and a <strong>450lbs weight capacity</strong>, it's designed to take your training to the next level. <strong>Featuring a 5% incline</strong>, heart rate monitor, and a intuitive control panel, this treadmill combines strength, comfort, and innovation to help you achieve your fitness goals.</p>",
             "link_text": "SHOP NOW",
             "link_url": "shopify://products/tm024-folding-treadmill",
-            "background": "#f0f0f0",
+            "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#000000",
             "text_gradient": "",
@@ -455,7 +609,7 @@
       ],
       "settings": {
         "full_width": true,
-        "spacing": "small"
+        "spacing": "none"
       }
     },
     "media_with_text_GXwr3F": {
@@ -702,238 +856,6 @@
         "background_color": "#ffffff"
       }
     },
-    "image-link-blocks": {
-      "type": "image-link-blocks",
-      "blocks": {
-        "1664424046b00c932c-2": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/TM010-1_900x1400_b8f547da-470a-48d7-ba82-1dcd7ba1ea8f.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "1664424046b00c932c-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WP009-18_900x1400_b015cd9a-015a-48f8-8744-e3917fd88196.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_VaTHFm": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WP009_PINK_900x1400_aa7825d3-2fc6-4305-bdee-d7d710513eed.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "1664424046b00c932c-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WP009-5_900x1400_9cec6d1e-8fff-4c08-bba8-ca20931091f5.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "1664424046b00c932c-3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/TM012-7_900x1400_63995a44-d202-408e-b556-b04ad8242d01.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WP011-4_900x1400_6fc8b845-f875-4a47-8dcb-be94d0024094.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_derUEF": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WP011-3_900x1400_2ce03b25-576f-4023-9624-d05e989fcadc.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_Xdiffa": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WP011_1_900x1400_6eed730e-7947-456f-b702-363f1a54f0b9.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_Rc8gEP": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WP009_bfrangos_900x1400_def98a62-e1fd-48fb-9c1b-bb65f24d3f23.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_ErgVXr": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WP009-1-1_900X1400_0fa00685-e904-4267-b55a-0fe1487c03e2.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_FYNmQ6": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WP009-9_900x1400_ac63cf6c-894c-4e3a-aa57-fcbbbf372b83.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_yFXKeH": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WP009-22_900X1400_579537fb-bb7e-4124-9f60-13cad3703d8c.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_gRM8DX": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WP009_mariasol7126_900x1400_d9aa205c-718d-49f5-9089-1a513c7facb0.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_aCxJ9i": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/TM012-3_900x1400_d0b5c136-590e-4321-b9f9-f007e7d64770.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_r86RnK": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/TM010-3_900x1400_7407fb2d-3faf-43a5-8c70-7a678d3cfb8f.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "1664424046b00c932c-2",
-        "1664424046b00c932c-1",
-        "item_VaTHFm",
-        "1664424046b00c932c-0",
-        "1664424046b00c932c-3",
-        "e4a0ef18-1856-4ddd-83d8-871a60d7acac",
-        "item_derUEF",
-        "item_Xdiffa",
-        "item_Rc8gEP",
-        "item_ErgVXr",
-        "item_FYNmQ6",
-        "item_yFXKeH",
-        "item_gRM8DX",
-        "item_aCxJ9i",
-        "item_r86RnK"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "block_size": "small",
-        "subheading": "",
-        "title": "WELLFIT IN THE MOVE",
-        "content": "<p>Scroll Left and Right to See</p>",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "#f0c417",
-        "heading_gradient": ""
-      }
-    },
     "press": {
       "type": "press",
       "blocks": {
@@ -1000,114 +922,6 @@
         "logo_item_border": ""
       }
     },
-    "media-grid": {
-      "type": "media-grid",
-      "blocks": {
-        "item-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Wellfit_TM010_Treadmill_1000x900_992cfc7a-b6fe-46b9-971a-8be76d294456.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "shopify://products/wellfit-tm012-2-in-1-smart-treadmill-with-incline",
-            "link_text": "",
-            "mobile_text_position": "place-self-center-end text-end",
-            "desktop_column_span": 2,
-            "desktop_row_span": 2,
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#e04aff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Wellfit_WP001_Walking_Pad_9.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "shopify://products/wellfit-wp001-under-desk-treadmill-with-incline",
-            "link_text": "",
-            "mobile_text_position": "place-self-center-end text-end",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#e04aff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WELLFITWP009InclineUnderDeskWalkingPadPink_1000x1000_032c5f92-4f50-4268-bc55-405ffafcf73c.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "shopify://products/wellfit-wp009-walking-pad-treadmill-with-voice-control",
-            "link_text": "",
-            "mobile_text_position": "place-self-center-end text-end",
-            "desktop_column_span": 1,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#e04aff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "29246d34-c6e0-4373-84f6-b15e57736a00": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WP003_1600X2000_-4.jpg",
-            "title": "",
-            "heading_tag": "h4",
-            "link_url": "shopify://products/wellfit-wp003-walking-pad-treadmill-with-incline",
-            "link_text": "",
-            "mobile_text_position": "place-self-center-end text-end",
-            "desktop_column_span": 2,
-            "desktop_row_span": 1,
-            "desktop_text_position": "sm:place-self-center-end sm:text-end",
-            "background": "#000000",
-            "background_gradient": "",
-            "text_color": "#e04aff",
-            "text_gradient": "",
-            "button_background": "#000000",
-            "button_text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "item-1",
-        "item-2",
-        "item-3",
-        "29246d34-c6e0-4373-84f6-b15e57736a00"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "reduce_width": true,
-        "desktop_row_height": 300,
-        "mobile_row_height": 160,
-        "background": "",
-        "background_gradient": ""
-      }
-    },
     "before-after-image": {
       "type": "before-after-image",
       "disabled": true,
@@ -1129,187 +943,6 @@
         "after_text_color": "#ffffff",
         "drag_cursor_background": "#ffffff",
         "drag_cursor_color": "#000000"
-      }
-    },
-    "hot-spots": {
-      "type": "hot-spots",
-      "blocks": {
-        "1664424434f5b7d0e0-0": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 24,
-            "vertical_position": 70,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 70,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
-          }
-        },
-        "1664424434f5b7d0e0-1": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 62,
-            "vertical_position": 14,
-            "horizontal_position_mobile": 62,
-            "vertical_position_mobile": 14,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
-          }
-        },
-        "1664424434f5b7d0e0-2": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 83,
-            "vertical_position": 75,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 75,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "1664424434f5b7d0e0-0",
-        "1664424434f5b7d0e0-1",
-        "1664424434f5b7d0e0-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_url": "",
-        "desktop_text_position": "place-self-start text-start",
-        "image_background": "",
-        "image_background_gradient": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "overlay_text_color": "#ffffff",
-        "overlay_button_background": "",
-        "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#ffffff",
-        "hot_spot_dot_text_color": "#000000",
-        "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
-      }
-    },
-    "timeline_PGXFp3": {
-      "type": "timeline",
-      "blocks": {
-        "slide_nJ8j7M": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/3_Incline.jpg",
-            "navigation_label": "3% Incline",
-            "subheading": "Revolutionizer of Traditional Treadmill",
-            "title": "3% Incline Folding Treadmill  (TM002/004/010/012)",
-            "content": "<p>The Folding Treadmill is  designed for home use, providing a convenient way to stay active and healthy. The foldable design allows for easy storage, perfect for small spaces. <strong>Adjustable speed, AI voice control, 3D immersive scenes and various workout programs</strong> to suit all fitness levels. It also equipped with a clear LCD display to track your progress, including speed, time, distance, and calories burned. Meanwhile, it's also with a <strong>detachable phone holder</strong> that allows you to place your phone on it.</p>"
-          }
-        },
-        "slide_hBPCMy": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/WP008_800x800_c60d69d8-4a8b-4f53-90e1-9573c6f9d996.jpg",
-            "navigation_label": "5% Incline",
-            "subheading": "New Experience of Working From Home",
-            "title": "5% Incline Walking Pad-WP008",
-            "content": "<p>Adjustable incline makes the workout more challenging, simulating uphill running, providing a convenient way to stay active and healthy. The compact design allows for easy storage, making it perfect for small spaces. It offers a robust running experience with <strong>adjustable speed, AI voice control, 3D immersive scenes and various workout programs</strong> to suit all fitness levels. It also equipped with a clear LCD display to track your progress, including speed, time, distance, and calories burned. </p>"
-          }
-        },
-        "slide_3afaBG": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/6_Incline.jpg",
-            "navigation_label": "6% Incline",
-            "subheading": "More Than Your Personal Trainer",
-            "title": "6% Incline Walking Pad (WP001/009/011)",
-            "content": "<p>The simple and attractive WP001&WP009&WP011 walking pads are loved by millions of people. It is the perfect walking pad to get your daily steps in. They come in a variety of colors to match your interior aesthetic and easily be <strong>stored in any corner of your home, under the sofa, under the bed, and other tight spaces</strong> and then easily back out for a quick walk. They are truly the best walking pad to help you reach your fitness goals. <strong>Whatever the weather or your work life throws at you, you can easily walk anytime you want.</strong></p><p></p>"
-          }
-        },
-        "slide_bhTP4X": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/WP003_800X800_62dada75-d2e3-423e-be3e-27574ab5031e.jpg",
-            "navigation_label": "9% Incline",
-            "subheading": "🏃More Calories Burn with Incline",
-            "title": "9% Incline Walking Pad-WP003; Your Fitness, Your Way!",
-            "content": "<p>AI voice control walking pad&treadmill with 3D immersive running experience&online competition event and diverse exercise courses. With its manual incline adjustment ranging from 0% to 9%, this exceptional feature allows you to intensify your workouts, targeting different muscle groups and enhancing calories burn. You can customize the incline to simulate outdoor terrain and challenge yourself like nerer before. It also works with WELLFIT/ZWIFT/Kinomap/Apple Health APP. </p>"
-          }
-        },
-        "slide_3iArAX": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Walking_Pad_Treadmill_TM007_63_1.jpg",
-            "navigation_label": "15% Incline",
-            "subheading": "The Future of Home Gym",
-            "title": "15% Incline Heavy Treadmill Duty-TM007",
-            "content": "<p>Voice Control, LED Console Display, Built in Music Players, 45 *18 Large Area, 95% Assembled; The 0-15% automatic incline treadmill features advanced \"Quiet Drive\" technology for noise-free adjustments, a powerful 3.5 HP motor with a speed range of 0.6-8.7 MPH and a 350 lbs capacity, a spacious 45\"x18\" deck for comfortable strides, easy 10-minute assembly with EasyLift Assist, foldable design with transportation wheels for small spaces, heart rate monitoring through pulse sensors, a large user-friendly LED display for tracking key metrics, and quick incline and speed adjustments via handlebar buttons.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "slide_nJ8j7M",
-        "slide_hBPCMy",
-        "slide_3afaBG",
-        "slide_bhTP4X",
-        "slide_3iArAX"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "#1a1a1a"
-      }
-    },
-    "multiple-images-with-text": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "1664424486a2b084ab-1": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WELLFIT_15_Incline_Foldable_Smart_Treadmill_A_man_running_1600x1600_75e22356-b95a-47c6-8783-c6cd794f65b9.jpg",
-            "image_rotation_degrees": 1.5,
-            "subheading": "",
-            "title": "Revolutionizing Home Gym Experience",
-            "content": "",
-            "button_url": "shopify://products/wellfit-tm007-foldable-auto-incline-treadmill",
-            "button_text": ""
-          }
-        },
-        "1664424486a2b084ab-0": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Walking_Pad_Treadmill_63.jpg",
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "Run with Fun",
-            "content": "",
-            "button_url": "shopify://products/wellfit-tm007-foldable-auto-incline-treadmill",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "1664424486a2b084ab-1",
-        "1664424486a2b084ab-0"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "images_layout": "scattered",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
       }
     },
     "video_QfU4ib": {
@@ -1626,33 +1259,55 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "featured_collection_7m6RhM": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "collection": "0-6-3-8-mph",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Featured collection",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
     }
   },
   "order": [
     "slideshow",
-    "collection-list",
-    "slideshow_HnTbbC",
-    "featured-collection",
-    "scrolling-text",
-    "impact-text",
-    "multiple_images_with_text_AdCXXA",
+    "product_section_custom_LdEcxC",
+    "collection_list_dYmiqY",
+    "slideshow_XcRpwb",
+    "tabbed_collections_yPzrf6",
+    "scrolling_text_L4Dzjy",
+    "impact_text_eKK7ky",
     "media_with_text_mWCmMa",
     "media_with_text_qRX7PH",
     "media_with_text_GXwr3F",
     "timeline_cWhd6g",
     "section_seiper_i67crN",
-    "image-link-blocks",
     "press",
-    "media-grid",
     "before-after-image",
-    "hot-spots",
-    "timeline_PGXFp3",
-    "multiple-images-with-text",
     "video_QfU4ib",
     "multiple_images_with_text_KHe9cz",
     "featured-product",
     "faq",
     "1719172647f283cbe5",
-    "171917911925871ff2"
+    "171917911925871ff2",
+    "featured_collection_7m6RhM"
   ]
 }
