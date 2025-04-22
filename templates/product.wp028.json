@@ -115,17 +115,17 @@
           "type": "product_countdown",
           "settings": {
             "coupoun_enable": true,
-            "heading": "Easter Sale, Ends After",
-            "time": "2025-04-21 15:59:59",
+            "heading": "Spring Sale, Ends After",
+            "time": "2025-04-30 15:59:59",
             "bakc_background": "#ffffff",
             "color_background": "#f83a3a",
             "ending_text": ""
           }
         },
-        "text_BXEj8B": {
+        "text_YjBnAk": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>⚠️ Prices Go Up After 4/20! ⏳ Due to Upcoming Tariff 📈</strong><br/><br/><strong>Lock Your Price Before Price Adjustment 🔒</strong></p>"
+            "text": "<p><strong>⚠️ Prices Go Up After 4/30! ⏳ Due to Upcoming Tariff 📈</strong><br/><br/><strong>Lock Your Price Before Price Adjustment 🔒</strong></p>"
           }
         },
         "variant_picker": {
@@ -169,7 +169,7 @@
         "text_aQWzRm": {
           "type": "text",
           "settings": {
-            "text": "<p>🚚 Estimated Delivery: 📅 19 Apr - 23 Apr 🏃‍♂️</p>"
+            "text": "<p>🚚 Estimated Delivery: 📅 23 Apr - 27 Apr 🏃‍♂️</p>"
           }
         },
         "image_AhPCtP": {
@@ -259,7 +259,7 @@
         "payment_terms",
         "product_variations_X8xFdE",
         "product_countdown_BQhCqR",
-        "text_BXEj8B",
+        "text_YjBnAk",
         "variant_picker",
         "separator",
         "description",
@@ -294,79 +294,14 @@
         "input_text_color": ""
       }
     },
-    "slideshow_nfGrBU": {
-      "type": "slideshow",
-      "blocks": {
-        "image_KyqYFQ": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Tell your story",
-            "title": "Slide 1",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "image_X3QbNe": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BFCM-300_1920X300_560bc7b9-b04a-4ee0-9403-371388125907.jpg",
-            "mobile_image": "shopify://shop_images/BFCM-300_1920x600_b6c976b5-0cf2-4477-a713-f09f9fbf89fb.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "shopify://pages/deals",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_KyqYFQ",
-        "image_X3QbNe"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "show_initial_transition": false,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
-      }
-    },
     "slideshow_Qd9TwL": {
       "type": "slideshow",
       "blocks": {
         "image_NCrq4b": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/easter_banner_style2_1920x300_b8cc24a1-ec2a-40ed-92a6-5485cf74c55f.jpg",
-            "mobile_image": "shopify://shop_images/easter_banner_style2_1920x600_1.jpg",
+            "image": "shopify://shop_images/Spring_sale_banner_1920x300_4478754f-eed4-48f2-a003-54872fd7cd63.jpg",
+            "mobile_image": "shopify://shop_images/Spring_sale_banner_1920x600_b10cb995-44ff-4ec1-945b-d77c68e57a8a.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -462,272 +397,59 @@
         "button_text_color": ""
       }
     },
-    "section_seiper_T83c33": {
-      "type": "Section-seiper",
+    "slideshow_jLXPxn": {
+      "type": "slideshow",
       "blocks": {
-        "image_GtYDxf": {
+        "image_DwUpPf": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/WP011_1_900x1400_6eed730e-7947-456f-b702-363f1a54f0b9.jpg",
-            "bg_color": "rgba(0,0,0,0)",
-            "name": ""
-          }
-        },
-        "image_qxHMXM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WP011-4_900x1400_6fc8b845-f875-4a47-8dcb-be94d0024094.jpg",
-            "bg_color": "rgba(0,0,0,0)",
-            "name": ""
-          }
-        },
-        "image_cjnPP8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WP011-3_900x1400_2ce03b25-576f-4023-9624-d05e989fcadc.jpg",
-            "bg_color": "rgba(0,0,0,0)",
-            "name": ""
-          }
-        },
-        "image_Viz87D": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WP011-8_900x1400_afa3d798-231e-4997-b6a6-7d958b37188c.jpg",
-            "bg_color": "rgba(0,0,0,0)",
-            "name": ""
-          }
-        },
-        "image_UcttjK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WP011-1_900x1400_1ae104ea-e6b0-467e-bdc7-118f89a3690f.jpg",
-            "bg_color": "rgba(0,0,0,0)",
-            "name": ""
-          }
-        },
-        "image_6FaCMB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/WP011_2_900x1400_8cc6a943-3f3a-4dcd-98aa-e262ddd06a97.jpg",
-            "bg_color": "rgba(0,0,0,0)",
-            "name": ""
-          }
-        },
-        "image_tN88KD": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/WP011-7_900x1400_f5c0941b-74b4-4fcf-a921-1c7f74234b58.jpg",
-            "bg_color": "rgba(0,0,0,0)",
-            "name": ""
+            "image": "shopify://shop_images/WP028_application_scenario_pc_89a22122-8f1c-4683-8903-46969c234b3f.jpg",
+            "mobile_image": "shopify://shop_images/WP028_application_scenario_mb_e3f3cb07-ad2f-43d7-8f4c-2f02695465a0.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "image_GtYDxf",
-        "image_qxHMXM",
-        "image_cjnPP8",
-        "image_Viz87D",
-        "image_UcttjK",
-        "image_6FaCMB",
-        "image_tN88KD"
-      ],
-      "disabled": true,
-      "settings": {
-        "infinte": "30",
-        "heading": "WELLFIT IN MOVE",
-        "text_color": "#f0c417",
-        "subheading": "Unlock the freedom to run anywhere & anytime! Discover joy in every step on your treamill journey.No need for a gym membership to the gym because you can get in shape at home! 10000 Steps Have Never Been This Easy！",
-        "subheading_color": "#000000",
-        "background_color": ""
-      }
-    },
-    "image_link_blocks_aBQYTC": {
-      "type": "image-link-blocks",
-      "blocks": {
-        "item_ekyprU": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WP011_1_900x1400_49e3428c-c253-4b21-8a6f-9f50430e89b1.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_pxWxCV": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WP011-4_900x1400_6fc8b845-f875-4a47-8dcb-be94d0024094.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_bUKyy9": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WP011-3_900x1400_2ce03b25-576f-4023-9624-d05e989fcadc.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_qabLBQ": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WP011-8_900x1400_afa3d798-231e-4997-b6a6-7d958b37188c.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_EkLDfU": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WP011-1_900x1400_1ae104ea-e6b0-467e-bdc7-118f89a3690f.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_t4YDnn": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WP011_2_900x1400_8cc6a943-3f3a-4dcd-98aa-e262ddd06a97.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_tMjYcA": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/WP011-7_900x1400_f5c0941b-74b4-4fcf-a921-1c7f74234b58.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "item_ekyprU",
-        "item_pxWxCV",
-        "item_bUKyy9",
-        "item_qabLBQ",
-        "item_EkLDfU",
-        "item_t4YDnn",
-        "item_tMjYcA"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "block_size": "medium",
-        "subheading": "",
-        "title": "WELLFIT IN MOVE",
-        "content": "<p>Scroll Left and right to see</p>",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
-    "1718955980dd40a6fc": {
-      "type": "apps",
-      "blocks": {
-        "reelup_shoppable_videos_reels_reelup_playlist_NzzhyM": {
-          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup-playlist/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
-          "settings": {
-            "playlist_id": "rl_pl_5296",
-            "debugging_script": ""
-          }
-        }
-      },
-      "block_order": [
-        "reelup_shoppable_videos_reels_reelup_playlist_NzzhyM"
+        "image_DwUpPf"
       ],
       "disabled": true,
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "video_4THBNx": {
-      "type": "video",
-      "blocks": {
-        "play_xqXRYX": {
-          "type": "play",
-          "settings": {}
-        },
-        "heading_gkajGn": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "play_xqXRYX",
-        "heading_gkajGn"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
         "autoplay": false,
-        "video_size": "auto",
-        "external_video_url": "https://www.youtube.com/watch?v=QeDPuW0HBrQ",
-        "poster": "shopify://shop_images/WP021_video_banner.jpg",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
       }
     },
-    "image_with_text_overlay_KWfVFQ": {
+    "image_with_text_overlay_AKn3hH": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "subheading_gFX7dL": {
+        "subheading_tnMLYV": {
           "type": "subheading",
           "settings": {
             "text": ""
           }
         },
-        "heading_fLKwfx": {
+        "heading_M8riLr": {
           "type": "heading",
           "disabled": true,
           "settings": {
@@ -735,7 +457,7 @@
             "heading_tag": "h3"
           }
         },
-        "richtext_XrzfcT": {
+        "richtext_PYpfkd": {
           "type": "richtext",
           "settings": {
             "content": ""
@@ -743,9 +465,9 @@
         }
       },
       "block_order": [
-        "subheading_gFX7dL",
-        "heading_fLKwfx",
-        "richtext_XrzfcT"
+        "subheading_tnMLYV",
+        "heading_M8riLr",
+        "richtext_PYpfkd"
       ],
       "settings": {
         "full_width": false,
@@ -844,17 +566,17 @@
         "overlay_opacity": 0
       }
     },
-    "rich_text_pWAdff": {
+    "rich_text_V7WMQn": {
       "type": "rich-text",
       "blocks": {
-        "subheading_MbGTqz": {
+        "subheading_DRyMDU": {
           "type": "subheading",
           "disabled": true,
           "settings": {
             "text": "Subheading"
           }
         },
-        "heading_V4WUUV": {
+        "heading_q6NkDt": {
           "type": "heading",
           "settings": {
             "text": "Multiple APP Supportive",
@@ -863,7 +585,7 @@
             "gradient": ""
           }
         },
-        "richtext_D9VNn3": {
+        "richtext_VYHPkx": {
           "type": "richtext",
           "settings": {
             "content": "<p>Our treadmills support multiple fitness apps like<strong>Kinomap</strong>,<strong>Zwift</strong>,<strong>Wellfit</strong>and<strong>App le Health</strong>, allowing you to easily track progress and enhance your workouts with seamless integration. Stay motivated and connected to your fitness goals with ease.</p>"
@@ -871,92 +593,9 @@
         }
       },
       "block_order": [
-        "subheading_MbGTqz",
-        "heading_V4WUUV",
-        "richtext_D9VNn3"
-      ],
-      "settings": {
-        "full_width": true,
-        "content_width": "medium",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "image_with_text_overlay_prFw6Q": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "subheading_zepGyb": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_WYeT9U": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Meet Better Self Now",
-            "heading_tag": "h3"
-          }
-        },
-        "richtext_XC3qP3": {
-          "type": "richtext",
-          "settings": {
-            "content": ""
-          }
-        }
-      },
-      "block_order": [
-        "subheading_zepGyb",
-        "heading_WYeT9U",
-        "richtext_XC3qP3"
-      ],
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/WP028_multiple_APPs_support_pc.jpg",
-        "mobile_image": "shopify://shop_images/WP028_multiple_APPs_support_mb.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "rich_text_gir7eV": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_Mw6RjT": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_gU4GRN": {
-          "type": "heading",
-          "settings": {
-            "text": "Easy to Move, Simple to Store",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_gGHLeE": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Weighing just <strong>29.5 lbs</strong> and measuring <strong>43 x 18 x 4.9 inches</strong>, it's easy to move and store. Slide it under the bed, lean it against the wall—no hassle, no heavy lifting.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_Mw6RjT",
-        "heading_gU4GRN",
-        "richtext_gGHLeE"
+        "subheading_DRyMDU",
+        "heading_q6NkDt",
+        "richtext_VYHPkx"
       ],
       "settings": {
         "full_width": true,
@@ -1000,6 +639,89 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/WP028_multiple_APPs_support_pc.jpg",
+        "mobile_image": "shopify://shop_images/WP028_multiple_APPs_support_mb.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_TURh6B": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_eBfNaL": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_bCWLJq": {
+          "type": "heading",
+          "settings": {
+            "text": "Easy to Move, Simple to Store",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_hy9HLJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Weighing just <strong>29.5 lbs</strong> and measuring <strong>43 x 18 x 4.9 inches</strong>, it's easy to move and store. Slide it under the bed, lean it against the wall—no hassle, no heavy lifting.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_eBfNaL",
+        "heading_bCWLJq",
+        "richtext_hy9HLJ"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_6B9dYy": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_8xNJhA": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_MCrPn6": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Meet Better Self Now",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_bEaw6w": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_8xNJhA",
+        "heading_MCrPn6",
+        "richtext_bEaw6w"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
         "image": "shopify://shop_images/WP028_easy_to_store_and_move_walking_pad_pc.jpg",
         "mobile_image": "shopify://shop_images/WP028_easy_to_store_and_move_walking_pad_mb_9371bc03-31d6-4ef2-84c0-f020aff2e17b.jpg",
         "mobile_text_position": "place-self-center text-center",
@@ -1009,17 +731,17 @@
         "overlay_opacity": 0
       }
     },
-    "rich_text_3ET7A3": {
+    "rich_text_XBDKEB": {
       "type": "rich-text",
       "blocks": {
-        "subheading_dUYzgf": {
+        "subheading_CpDmUR": {
           "type": "subheading",
           "disabled": true,
           "settings": {
             "text": "Subheading"
           }
         },
-        "heading_pDE9pW": {
+        "heading_JEt9DT": {
           "type": "heading",
           "settings": {
             "text": "Stay Active, Stay Silent",
@@ -1028,7 +750,7 @@
             "gradient": ""
           }
         },
-        "richtext_yGL3Qf": {
+        "richtext_iTJXUX": {
           "type": "richtext",
           "settings": {
             "content": "<p>With <strong>one-touch mute mode</strong>, our walking pad lets you stay active without the noise. Whether you're working, watching TV, or relaxing with family, your fitness routine won’t interrupt a thing.</p>"
@@ -1036,12 +758,12 @@
         }
       },
       "block_order": [
-        "subheading_dUYzgf",
-        "heading_pDE9pW",
-        "richtext_yGL3Qf"
+        "subheading_CpDmUR",
+        "heading_JEt9DT",
+        "richtext_iTJXUX"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "content_width": "medium",
         "text_position": "center",
         "background": "",
@@ -1049,23 +771,24 @@
         "text_color": ""
       }
     },
-    "image_with_text_overlay_67bz8C": {
+    "image_with_text_overlay_kXaCUm": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "subheading_PKgtdF": {
+        "subheading_nGBDP8": {
           "type": "subheading",
           "settings": {
             "text": ""
           }
         },
-        "heading_wgGnqj": {
+        "heading_84tqtx": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "text": "",
-            "heading_tag": "h1"
+            "text": "Meet Better Self Now",
+            "heading_tag": "h3"
           }
         },
-        "richtext_Wckxn3": {
+        "richtext_DYpEdE": {
           "type": "richtext",
           "settings": {
             "content": ""
@@ -1073,9 +796,9 @@
         }
       },
       "block_order": [
-        "subheading_PKgtdF",
-        "heading_wgGnqj",
-        "richtext_Wckxn3"
+        "subheading_nGBDP8",
+        "heading_84tqtx",
+        "richtext_DYpEdE"
       ],
       "settings": {
         "full_width": false,
@@ -1089,6 +812,37 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "video_4THBNx": {
+      "type": "video",
+      "blocks": {
+        "play_xqXRYX": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_gkajGn": {
+          "type": "heading",
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_xqXRYX",
+        "heading_gkajGn"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
     "media_with_text_hpgHkz": {
@@ -1105,7 +859,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Spacious Running Area",
-            "content": "<p>With a <strong>15.2\" x 36.8\" deck</strong> and <strong>265 lbs capacity</strong>, this walking pad offers plenty of space to walk <strong>comfortably and safely</strong>. The <strong>1–4 mph speed range</strong> makes it perfect for everything from <strong>light strolls to steady walks</strong>, whether you're staying active at work or recovering at home.</p>",
+            "content": "<p>With a <strong>15.2\" x 36.8\" deck</strong> and <strong>265 lbs capacity</strong>, this walking pad offers plenty of space to walk <strong>comfortably and safely</strong>. The <strong>1–4 mph speed range</strong> makes it perfect for everything from <strong>light strolls to steady walks</strong>, whether you're staying active at work or recovering at home.<br/><br/></p>",
             "link_text": "",
             "link_url": "",
             "background": "#f0f0f0",
@@ -1139,7 +893,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Joint-Friendly Shock Absorption Deck",
-            "content": "<p>The <strong>5-layer running belt</strong> is designed to <strong>reduce impact on your knees and joints</strong>, providing a <strong>smooth, cushioned walking experience</strong>. Whether you're taking a slow stroll or increasing your pace, the <strong>shock-absorbing deck</strong> helps protect your knees, making every step <strong>gentler and more comfortable</strong>.</p>",
+            "content": "<p>The <strong>5-layer running belt</strong> is designed to <strong>reduce impact on your knees and joints</strong>, providing a <strong>smooth, cushioned walking experience</strong>. Whether you're taking a slow stroll or increasing your pace, the <strong>shock-absorbing deck</strong> helps protect your knees, making every step <strong>gentler and more comfortable</strong>.<br/><br/></p>",
             "link_text": "",
             "link_url": "",
             "background": "#f0f0f0",
@@ -1159,46 +913,150 @@
         "spacing": "small"
       }
     },
-    "slideshow_jLXPxn": {
-      "type": "slideshow",
+    "image_with_text_overlay_bd67Xp": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "image_DwUpPf": {
-          "type": "image",
+        "subheading_npWLCE": {
+          "type": "subheading",
           "settings": {
-            "image": "shopify://shop_images/WP028_package_list_pc.jpg",
-            "mobile_image": "shopify://shop_images/WP028_package_list_mb_c142942b-d2de-4739-b721-9d108d2ce334.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
+            "text": ""
+          }
+        },
+        "heading_bRAxcw": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Meet Better Self Now",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_9iHUFW": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
           }
         }
       },
       "block_order": [
-        "image_DwUpPf"
+        "subheading_npWLCE",
+        "heading_bRAxcw",
+        "richtext_9iHUFW"
       ],
       "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "show_initial_transition": false,
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
         "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
+        "image": "shopify://shop_images/WP028_package_list_pc.jpg",
+        "mobile_image": "shopify://shop_images/WP028_package_list_mb_c142942b-d2de-4739-b721-9d108d2ce334.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "media_with_text_Ve9YBT": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_hM39Jd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP023_walkingpadwithremotecontrol.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Effortless Control at Your Fingertips",
+            "content": "<p>The built-in <strong>LCD display</strong> on our walking pad keeps you informed with <strong>real-time data</strong> on your <strong>time, speed, calories burned, and distance traveled</strong>. Whether you're tracking progress toward your fitness goals or just staying active while working, you'll always have a clear view of your performance. Plus, with the <strong>convenient remote control</strong>, adjusting your speed is as easy as pressing a button—no interruptions, just seamless movement at your own pace.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_hM39Jd"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_9adn4m": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_x4zThT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP023_quiet_walking_pad.1.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Quiet Quality Brushless Motor",
+            "content": "<p>Powerful yet whisper-quiet, our <strong>brushless motor </strong>ensures a smooth and steady performance with minimal noise. Experience efficient, long-lasting operation—perfect for home or office use without disturbing others. Enjoy your workout in peace!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_x4zThT"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "video_VJ9y7K": {
+      "type": "video",
+      "blocks": {
+        "play_RkMV7y": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_ELd8th": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "See How it Performs",
+            "heading_tag": "h6"
+          }
+        }
+      },
+      "block_order": [
+        "play_RkMV7y",
+        "heading_ELd8th"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
         "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
+        "video_size": "auto",
+        "external_video_url": "https://youtu.be/ilmm6iOLAbA",
+        "poster": "shopify://shop_images/maxresdefault.jpg",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "specification_table_6LQr9b": {
@@ -1493,10 +1351,10 @@
         "accordion_text_color": ""
       }
     },
-    "1744966664a4cecf5f": {
+    "1744961683f6fc6ed0": {
       "type": "apps",
       "blocks": {
-        "reelup_shoppable_videos_reels_reelup_playlist_THcXjt": {
+        "reelup_shoppable_videos_reels_reelup_playlist_bgADGr": {
           "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup-playlist/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
           "settings": {
             "playlist_id": "rl_pl_15772",
@@ -1505,7 +1363,7 @@
         }
       },
       "block_order": [
-        "reelup_shoppable_videos_reels_reelup_playlist_THcXjt"
+        "reelup_shoppable_videos_reels_reelup_playlist_bgADGr"
       ],
       "settings": {
         "full_width": true,
@@ -1561,28 +1419,28 @@
   },
   "order": [
     "main",
-    "slideshow_nfGrBU",
     "slideshow_Qd9TwL",
     "impact_text_FAjp4M",
-    "section_seiper_T83c33",
-    "image_link_blocks_aBQYTC",
-    "1718955980dd40a6fc",
-    "video_4THBNx",
-    "image_with_text_overlay_KWfVFQ",
+    "slideshow_jLXPxn",
+    "image_with_text_overlay_AKn3hH",
     "rich_text_Gytztt",
     "image_with_text_overlay_VgLRCE",
-    "rich_text_pWAdff",
-    "image_with_text_overlay_prFw6Q",
-    "rich_text_gir7eV",
+    "rich_text_V7WMQn",
     "image_with_text_overlay_x8paT7",
-    "rich_text_3ET7A3",
-    "image_with_text_overlay_67bz8C",
+    "rich_text_TURh6B",
+    "image_with_text_overlay_6B9dYy",
+    "rich_text_XBDKEB",
+    "image_with_text_overlay_kXaCUm",
+    "video_4THBNx",
     "media_with_text_hpgHkz",
     "media_with_text_WmCAqD",
-    "slideshow_jLXPxn",
+    "image_with_text_overlay_bd67Xp",
+    "media_with_text_Ve9YBT",
+    "media_with_text_9adn4m",
+    "video_VJ9y7K",
     "specification_table_6LQr9b",
     "accordion_content_k7PhRH",
-    "1744966664a4cecf5f",
+    "1744961683f6fc6ed0",
     "related-products",
     "1718955843b44b6ff3"
   ]

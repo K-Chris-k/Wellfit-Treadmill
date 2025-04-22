@@ -81,17 +81,17 @@
           "type": "product_countdown",
           "settings": {
             "coupoun_enable": true,
-            "heading": "Easter Sale, Ends After",
-            "time": "2025-04-21 15:59:59",
+            "heading": "Spring Sale, Ends After",
+            "time": "2025-04-30 15:59:59",
             "bakc_background": "#ffffff",
             "color_background": "#f83a3a",
             "ending_text": ""
           }
         },
-        "text_grxAyC": {
+        "text_pUkxJg": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>⚠️ Prices Go Up After 4/20! ⏳ Due to Upcoming Tariff 📈</strong><br/><br/><strong>Lock Your Price Before Price Adjustment 🔒</strong></p>"
+            "text": "<p><strong>⚠️ Prices Go Up After 4/30! ⏳ Due to Upcoming Tariff 📈</strong><br/><br/><strong>Lock Your Price Before Price Adjustment 🔒</strong></p>"
           }
         },
         "code_TfcEaQ": {
@@ -159,7 +159,7 @@
         "text_493dPM": {
           "type": "text",
           "settings": {
-            "text": "<p>🚚 Estimated Delivery: 📅 19 Apr - 23 Apr 🏃‍♂️</p>"
+            "text": "<p>🚚 Estimated Delivery: 📅 23 Apr - 27 Apr 🏃‍♂️</p>"
           }
         },
         "image_zQz6kc": {
@@ -200,7 +200,7 @@
         "text_hNQQVe": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Presale </strong>☎️<strong>Hotline: +1(281)777-8190</strong></p><p><strong>Calling Open Time: PST 9:00AM-3:00PM(Mon-Fri)</strong></p><p><strong>Contact Email: service@wellfittreadmill.com<br/><br/>Fast delivery in 1-5 days, shipped from California, Georgia, Texas</strong> <strong>and New Jersey</strong></p>"
+            "text": "<p><strong>Presale </strong>☎️<strong>Hotline: +1(281)777-8190</strong></p><p><strong>Calling Open Time: PST 9:00AM-3:00PM(Mon-Fri)</strong></p><p><strong>Contact Email: service@wellfittreadmill.com<br/><br/>Fast delivery in 1-5 days, shipped from California, Georgia, Texas and New Jersey</strong></p>"
           }
         },
         "collapsible_text_fteNwP": {
@@ -271,7 +271,7 @@
         "variant_picker",
         "product_variations_X8xFdE",
         "product_countdown_YmMKae",
-        "text_grxAyC",
+        "text_pUkxJg",
         "code_TfcEaQ",
         "payment_terms",
         "separator",
@@ -337,8 +337,8 @@
         "image_bTFhpc": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/easter_banner_style2_1920x300_b8cc24a1-ec2a-40ed-92a6-5485cf74c55f.jpg",
-            "mobile_image": "shopify://shop_images/easter_banner_style2_1920x600_1.jpg",
+            "image": "shopify://shop_images/Spring_sale_banner_1920x300_4478754f-eed4-48f2-a003-54872fd7cd63.jpg",
+            "mobile_image": "shopify://shop_images/Spring_sale_banner_1920x600_b10cb995-44ff-4ec1-945b-d77c68e57a8a.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
