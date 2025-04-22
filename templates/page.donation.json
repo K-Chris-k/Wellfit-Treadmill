@@ -1,0 +1,465 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "media_with_text_d8GR9P": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_4qD8gU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IG_Montana_Nicole-_1000x1000_09a08681-dc02-4a5d-8e2f-b659c7866b2b.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "We Care About Our Society",
+            "content": "<p>WELLFIT aim to be a relentless force for a world of longer, healthier lives. As we move into the second century of our work, we are advancing health and hope for everyone, everywhere. At WELLFIT Treadmill, we care about society. We are proud to collaborate with many charities and make donations to causes that we believe in. By striving to make a positive impact on society through staying active via movement, we hope to add an extra level of value to the walking pad treadmill you choose.</p>",
+            "link_text": "Scroll Down To Learn More About Our Impact",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4qD8gU"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "rich_text_k9Lz8D": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_yd9ijb": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_tBMm9y": {
+          "type": "heading",
+          "settings": {
+            "text": "What We've Accomplished",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_4PetBw": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We've partered with <a href=\"https://www.heart.org/\" target=\"_blank\" title=\"https://www.heart.org/\">AHC(American Heart Association)</a> and <a href=\"https://www.obesityaction.org/\" target=\"_blank\" title=\"https://www.obesityaction.org/\">OAC(obesity Action Coalition)</a> to donate $0.2 from every orders on your(WELLFIT Walking Pad Treadmill Users) behalf for every walking pad treadmill delivered. <strong>There's no extra cost from your side. WELLFIT will take part of WELLFIT's own profit to support this program and we can have more ability to support this program more when we have more orders on this website.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yd9ijb",
+        "heading_tBMm9y",
+        "richtext_4PetBw"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_bGV86Y": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_AUyHqb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/AHA_America_Heart_Rate_Association.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Taking care of people",
+            "content": "<p>WELLFIT Treadmill have partnered with <a href=\"https://www.heart.org/\" target=\"_blank\" title=\"https://www.heart.org/\">American Heart Association</a> and are donating $0.1 from every order to help fund research andlifesaving programs like high blood pressure screening. We're supporting communities to truly conquer significant challenges and discover the benefits a treadmill can provide.</p>",
+            "link_text": "Learn More About AHC",
+            "link_url": "",
+            "background": "#c10e21",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_AUyHqb"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "multi_column_RNyUj3": {
+      "type": "multi-column",
+      "blocks": {
+        "item_kXUUUX": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "19 Million+",
+            "heading_tag": "h1",
+            "content": "<p>High blood pressure patients helped; Their high blood pressure quality care initiative ensures lifesaving care for people at risk for heart disease.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_43VJDH": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "$ 5 Billion+",
+            "heading_tag": "h1",
+            "content": "<p>Invested in pioneering research leading to lifesaving breakthroughs; They've funded more heart, brain and cardiovascular research than any non-profit U.S. organization except the federal government.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_gRWjGK": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "22 Million",
+            "heading_tag": "h1",
+            "content": "<p>People trained in CPR every year<br/>9 out of 10 people who have a cardiac arrest outside of the hospital die. If performed<br/>immediately, CPR can double or triple a person's chances of survival.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_kXUUUX",
+        "item_43VJDH",
+        "item_gRWjGK"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": true,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "How AHC are changing the future of health together",
+        "content": "<p>Since the American Heart Association's founding in 1924, deaths from cardiovascular diseases have been cut in half.  And yet, there are still so many lives to be saved. By driving breakthroughs in science, policy and care, together we can continue to advance health and transfornn lives every day.</p>",
+        "background": "#c10e21",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "impact_text_d7EFJM": {
+      "type": "impact-text",
+      "blocks": {
+        "item_4mwpEK": {
+          "type": "item",
+          "settings": {
+            "title": "19 Million+",
+            "subheading": "",
+            "content": "<p>High blood pressure patients helped; Their high blood pressure quality care initiative ensures lifesaving care for people at risk for heart disease.</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_MJFneY": {
+          "type": "item",
+          "settings": {
+            "title": "$ 5 Billion+",
+            "subheading": "",
+            "content": "<p>Invested in pioneering research leading to lifesaving breakthroughs; They've funded more heart, brain and cardiovascular research than any non-profit U.S. organization except the federal government.</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": false,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_RnE87G": {
+          "type": "item",
+          "settings": {
+            "title": "22 Million",
+            "subheading": "",
+            "content": "<p>People trained in CPR every year<br/>9 out of 10 people who have a cardiac arrest outside of the hospital die. If performed<br/>immediately, CPR can double or triple a person's chances of survival.</p>",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_4mwpEK",
+        "item_MJFneY",
+        "item_RnE87G"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "none",
+        "impact_text_size_ratio": 1,
+        "background": "#c10e21",
+        "background_gradient": "",
+        "heading_text_color": "",
+        "heading_gradient": "",
+        "text_color": "#ffffff",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "media_with_text_LQH9bA": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_nQNCzw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/OAC_Community.png",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Stop Weight Bias",
+            "content": "<p>Putting a stop to weight bias and pushing equality forward to build a better world, free of weight bias, where everyone is treated with dignity and respect.</p>",
+            "link_text": "Learn More About OAC",
+            "link_url": "",
+            "background": "#c10e21",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nQNCzw"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "multi_column_UGFVnG": {
+      "type": "multi-column",
+      "blocks": {
+        "item_KwzNA3": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h1",
+            "content": "<ul><li>All individuals are treated with respect and without discrimination or bias regardless of their size or weight;</li></ul>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_JLm7nF": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h1",
+            "content": "<ul><li>Those affected by the disease of obesity have the right to access safe and effective treatment options;</li></ul>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_qirXA8": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h1",
+            "content": "<ul><li>All individuals understand that when it comes to health, Your Weight Matters.</li></ul>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_KwzNA3",
+        "item_JLm7nF",
+        "item_qirXA8"
+      ],
+      "settings": {
+        "full_width": false,
+        "stack_on_mobile": true,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "How OAC are changing the future of health together",
+        "content": "<p>As one of the nation’s leading voices on obesity, their core focuses are to raise awareness and improve access to the prevention and treatment of obesity, provide science-based education on obesity and its treatments, fight to eliminate weight bias and discrimination, elevate the conversation of weight and its impact on health and offer a community of support for the individual affected. The mission of the <a href=\"https://www.obesityaction.org/\" target=\"_blank\" title=\"https://www.obesityaction.org/\">OAC</a> is to elevate and empower those affected by obesity through education, advocacy and support. They want to help create a society where:</p><p></p>",
+        "background": "#c10e21",
+        "background_gradient": "",
+        "text_color": "#ffffff"
+      }
+    },
+    "section_seiper_KMxcfC": {
+      "type": "Section-seiper",
+      "blocks": {
+        "image_XThhfg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP009-pink-5_900x1400_3082255d-5585-4973-b596-335076792d26.jpg",
+            "bg_color": "#f2edff",
+            "name": ""
+          }
+        },
+        "image_f9CCGQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP009-27_900X1400_523cb04d-07fe-461b-a2e9-e87426f18cab.jpg",
+            "bg_color": "#f2edff",
+            "name": ""
+          }
+        },
+        "image_Bdz96c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP009_mariasol7126_900x1400_d9aa205c-718d-49f5-9089-1a513c7facb0.jpg",
+            "bg_color": "#f2edff",
+            "name": ""
+          }
+        },
+        "image_8EtmQN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP011_1_900x1400_49e3428c-c253-4b21-8a6f-9f50430e89b1.jpg",
+            "bg_color": "#f2edff",
+            "name": ""
+          }
+        },
+        "image_kCbwnp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM010-27_900x1400_3fb2d3dc-0e87-41da-9607-98982491d072.jpg",
+            "bg_color": "#f2edff",
+            "name": ""
+          }
+        },
+        "image_Ra6jeL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP009-52_900X1400_6b705078-3f80-410e-a405-fa6c09e0b4e0.jpg",
+            "bg_color": "#f2edff",
+            "name": ""
+          }
+        },
+        "image_UG3PY8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP009-49_900X1400_1b92535d-6574-4c14-b838-95c2344bba7e.jpg",
+            "bg_color": "#f2edff",
+            "name": ""
+          }
+        },
+        "image_BCbpMF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP009-45_900X1400_726b077c-8bed-4333-b837-ec64ad900f5f.jpg",
+            "bg_color": "#f2edff",
+            "name": ""
+          }
+        },
+        "image_WgKjbf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP009-5_900x1400_9cec6d1e-8fff-4c08-bba8-ca20931091f5.jpg",
+            "bg_color": "#f2edff",
+            "name": ""
+          }
+        },
+        "image_UEMbVg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP009_PINK_900x1400_5483eb1c-9eb7-452d-bbf6-0b48b28fb506.jpg",
+            "bg_color": "#f2edff",
+            "name": ""
+          }
+        },
+        "image_eVNDxd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP009-22_900X1400_579537fb-bb7e-4124-9f60-13cad3703d8c.jpg",
+            "bg_color": "#f2edff",
+            "name": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_XThhfg",
+        "image_f9CCGQ",
+        "image_Bdz96c",
+        "image_8EtmQN",
+        "image_kCbwnp",
+        "image_Ra6jeL",
+        "image_UG3PY8",
+        "image_BCbpMF",
+        "image_WgKjbf",
+        "image_UEMbVg",
+        "image_eVNDxd"
+      ],
+      "settings": {
+        "infinte": "30",
+        "heading": "WELLFIT IN MOVE",
+        "text_color": "#f0c417",
+        "subheading": "Unlock the freedom to run anywhere & anytime! Discover joy in every step on your treadmill journey.No need for a gym membership or traveling to the gym because you can get in shape at home!   10000 Steps Have Never Been This Easy!",
+        "subheading_color": "#1a1a1a",
+        "background_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "media_with_text_d8GR9P",
+    "rich_text_k9Lz8D",
+    "media_with_text_bGV86Y",
+    "multi_column_RNyUj3",
+    "main",
+    "impact_text_d7EFJM",
+    "media_with_text_LQH9bA",
+    "multi_column_UGFVnG",
+    "section_seiper_KMxcfC"
+  ]
+}

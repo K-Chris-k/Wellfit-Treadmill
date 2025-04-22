@@ -1,0 +1,253 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "specification_table_7kqLYb": {
+      "type": "specification-table",
+      "blocks": {
+        "row_9HKHyT": {
+          "type": "row",
+          "settings": {
+            "heading": "(0%APR)Afterpay",
+            "value": "<p>4 Interest-free Installments Available</p>"
+          }
+        },
+        "row_aEfNPz": {
+          "type": "row",
+          "settings": {
+            "heading": "Transparent",
+            "value": "<p>Afterpay will inform you in advance of the total amount to be paid before you confirm.This number will never increase.</p>"
+          }
+        },
+        "row_dyTb46": {
+          "type": "row",
+          "settings": {
+            "heading": "Flexible",
+            "value": "<p>Choose the payment schedule that works best for you, at yourown pace.</p>"
+          }
+        },
+        "row_8g6TBh": {
+          "type": "row",
+          "settings": {
+            "heading": "Fair",
+            "value": "<p>Afterpay will never charge you late fees or penalties ofany kind.</p>"
+          }
+        },
+        "row_TzcPtF": {
+          "type": "row",
+          "settings": {
+            "heading": "☎️Hotline",
+            "value": "<p>Calling:+1(281)777-8190</p><p>Calling Open Time: PST 9:00AM-3:00PM(Mon-Sat)</p>"
+          }
+        },
+        "row_EJE4By": {
+          "type": "row",
+          "settings": {
+            "heading": "✉️Contact Email:",
+            "value": "<p>service@wellfittreadmill.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_9HKHyT",
+        "row_aEfNPz",
+        "row_dyTb46",
+        "row_8g6TBh",
+        "row_TzcPtF",
+        "row_EJE4By"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "subheading": "Learn more",
+        "title": "Buy With Confidence.",
+        "content": "<p>With Afterpay, you always know exactly what you'l owe and when you'll be donepaying.If you have any questions, please contact us</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 6,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "background": "#000000",
+        "background_gradient": "linear-gradient(306deg, rgba(198, 198, 198, 1), rgba(37, 37, 37, 1) 100%)",
+        "text_color": "#ffffff",
+        "heading_color": "#ffffff",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "#ffffff",
+        "chart_text_color": "#000000",
+        "chart_true_false_color": "#000000"
+      }
+    },
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "blocks": {
+        "customer-support": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon": "shopify://shop_images/faqs-2.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Customer Service",
+            "content": "<p>Any questions contact us by livechat or email to service@wellfittreadmill.com or call us at Phone: +1 (281) 777-8190</p>"
+          }
+        },
+        "discount": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/Warranty.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "24-36 Month Free Warranty",
+            "content": "<p>Professional hassle-free after-sale service team</p>"
+          }
+        },
+        "free-shipping": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "custom_icon": "shopify://shop_images/shipping.png",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Free Shipping",
+            "content": "<p>1-5 day delivery to the continental US</p>"
+          }
+        },
+        "payment": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-lock",
+            "custom_icon": "shopify://shop_images/WELLFIT_payment_plans_500x500_c48462dd-1e8c-4235-84fc-e0c8d6b386fd.jpg",
+            "mobile_icon_width": 120,
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Flexible & Secure payment",
+            "content": "<p>We support flexible paymant plans</p>"
+          }
+        },
+        "item_iXqFjL": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/refund.png",
+            "mobile_icon_width": 76,
+            "icon_width": 76,
+            "icon_background_type": "circle",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "30-Day Return & Refund",
+            "content": "<p>Don't love it, send it back to us.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "customer-support",
+        "discount",
+        "free-shipping",
+        "payment",
+        "item_iXqFjL"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h6",
+        "text_alignment": "center",
+        "icon_spacing": "small",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "image_width": 150,
+            "heading_size": "h3",
+            "title": "Subscribe to News",
+            "content": "<p>Get up to $500 off after your first subscription.You will receive information about our event discounts as soon as possible.</p><p>Our Phone: +1 (281) 777-8190</p>"
+          }
+        },
+        "links_xJVrLK": {
+          "type": "links",
+          "settings": {
+            "menu": "products",
+            "show_menu_title": true,
+            "menu_title": "Products"
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "About",
+            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "enable_follow_on_shop": true
+          }
+        },
+        "links_wp9zbB": {
+          "type": "links",
+          "settings": {
+            "menu": "brand",
+            "show_menu_title": true,
+            "menu_title": "Explore"
+          }
+        }
+      },
+      "block_order": [
+        "newsletter",
+        "links_xJVrLK",
+        "links",
+        "text",
+        "links_wp9zbB"
+      ],
+      "settings": {
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "specification_table_7kqLYb",
+    "text-with-icons",
+    "footer"
+  ]
+}

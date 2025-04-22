@@ -1,0 +1,707 @@
+{%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
+
+<style>
+    svg#Layer_1 {
+    width: 36px;
+
+}
+
+  @media (min-width: 768px) {
+    .md\:tw-w-1\/3 {
+        width: 33.333333%;
+    }
+}
+  .payment-imgs{
+    padding:6px 0;
+     display: flex;
+     align-items: center;
+  }
+  .tw-w-full{
+    font-size:22px;
+  }
+  .tw-flex{
+        display: flex;
+  }
+  .tw-flex-wrap{
+        flex-wrap: wrap;
+  }
+  .tw-items-center{
+        align-items: center;
+  }
+  .coupon svg {
+    cursor: pointer;
+  }
+  .new_code {
+
+    gap: 20px;
+  }
+  p.custom-modal-text {
+    display: flex;
+  }
+  .coupon {
+    display: contents;
+  }
+  p.custom-modal-text span {
+    margin-left: 10px;
+  }
+  .custom-modal {
+    display: none;
+    position: fixed;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 99;
+  }
+  .countdownLbl {
+    border: 1px solid #dddddd;
+    width: 65px;
+    height: 60px;
+}
+.p-3 {
+    padding: .75rem;
+}
+.countdown-timer-container .countdown-timer-day, .countdown-timer-container .countdown-timer-hour, .countdown-timer-container .countdown-timer-minute, .countdown-timer-container .countdown-timer-sec, .countdown-timer-container div {
+        font-size: 20px;
+        line-height: 1;
+    }
+    .uppercase {
+    text-transform: uppercase;
+}
+.countdown-timer-container {
+    display: flex;
+    gap: 16px;
+}
+.uppercase.font-medium.text-xs.text-center.mt-2 {
+    margin-top: 4px;
+}
+.product-title {
+    font-size: 22px;
+    font-weight: 600;
+}
+  @media (max-width: 768px) {
+    .product-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+    .gifts_item .gift_img {
+      width: 50%;
+    }
+    p.custom-modal-text span {
+      margin-left: 10px;
+      font-size: 14px;
+    }
+    .custom-modal {
+      width: 65%;
+      padding: 10px;
+    }
+    .coupon svg {
+      width: 90% !important;
+    }
+    .new_code {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+  }
+</style>
+
+<safe-sticky class="product-info">
+  {%- for block in section.blocks -%}
+    {%- assign previous_block_index = forloop.index0 | minus: 1 -%}
+    {%- assign previous_block = section.blocks[previous_block_index] -%}
+    {%- assign next_block = section.blocks[forloop.index] -%}
+
+    {%- case block.type -%}
+      {%- when '@app' -%}
+        {%- render block -%}
+
+      {%- when 'vendor' -%}
+        {%- if product.vendor != blank -%}
+          <div class="product-info__vendor" {{ block.shopify_attributes }}>
+            {%- render 'vendor' with product.vendor -%}
+          </div>
+        {%- endif -%}
+
+      {%- when 'title' -%}
+        {%- if request.page_type == 'product' -%}
+          <h1 class="product-info__title {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>{{ product.title }}</h1>
+        {%- else -%}
+          <h2 class="product-info__title {{ block.settings.heading_tag }}" {{ block.shopify_attributes }}>
+            <a href="{{ product.url }}">{{ product.title }}</a>
+          </h2>
+        {%- endif -%}
+
+      {%- when 'badges' -%}
+        {%- render 'product-badges', product: product, types: 'custom', form_id: product_form_id, class: 'product-info__badge-list', block: block -%}
+
+      {%- when 'sku' -%}
+        <variant-sku form="{{ product_form_id }}" class="product-info__sku text-xs text-subdued" {% if product.selected_or_first_available_variant.sku == blank %}hidden{% endif %} {{ block.shopify_attributes }}>
+          {{- 'product.general.sku' | t }} {{ product.selected_or_first_available_variant.sku -}}
+        </variant-sku>
+
+      
+      
+      {%- when 'price' -%}
+        <div class="product-info__price">
+          <!-- Start of Judge.me code -->
+              <div style='{{ jm_style }}' class='jdgm-widget jdgm-preview-badge' data-id='{{ product.id }}' data-auto-install='false'>
+                {{ product.metafields.judgeme.badge }}
+              </div>
+              <!-- End of Judge.me code -->
+          <div class="rating-with-text">
+            {%- render 'price-list', variant: product.selected_or_first_available_variant, form_id: product_form_id, size: 'lg', block: block -%}
+            {%- render 'product-badges', types: 'sold_out, discount', product: product, form_id: product_form_id, class: 'product-info__badge-list' -%}
+
+            {%- comment -%}If the next block is a rating block, then we add it as part of this one to have it inline{%- endcomment -%}
+            {%- if next_block.type == 'rating' -%}
+              {%- render 'product-rating', product: product, show_empty: next_block.settings.show_empty, block: next_block -%}
+            {%- endif -%}
+          </div>
+
+          {%- if block.settings.show_taxes_notice -%}
+            <p class="text-sm text-subdued">
+              {%- if cart.taxes_included -%}
+                {{ 'product.general.taxes_included' | t }}
+              {%- else -%}
+                {{ 'product.general.taxes_excluded' | t }}
+              {%- endif -%}
+
+              {%- if shop.shipping_policy.body != blank -%}
+                {{ 'product.general.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+              {%- endif -%}
+            </p>
+          {%- endif -%}
+        </div>
+   
+      <!-- 产品倒计时 -->
+      {%- when 'product_countdown' -%}
+
+        {%- if block.settings.coupoun_enable -%}
+          
+
+        <div class="product-title" {{ block.shopify_attributes }}>{{ block.settings.heading }}</div>
+        <m-countdown-timer
+          id="countdown-timer-{{ containerId }} product_countdown"
+          class="flex countdown-timer-container transition-opacity"
+          data-time="{{block.settings.time }}"
+        >
+          <div
+            class="p-3 md:w-20 text-center countdownLbl {{ section.id}}"
+            style=" background: {{ block.settings.bakc_background }};color: {{ block.settings.color_background }};"
+          >
+            <div class="countdown-timer-day text-4xl md:text-6xl font-light">00</div>
+            <p class="uppercase font-medium text-xs text-center mt-2">DAYS</p>
+          </div>
+
+          <div
+            class="p-3 md:w-20 text-center countdownLbl {{ section.id}}"
+            style=" background: {{ block.settings.bakc_background }};color: {{ block.settings.color_background }};"
+          >
+            <div class="countdown-timer-hour text-4xl md:text-6xl font-light">00</div>
+            <p class="uppercase font-medium text-xs text-center mt-2 hidden md:block">
+           HRS
+            </p>
+            <p class="uppercase font-medium text-xs text-center mt-2 block md:hidden">
+              HRS
+            </p>
+          </div>
+
+          <div
+            class="p-3 md:w-20 text-center countdownLbl {{ section.id}}"
+            style=" background: {{ block.settings.bakc_background }};color: {{ block.settings.color_background }};"
+          >
+            <div class="countdown-timer-minute text-4xl md:text-6xl font-light">00</div>
+            <p class="uppercase font-medium text-xs text-center mt-2 hidden md:block">MIN</p>
+            <p class="uppercase font-medium text-xs text-center mt-2 block md:hidden">MIN</p>
+          </div>
+
+          <div
+            class="p-3 md:w-20 text-center countdownLbl {{ section.id}}"
+            style=" background: {{ block.settings.bakc_background }};color: {{ block.settings.color_background }};"
+          >
+            <div class="countdown-timer-sec text-4xl md:text-6xl font-light">00</div>
+            <p class="uppercase font-medium text-xs text-center mt-2 hidden md:block">SEC</p>
+            <p class="uppercase font-medium text-xs text-center mt-2 block md:hidden">SEC</p>
+          </div>
+        </m-countdown-timer>
+      {% endif %}
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            var countdownTimers = document.querySelectorAll('m-countdown-timer');
+            
+            countdownTimers.forEach(function(timer) {
+              var timeStr = timer.getAttribute('data-time');
+              var targetTime = new Date(timeStr);
+              
+              function updateCountdown() {
+                var now = new Date();
+                var distance = targetTime - now;
+          
+                if (distance < 0) {
+                  clearInterval(timer.intervalId);
+                  displayEndTimeText(timer);
+                } else {
+                  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                  displayTime(timer, days, hours, minutes, seconds);
+                }
+              }
+          
+              timer.intervalId = setInterval(updateCountdown, 1000);
+              updateCountdown();
+            });
+          
+            function displayTime(timer, days, hours, minutes, seconds) {
+              var dayElement = timer.querySelector('.countdown-timer-day');
+              var hourElement = timer.querySelector('.countdown-timer-hour');
+              var minuteElement = timer.querySelector('.countdown-timer-minute');
+              var secondElement = timer.querySelector('.countdown-timer-sec');
+          
+              dayElement.textContent = days.toString().padStart(2, '0');
+              hourElement.textContent = hours.toString().padStart(2, '0');
+              minuteElement.textContent = minutes.toString().padStart(2, '0');
+              secondElement.textContent = seconds.toString().padStart(2, '0');
+            }
+          
+            function displayEndTimeText(timer) {
+              timer.style.display = 'none';
+              var productTitleElement = document.querySelector('.product-title');
+              var endTimeText = "{{ block.settings.ending_text }}"; 
+              productTitleElement.textContent = endTimeText;
+            }
+          });
+          </script>
+          
+
+          
+
+      {%- when 'rating' -%}
+        {%- comment -%}If the previous block is of type price, then the rating has been rendered inside it so we do not render it twice{%- endcomment -%}
+
+        {%- if previous_block.type != 'price' -%}
+          <div class="product-info__rating">
+            {%- render 'product-rating', product: product, show_empty: block.settings.show_empty, block: block -%}
+          </div>
+        {%- endif -%}
+
+      {%- when 'payment_terms' -%}
+        <payment-terms class="product-info__payment-terms" form="{{ product_form_id }}" {{ block.shopify_attributes }}>
+          {%- capture product_installment_form_id -%}product-installment-form-{{ section.id }}-{{ product.id }}{%- endcapture -%}
+
+          {%- form 'product', product, id: product_installment_form_id -%}
+            <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+            {{- form | payment_terms -}}
+          {%- endform -%}
+        </payment-terms>
+
+      {%- when 'separator' -%}
+        <hr class="product-info__separator" {{ block.shopify_attributes }}>
+
+      {%- when 'description' -%}
+        {%- if block.settings.collapse_content -%}
+          {%- if product.description != blank -%}
+            {%- capture accordion_title -%}{{ 'product.general.description' | t }}{%- endcapture -%}
+            {%- capture accordion_content -%}<div class="prose">{{ product.description }}</div>{%- endcapture -%}
+
+            {%- render 'accordion', title: accordion_title, content: accordion_content, class: 'product-info__accordion', block: block -%}
+          {%- endif -%}
+        {%- else -%}
+          {%- if product.description != blank -%}
+            <div class="product-info__description" {{ block.shopify_attributes }}>
+              <div class="prose">
+                {{- product.description -}}
+              </div>
+            </div>
+          {%- endif -%}
+        {%- endif -%}
+
+      {%- when 'variant_picker' -%}
+        <div class="product-info__variant-picker" {{ block.shopify_attributes }}>
+          {%- render 'variant-picker', 
+            product: product, 
+            form_id: product_form_id,
+            update_url: update_url, 
+            hide_sold_out_variants: block.settings.hide_sold_out_variants, 
+            block: block 
+          -%}
+        </div>
+      
+     {%- when 'coupon' -%}
+              {%- render 'product-coupon', block: block -%}
+            {%- when 'code' -%}
+              <div class="new_code" {{ block.shopify_attributes }}>
+                <div class="coupon" onclick="showCustomModal()">
+                  <svg viewBox="0 0 346 94.2" style="width:{{ block.settings.box-width }}%">
+                    <style type="text/css">.st5{font-weight: bold;}._middle {font-weight: 500; font-size:14px; fill:#fff; text-anchor: middle;}._m {dominant-baseline: middle;}._d {dominant-baseline: alphabetic;}</style>
+                    <path fill="{{ block.settings.svg_background }}" d="M214,0.2c0,4.4,3.6,8,8,8c4.4,0,8-3.6,8-8h108c0,4.4,3.6,8,8,8v78c-4.4,0-8,3.6-8,8l-108.1,0 c0-0.3,0.1-0.7,0.1-1c0-4.4-3.6-8-8-8c-4.4,0-8,3.6-8,8c0,0.3,0,0.7,0.1,1L8,94.2c0-4.4-3.6-8-8-8v-78c4.4,0,8-3.6,8-8H214z M222,67.2c-0.6,0-1,0.4-1,1v12c0,0.6,0.4,1,1,1c0.6,0,1-0.4,1-1v-12C223,67.7,222.6,67.2,222,67.2z M222,49.2c-0.6,0-1,0.4-1,1v12 c0,0.6,0.4,1,1,1c0.6,0,1-0.4,1-1v-12C223,49.7,222.6,49.2,222,49.2z M222,31.2c-0.6,0-1,0.4-1,1v12c0,0.6,0.4,1,1,1 c0.6,0,1-0.4,1-1v-12C223,31.7,222.6,31.2,222,31.2z M222,13.2c-0.6,0-1,0.4-1,1v12c0,0.6,0.4,1,1,1c0.6,0,1-0.4,1-1v-12 C223,13.7,222.6,13.2,222,13.2z"></path>
+                    <polygon fill="#FFC879" points="21.8,0 0,21.8 0,60.9 60.9,0"></polygon>
+                    <text transform="matrix(0.7 -0.7 0.7 0.7 7 40)" fill="#946040" font-size="8" class="st5">COPY &amp; USE</text>
+                    <text class="_middle _d" x="120" y="55">
+                      <tspan style="display:inline-block;">$</tspan>
+                      <tspan class="st5" font-size="45">{{ block.settings.discount_amount }}</tspan>
+
+                      <tspan class="st5" font-size="45" style="display:none;">%</tspan>
+
+                      <tspan></tspan>
+                    </text>
+                    <text transform="matrix(1 0 0 1 118 76)" class="_middle _m">{{ block.settings.ending_times }}</text>
+                    <text transform="matrix(1 0 0 1 284 76)" class="_middle _m">Code:{{ block.settings.discount_code }}</text>
+                    <circle fill="none" stroke-width="1px" stroke="#fff" cx="285" cy="38.2" r="24.5"></circle>
+                    <text transform="matrix(1 0 0 1 266 47)" fill="#fff" font-size="24" class="st5">GO</text>
+                  </svg>
+                </div>
+
+                {% if block.settings.show_code %}
+                  <div class="coupon" onclick="showCustomModal()">
+                    <svg viewBox="0 0 346 94.2" style="width:{{ block.settings.box-widths }}%">
+                      <style type="text/css">.st5{font-weight: bold;}._middle {font-weight: 500; font-size:14px; fill:#fff; text-anchor: middle;}._m {dominant-baseline: middle;}._d {dominant-baseline: alphabetic;}</style>
+                      <path fill="{{ block.settings.svg_backgrounds }}" d="M214,0.2c0,4.4,3.6,8,8,8c4.4,0,8-3.6,8-8h108c0,4.4,3.6,8,8,8v78c-4.4,0-8,3.6-8,8l-108.1,0 c0-0.3,0.1-0.7,0.1-1c0-4.4-3.6-8-8-8c-4.4,0-8,3.6,8,8c0,0.3,0,0.7,0.1,1L8,94.2c0-4.4-3.6-8-8-8v-78c4.4,0,8-3.6,8-8H214z M222,67.2c-0.6,0-1,0.4-1,1v12c0,0.6,0.4,1,1,1c0.6,0,1-0.4,1-1v-12C223,67.7,222.6,67.2,222,67.2z M222,49.2c-0.6,0-1,0.4-1,1v12 c0,0.6,0.4,1,1,1c0.6,0,1-0.4,1-1v-12C223,49.7,222.6,49.2,222,49.2z M222,31.2c-0.6,0-1,0.4-1,1v12c0,0.6,0.4,1,1,1 c0.6,0,1-0.4,1-1v-12C223,31.7,222.6,31.2,222,31.2z M222,13.2c-0.6,0-1,0.4-1,1v12c0,0.6,0.4,1,1,1c0.6,0,1-0.4,1-1v-12 C223,13.7,222.6,13.2,222,13.2z"></path>
+                      <polygon fill="#FFC879" points="21.8,0 0,21.8 0,60.9 60.9,0"></polygon>
+
+
+                        <text transform="matrix(0.7 -0.7 0.7 0.7 7 40)" fill="#946040" font-size="8" class="st5">COPY &amp; USE</text>
+
+
+                      {% if block.settings.discount_amounts != blank %}
+                        <text class="_middle _d" x="120" y="55">
+                          <tspan style="display:inline-block;">$</tspan>
+                          <tspan class="st5" font-size="45">{{ block.settings.discount_amounts }}</tspan>
+                          <tspan class="st5" font-size="45" style="display:none;">%</tspan>
+                          <tspan></tspan>
+                        </text>
+                      {% endif %}
+
+                      {% if block.settings.ending_timess != blank %}
+                        <text transform="matrix(1 0 0 1 118 76)" class="_middle _m">{{ block.settings.ending_timess }}</text>
+                      {% endif %}
+
+                      {% if block.settings.discount_codes != blank %}
+                        <text transform="matrix(1 0 0 1 284 76)" class="_middle _m">Code:{{ block.settings.discount_codes }}</text>
+                      {% endif %}
+
+
+                        <circle fill="none" stroke-width="1px" stroke="#fff" cx="285" cy="38.2" r="24.5"></circle>
+                        <text transform="matrix(1 0 0 1 266 47)" fill="#fff" font-size="24" class="st5">GO</text>
+                    </svg>
+                  </div>
+                {% endif %}
+              </div>
+
+              <div class="custom-modal" id="customModal">
+                <p class="custom-modal-text">
+                  <svg
+                    t="1695897432736"
+                    class="icon"
+                    viewBox="0 0 1024 1024"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    p-id="1205"
+                    width="20"
+                    height="20"
+                  >
+                    <path d="M514 961C267.681 961 68 761.319 68 515S267.681 69 514 69s446 199.681 446 446-199.681 446-446 446z m0-60c213.182 0 386-172.818 386-386S727.182 129 514 129 128 301.818 128 515s172.818 386 386 386z" fill="#1afa29" p-id="1206">
+
+                            </path><path d="M740.145 338l42.427 42.426-316.077 316.077-42.426-42.426z" fill="#1afa29" p-id="1207">
+
+                            </path><path d="M242 509.802l42.426-42.427 205.768 205.769-42.426 42.426z" fill="#1afa29" p-id="1208"></path>
+                  </svg>
+                  <span>{{ block.settings.successfully }}</span>
+                </p>
+              </div>
+              <script>
+                function showCustomModal() {
+                  var modal = document.getElementById('customModal');
+                  modal.style.display = 'block';
+                  setTimeout(function () {
+                    hideCustomModal();
+                  }, 2000);
+                }
+                function hideCustomModal() {
+                  var modal = document.getElementById('customModal');
+                  modal.style.display = 'none';
+                }
+              </script>
+      {%- when 'product_variations' -%}
+        {%- assign contains_product = false -%}
+
+        {%- for product_variation in block.settings.products -%}
+          {%- if product_variation == product -%}
+            {%- assign contains_product = true -%}
+          {%- endif -%}
+        {%- endfor -%}
+
+        {%- if contains_product -%}
+          {%- comment -%}
+            IMPLEMENTATION NOTE: this feature allows to connect different products on the same page. It is therefore
+            visually similar to a variant picker, although it does not share the functionality
+          {%- endcomment -%}
+
+          <div class="product-info__product-picker" {{ block.shopify_attributes }}>
+            <div class="variant-picker">
+              <fieldset class="variant-picker__option">
+                {%- assign metafield_parts = block.settings.option_value_metafield | split: '.' -%}
+                {%- assign metafield_namespace = metafield_parts | first -%}
+                {%- assign metafield_key = metafield_parts | last -%}
+
+                {%- if block.settings.option_name != blank -%}
+                  <div class="variant-picker__option-info">
+                    <div class="h-stack gap-2">
+                      <legend class="text-subdued">{{ block.settings.option_name | escape }}:</legend>
+                      <span>{{ product.metafields[metafield_namespace][metafield_key].value | escape }}</span>
+                    </div>
+                  </div>
+                {%- endif -%}
+
+                <div class="variant-picker__option-values wrap gap-2">
+                  {%- for product_variation in block.settings.products -%}
+                    {%- assign value = product_variation.metafields[metafield_namespace][metafield_key].value -%}
+
+                    {%- if product_variation == product -%}
+                      {%- assign selected = true -%}
+                    {%- else -%}
+                      {%- assign selected = false -%}
+                    {%- endif -%}
+
+                    {%- case block.settings.selector_style -%}
+                      {%- when 'swatch' -%}
+                        {%- render 'option-value', type: 'swatch', url: product_variation.url, value: value, selected: selected -%}
+
+                      {%- when 'variant_image' -%}
+                        {%- render 'option-value', type: 'thumbnail', url: product_variation.url, value: value, image: product_variation.featured_media, selected: selected, bordered: true -%}
+
+                      {%- when 'block' -%}
+                        {%- render 'option-value', type: 'block', url: product_variation.url, value: value, selected: selected -%}
+
+                      {%- when 'block_swatch' -%}
+                        {%- render 'option-value', type: 'block', url: product_variation.url, value: value, selected: selected, show_swatch: true -%}
+                    {%- endcase -%}
+                  {%- endfor -%}
+                </div>
+              </fieldset>
+            </div>
+          </div>
+        {%- endif -%}
+
+      {%- when 'line_item_property' -%}
+        {%- if block.settings.label != blank -%}
+          {%- capture name -%}properties[{{ block.settings.label | escape }}]{%- endcapture -%}
+
+          <div class="product-info__property" {{ block.shopify_attributes }}>
+            {%- if block.settings.type == 'text' -%}
+              {%- if block.settings.allow_long_text -%}
+                {%- render 'input', label: block.settings.label, name: name, form: product_form_id, multiline: 4, required: block.settings.required, maxlength: block.settings.max_length -%}
+              {%- else -%}
+                {%- render 'input', type: 'text', label: block.settings.label, name: name, form: product_form_id, required: block.settings.required, maxlength: block.settings.max_length -%}
+              {%- endif -%}
+            {%- else -%}
+              {%- render 'checkbox', label: block.settings.label, name: name, required: block.settings.required, form: product_form_id -%}
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+
+      {%- when 'quantity_selector' -%}
+        {%- if product.available -%}
+          <div class="product-info__quantity-selector {{ block.shopify_attributes }}">
+            <div class="form-control">
+              <label for="{{ product_form_id }}-quantity" class="block-label text-subdued">{{- 'product.quantity.label' | t -}}:</label>
+
+              <quantity-selector class="quantity-selector">
+                <button type="button" class="quantity-selector__button" aria-label="{{ 'product.quantity.decrease_quantity' | t }}">{% render 'icon' with 'minus', width: 10, height: 2 %}</button>
+                <input id="{{ product_form_id }}-quantity" type="text" is="quantity-input" inputmode="numeric" class="quantity-selector__input" name="quantity" form="{{ product_form_id }}" size="2" value="1" autocomplete="off">
+                <button type="button" class="quantity-selector__button" aria-label="{{ 'product.quantity.increase_quantity' | t }}">{% render 'icon' with 'plus', width: 10, height: 10 %}</button>
+              </quantity-selector>
+            </div>
+          </div>
+        {%- endif -%}
+
+      {%- when 'inventory' -%}
+        <div class="product-info__inventory {{ block.shopify_attributes }}">
+          {%- render 'inventory', product: product, low_threshold: block.settings.low_inventory_threshold, form_id: product_form_id -%}
+        </div>
+
+      {%- when 'buy_buttons' -%}
+        {%- assign main_form_exists = true -%}
+
+        {%- if request.page_type != 'password' -%}
+          <div class="product-info__buy-buttons" {{ block.shopify_attributes }}>
+            {%- render 'buy-buttons', product: product, form_id: product_form_id, show_payment_button: block.settings.show_payment_button, show_gift_card_recipient: block.settings.show_gift_card_recipient, atc_button_background: block.settings.atc_button_background, atc_button_text_color: block.settings.atc_button_text_color, payment_button_background: block.settings.payment_button_background, payment_button_text_color: block.settings.payment_button_text_color -%}
+          </div>
+        {%- endif -%}
+
+      {%- when 'pickup_availability' -%}
+        <div class="product-info__pickup-availability" {{ block.shopify_attributes }}>
+          {%- render 'pickup-availability', product_variant: product.selected_or_first_available_variant, form_id: product_form_id -%}
+        </div>
+
+      {%- when 'text' -%}
+        {%- if block.settings.text != blank -%}
+          <div class="product-info__text" {{ block.shopify_attributes }}>
+            <div class="prose">
+              {{- block.settings.text -}}
+            </div>
+          </div>
+        {%- endif -%}
+
+      {%- when 'collapsible_text' -%}
+        {%- if block.settings.title != blank and block.settings.content != blank or block.settings.page.content != blank -%}
+          {%- capture accordion_content -%}<div class="prose">{{ block.settings.page.content | default: block.settings.content }}</div>{%- endcapture -%}
+          {%- render 'accordion', title: block.settings.title, content: accordion_content, class: 'product-info__accordion', block: block -%}
+        {%- endif -%}
+
+      {%- when 'image' -%}
+        {%- if block.settings.image != blank -%}
+
+            <div class="tw-flex tw-items-center md:tw-flex-nowrap tw-flex-wrap product——image-block" {{ block.shopify_attributes }}>
+              <div>
+                  <img src="{{ block.settings.image | image_url }}" alt="">
+              </div>
+            </div>
+          {%- endif -%}
+            {%- if  block.settings.huobi -%}
+            <div class="tw-flex tw-items-center md:tw-flex-nowrap tw-flex-wrap">
+              <h4 class="md:tw-w-1/3 tw-w-full md:tw-mb-0 tw-mb-2"><b>{{ block.settings.heading   }}<b></b></b></h4>
+             <div class="payment-imgs">
+                  {% assign enabled_payment_types = 'visa,master,american_express,jcb,paypal,venmo,diners_club,discover,klarna' | remove: ' ' | split: ',' %}
+                  {% for type in enabled_payment_types %}
+                    {{- type | payment_type_svg_tag -}}
+                  {%- endfor -%}
+               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<path style="fill:#B2FCE3;" d="M44,24c0,11.044-8.956,20-20,20S4,35.044,4,24S12.956,4,24,4S44,12.956,44,24z"/>
+<path style="fill:#000100;" d="M23.913,36.113c-0.714,0.427-1.506,0.637-2.291,0.637c-0.771,0-1.534-0.196-2.235-0.602l-7.159-4.133
+	c-1.422-0.82-2.256-2.291-2.228-3.937c0.028-1.639,0.904-3.089,2.354-3.86l6.907-3.706c1.415-0.757,3.061-0.75,4.399,0.021
+	c1.268,0.736,2.059,2.073,2.109,3.58c0.028,0.967-0.729,1.779-1.695,1.807c-0.995,0.028-1.779-0.729-1.807-1.695
+	c-0.007-0.301-0.133-0.525-0.357-0.658c-0.28-0.161-0.651-0.147-0.995,0.035L14.008,27.3c-0.448,0.245-0.504,0.665-0.504,0.834
+	c-0.007,0.168,0.035,0.595,0.476,0.848l7.159,4.133c0.441,0.252,0.827,0.077,0.974-0.007c0.147-0.091,0.483-0.35,0.469-0.855
+	l-0.054-1.228c-0.025-0.558,0.581-0.919,1.06-0.632l1.849,1.107c0.207,0.124,0.342,0.348,0.343,0.59
+	C25.786,33.945,25.236,35.316,23.913,36.113z"/>
+<path style="fill:#000100;" d="M38,20.232c-0.028,1.639-0.911,3.082-2.361,3.86l-6.907,3.706c-0.708,0.378-1.464,0.567-2.214,0.567
+	c-0.757,0-1.499-0.196-2.165-0.574c-1.261-0.729-2.038-2.059-2.087-3.566c-0.028-0.967,0.729-1.779,1.695-1.807h0.107
+	c0.955,0,1.644,0.787,1.702,1.741c0.017,0.277,0.128,0.479,0.334,0.599c0.266,0.154,0.63,0.133,0.974-0.049l6.907-3.699
+	c0.455-0.245,0.504-0.665,0.511-0.834c0-0.175-0.042-0.595-0.483-0.848l-7.152-4.133c-0.441-0.252-0.834-0.077-0.974,0.007
+	c-0.147,0.091-0.483,0.343-0.469,0.855c0.031,0.441,0.057,0.803,0.078,1.1c0.04,0.57-0.582,0.945-1.067,0.645l-1.848-1.144
+	c-0.197-0.122-0.328-0.333-0.335-0.564c-0.046-1.551,0.423-3.047,1.842-3.897c1.408-0.841,3.096-0.855,4.525-0.035l7.152,4.133
+	C37.187,17.115,38.021,18.586,38,20.232z"/>
+</svg>
+            </div>
+            </div>
+          {%- endif -%}
+
+          
+
+      
+      {%- when 'button' -%}
+        {%- if block.settings.text != blank -%}
+          <div class="product-info__button" {{ block.shopify_attributes }}>
+            {%- render 'button', content: block.settings.text, href: block.settings.link, size: block.settings.size, style: block.settings.style, stretch: block.settings.stretch, background: block.settings.background, text_color: block.settings.text_color -%}
+          </div>
+        {%- endif -%}
+
+      {%- when 'liquid' -%}
+        {%- if block.settings.liquid != blank -%}
+          <div class="product-info__liquid" {{ block.shopify_attributes }}>
+            {{ block.settings.liquid }}
+          </div>
+        {%- endif -%}
+
+      {%- when 'associated_products' -%}
+        <product-recommendations class="block" product="{{ product.id }}" limit="{{ block.settings.products_count }}" intent="complementary" {{ block.shopify_attributes }}>
+          {%- if recommendations.performed and recommendations.products_count > 0 -%}
+            <div class="product-info__complementary-products v-stack gap-3 sm:gap-4">
+              {%- assign carousel_id = 'carousel-' | append: block.id -%}
+
+              {%- if block.settings.title != blank or block.settings.stack_products == false and recommendations.products_count > 1 -%}
+                <div class="h-stack justify-between gap-4">
+                  {%- if block.settings.title != blank -%}
+                    <p>{{ block.settings.title | escape }}</p>
+                  {%- endif -%}
+
+                  {%- if block.settings.stack_products == false and recommendations.products_count > 1 -%}
+                    <div class="h-stack gap-2 hidden sm:flex">
+                      <button is="prev-button" class="circle-chevron hover:colors" aria-controls="{{ carousel_id }}" aria-label="{{ 'general.accessibility.previous' | t | escape }}" disabled>{%- render 'icon' with 'chevron-left-small', direction_aware: true -%}</button>
+                      <button is="next-button" class="circle-chevron hover:colors" aria-controls="{{ carousel_id }}" aria-label="{{ 'general.accessibility.next' | t | escape }}">{%- render 'icon' with 'chevron-right-small', direction_aware: true -%}</button>
+                    </div>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+
+              {%- capture horizontal_products -%}
+                {%- for associated_product in recommendations.products -%}
+                  {%- render 'horizontal-product', product: associated_product, show_add_to_cart: true, background: block.settings.background, text_color: block.settings.text_color -%}
+                {%- endfor -%}
+              {%- endcapture -%}
+
+              {%- assign horizontal_products_blends = true -%}
+              {%- assign section_background = section.settings.background_gradient | default: section.settings.background | default: settings.background -%}
+
+              {%- if block.settings.background != 'rgba(0,0,0,0)' and block.settings.background != blank and block.settings.background != section_background -%}
+                {%- assign horizontal_products_blends = false -%}
+              {%- endif -%}
+
+              {%- if block.settings.stack_products -%}
+                <div class="horizontal-product-list {% if horizontal_products_blends %}border divide-y rounded-xs{% else %}separate{% endif %}">
+                  {{- horizontal_products -}}
+                </div>
+              {%- else -%}
+                <scroll-carousel selector=".horizontal-product" id="{{ carousel_id }}" class="horizontal-product-list-carousel {% unless horizontal_products_blends %}separate{% endunless %} scroll-area bleed sm:unbleed">
+                  <div class="horizontal-product-list {% if horizontal_products_blends %}divide-x{% else %}separate{% endif %}">
+                    {{- horizontal_products -}}
+                  </div>
+                </scroll-carousel>
+              {%- endif -%}
+            </div>
+          {%- endif -%}
+        </product-recommendations>
+
+      {%- when 'offer' -%}
+        {%- if previous_block.type != 'offer' and next_block.type == 'offer' -%}
+          <div class="product-info__offer-list">
+        {%- endif -%}
+
+        {%- if block.settings.title != blank or block.settings.content != blank -%}
+          {%- render 'offer', block: block -%}
+        {%- endif -%}
+
+        {%- if forloop.last or previous_block.type == 'offer' and next_block.type != 'offer' -%}
+          </div>
+        {%- endif -%}
+
+      {%- when 'share_buttons' -%}
+        <div class="product-form__share" {{ block.shopify_attributes }}>
+          <div class="product-info__share-buttons">
+            <div class="share-buttons justify-{{ block.settings.alignment | replace: 'left', 'start' | replace: 'right', 'end' }}">
+              <span class="text-subdued">{{- 'general.social.share' | t -}}</span>
+
+              <ul class="h-stack" role="list">
+                <li><a href="{% render 'share-link', host: 'facebook', title: product.title, description: product.description, url: product.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_on' | t: social_media: 'Facebook' }}">{%- render 'icon' with 'facebook', width: 20, height: 20 -%}</a></li>
+                <li><a href="{% render 'share-link', host: 'twitter', title: product.title, description: product.description, url: product.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_on' | t: social_media: 'Twitter' }}">{%- render 'icon' with 'twitter', width: 20, height: 20 -%}</a></li>
+                <li><a href="{% render 'share-link', host: 'pinterest', title: product.title, description: product.description, url: product.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_on' | t: social_media: 'Pinterest' }}">{%- render 'icon' with 'pinterest', width: 20, height: 20 -%}</a></li>
+                <li><a href="{% render 'share-link', host: 'email', title: product.title, description: product.description, url: product.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_email' | t }}">{%- render 'icon' with 'email' -%}</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <button is="share-button" class="product-info__native-share">
+            {%- render 'icon' with 'share' -%} {{- 'general.social.share' | t -}}
+          </button>
+        </div>
+    {%- endcase -%}
+  {%- endfor -%}
+
+  {%- comment -%}
+    IMPLEMENTATION NOTE: under rare circumstances, merchant may want to show selectors to allow variant selection, but hide
+    the add to cart button. This is however problematic as product info is changed based on the form, so we create a default
+    one if no buy buttons exists
+  {%- endcomment -%}
+
+  {%- unless main_form_exists -%}
+    {%- form 'product', product, id: product_form_id, hidden: true -%}
+      <input type="hidden" disabled name="id" value="{{ product.selected_or_first_available_variant.id }}">
+    {%- endform -%}
+  {%- endunless -%}
+</safe-sticky>

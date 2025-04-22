@@ -1,0 +1,751 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_XV3MUi": {
+      "type": "slideshow",
+      "blocks": {
+        "image_zJX3aR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM007-4_1920X1080_786efdc2-ef7f-4953-8ec1-32fb27b868bc.jpg",
+            "mobile_image": "shopify://shop_images/TM007-3_1600x1600_6330bb52-c756-42cc-9f38-4628f33e55de.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "Join Now",
+            "button_link": "https://wellfittreadmill.goaffpro.com/",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_zJX3aR"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "image_with_text_overlay_pGRDtP": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_epG4iJ": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_DJGCLm": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_xRFTY6": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_epG4iJ",
+        "heading_DJGCLm",
+        "richtext_xRFTY6"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/About_Wellfit_1464x625_4a7f02e8-8599-455e-aec9-a6f22bd86667.jpg",
+        "mobile_image": "shopify://shop_images/About-Wellfit-_1300x1500_f292ca72-272a-429e-9ca2-a4238da837fb.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "rich_text_knYghh": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_DqEgTa": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Who are we? & Do I fit into the program?"
+          }
+        },
+        "heading_AUGBx6": {
+          "type": "heading",
+          "settings": {
+            "text": "Win up to 5% Commission with Our Affiliate Program",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_C96j8A": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>WELLFIT is committed to providing people with high-quality sports products.Get people on the path to a healthier lifestyle through a quality workout experience. We’re seeking affiliates who are passionate about the WELLFIT lifestyle. Whether you're a solo influencer, a large-scale agency, or you simply have a buzzing social media presence, we’re inviting you to spread the word. In essence, we’re saying, we need you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_DqEgTa",
+        "heading_AUGBx6",
+        "richtext_C96j8A"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_WJ9qkB": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_jkLxh6": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_nBhNna": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Why Partner with WELLFIT?",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_bPfTzF": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_jkLxh6",
+        "heading_nBhNna",
+        "richtext_bPfTzF"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_link_blocks_FBcnQP": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_p98nPj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Affiliate_Program_298x139_2.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_BUnLmf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Affiliate_Program_298x139_3.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_7eyDrF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Affiliate_Program_298x139_1.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_7KPaLH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Affiliate_Program_298x139_4.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_p98nPj",
+        "item_BUnLmf",
+        "item_7eyDrF",
+        "item_7KPaLH"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "block_size": "large",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "images_with_text_scrolling_TPLNfp": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_Wnm9Xe": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_z3zWKy": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_Wnm9Xe",
+        "item_z3zWKy"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "multiple_images_with_text_MxFrRL": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_A4C7T8": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_xHVQFn": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_A4C7T8",
+        "item_xHVQFn"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "media_with_text_Nh7qDd": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_pxprma": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Affiliate_Program_557x427_863cfc6a-71b3-4159-b4b0-665758ca684e.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Win up to 5% Commission with Our Affiliate Program",
+            "content": "<p>WELLFIT is committed to providing people with high-quality sports products.Get people on the path to a healthier lifestyle through a quality workout experience. We’re seeking affiliates who are passionate about the WELLFIT lifestyle. Whether you're a solo influencer, a large-scale agency, or you simply have a buzzing social media presence, we’re inviting you to spread the word. In essence, we’re saying, we need you.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_pxprma"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "images_with_text_scrolling_pgiNaP": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_p4JGwC": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_VqcWTq": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_p4JGwC",
+        "item_VqcWTq"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "multi_column_Cf7YPi": {
+      "type": "multi-column",
+      "blocks": {
+        "item_y7jH9W": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Affiliate-Program_298x139_-_2.jpg",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_TTiQXe": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Affiliate_Program_298x139_3.jpg",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_fhEHD9": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Affiliate_Program_298x139_1.jpg",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_M7EFRY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Affiliate_Program_298x139_4.jpg",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_y7jH9W",
+        "item_TTiQXe",
+        "item_fhEHD9",
+        "item_M7EFRY"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "Why Partner with WELLFIT?",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_PqM69z": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_jdwGFC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/About_Wellfit_1680x1680_3f982fde-72a1-4170-8687-851ac40737f6.webp",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Our Mission",
+            "content": "<p>Get people on the path to a healthier lifestyle through a quality workout experience.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#2b2b2b",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jdwGFC"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "multi_column_yqrGQz": {
+      "type": "multi-column",
+      "blocks": {
+        "item_Ap8FEM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Affiliate_Program_360x164_2.jpg",
+            "column_size": "3",
+            "title": "1.Enlist",
+            "heading_tag": "h4",
+            "content": "<p>It’s at no cost to sign up. Click the ‘Enlist’ button and start turning your network into net worth.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_UEc6JY": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Affiliate_Program_360x164_1.jpg",
+            "column_size": "3",
+            "title": "2.Showcase",
+            "heading_tag": "h4",
+            "content": "<p>Seamlessly introduce our trendsetting WELLFIT products; share personalized links with your crowd.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_izMkhP": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Affiliate_Program_360x164_3.jpg",
+            "column_size": "3",
+            "title": "3.Profit",
+            "heading_tag": "h4",
+            "content": "<p>Collect up to 5% commission on curated categories following each successful sale. The more you refer, the more you gain.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_Ap8FEM",
+        "item_UEc6JY",
+        "item_izMkhP"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "How It Unfolds?",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_with_text_EHBd7H": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_LVnCJR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM006-Virtual_Run_1600x1600_db4dd7d2-c3dc-4596-980f-8cf966079e57.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "",
+            "content": "<p>Let fitness no longer be just a routine, but a lifestyle accepted by everyone. Our smart technology and quality products are designed to help individuals achieve optimal health and happiness.</p>",
+            "link_text": "Join WELLFIT Affiliate Program Now",
+            "link_url": "https://wellfittreadmill.goaffpro.com/",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#2b2b2b",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_LVnCJR"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "multi_column_NmEGL7": {
+      "type": "multi-column",
+      "blocks": {
+        "item_3rMFjF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/About_Wellfit_Walking_Pad_1000X1000_424d397a-ae20-44c2-a5db-c31042793780.webp",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "shopify://collections/walking-pad",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_QFnBX4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/About_Wellfit_Foldable_Treadmill_1000x1000_21109967-2397-4bd1-91c4-14e1b89aca4e.webp",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "shopify://collections/folding-treadmill",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_jxVwH7": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_3rMFjF",
+        "item_QFnBX4",
+        "item_jxVwH7"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "small",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "rich_text_cCVYWp": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_QrQ4Gh": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_j7XEVw": {
+          "type": "heading",
+          "settings": {
+            "text": "We're Local",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_4pTKRj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>WELLFIT INC is located at<br/>401 RYLAND ST STE 200-A RENO, NV 89502; if you have customer service needs, pls reach out to service@uswellfit.com; if you are seeking partnership with us, you can reach out to marketing@wellfittreadmill.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QrQ4Gh",
+        "heading_j7XEVw",
+        "richtext_4pTKRj"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow_XV3MUi",
+    "image_with_text_overlay_pGRDtP",
+    "main",
+    "rich_text_knYghh",
+    "rich_text_WJ9qkB",
+    "image_link_blocks_FBcnQP",
+    "images_with_text_scrolling_TPLNfp",
+    "multiple_images_with_text_MxFrRL",
+    "media_with_text_Nh7qDd",
+    "images_with_text_scrolling_pgiNaP",
+    "multi_column_Cf7YPi",
+    "media_with_text_PqM69z",
+    "multi_column_yqrGQz",
+    "media_with_text_EHBd7H",
+    "multi_column_NmEGL7",
+    "rich_text_cCVYWp"
+  ]
+}

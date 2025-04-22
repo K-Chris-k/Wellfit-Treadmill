@@ -1,0 +1,76 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "blocks": {
+        "totals": {
+          "type": "totals",
+          "settings": {
+            "show_order_weight": false,
+            "show_shipping_text": false
+          }
+        },
+        "cart_note": {
+          "type": "cart_note",
+          "settings": {}
+        },
+        "checkout_button": {
+          "type": "checkout_button",
+          "settings": {}
+        },
+        "text_RLJawG": {
+          "type": "text",
+          "settings": {
+            "content": "<ul><li><strong>Free Shipping & Tax-Free</strong></li><li>FEDEX/UPS-Delivery Time (1-5d)</li><li><strong>📞Hotline: +1(281)777-8190</strong></li><li><strong>(0%APR) </strong>4 Interest-free Afterpay Installments Available</li><li><strong>30-Day Money Back</strong>&Hassle-Free Return</li><li><strong>2-3 Years</strong>(3 Years for TM007  TM006  TM024 & TM029, 2 Years for Others) Free Warranty</li><li>Lifetime After-sale Support</li><li>Email: service@wellfittreadmill.com</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "totals",
+        "cart_note",
+        "checkout_button",
+        "text_RLJawG"
+      ],
+      "settings": {
+        "show_shipping_estimator": false,
+        "show_payment_icons": false
+      }
+    },
+    "17191789197116bbe6": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_En8mJx": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_En8mJx"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17191789197116bbe6"
+  ]
+}

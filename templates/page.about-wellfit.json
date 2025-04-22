@@ -1,0 +1,876 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_pGRDtP": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_epG4iJ": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_DJGCLm": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_xRFTY6": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_epG4iJ",
+        "heading_DJGCLm",
+        "richtext_xRFTY6"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/TM007-4_1920X1080_786efdc2-ef7f-4953-8ec1-32fb27b868bc.jpg",
+        "mobile_image": "shopify://shop_images/TM007-1_1080X1350_25b4bffd-bb7d-4c47-93e9-bc86716fae31.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "rich_text_knYghh": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_DqEgTa": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "About Wellfit"
+          }
+        },
+        "heading_AUGBx6": {
+          "type": "heading",
+          "settings": {
+            "text": "About Wellfit",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_C96j8A": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>WELLFIT was born out of my own personal struggle with weight and its impact on my health, and determined to change, I decided to start running. However, I quickly found it boring and difficult to stay consistent due to a busy work schedule, bad weather, and other obstacles, and although I eventually lost weight, I despised the process. This inspired me to create the WELLFIT Treadmill with the goal of helping others facing similar challenges stay committed to running and fitness.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_DqEgTa",
+        "heading_AUGBx6",
+        "richtext_C96j8A"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "images_with_text_scrolling_TPLNfp": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_Wnm9Xe": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_z3zWKy": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_Wnm9Xe",
+        "item_z3zWKy"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "multiple_images_with_text_MxFrRL": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_A4C7T8": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_xHVQFn": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_A4C7T8",
+        "item_xHVQFn"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "images_with_text_scrolling_pgiNaP": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_p4JGwC": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_VqcWTq": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_p4JGwC",
+        "item_VqcWTq"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "media_with_text_PqM69z": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_jdwGFC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM007_Auto_Incline_Treadmill-15_1600x1600_37aaac8f-b572-42cc-b3a7-bfabeac586e8.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Our Mission",
+            "content": "<p>Get people on the path to a healthier lifestyle through a quality workout experience. Make Yourself Great Again</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#2b2b2b",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jdwGFC"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_EHBd7H": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_LVnCJR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WELLFIT_WP009_Walking_Pad_Treadmill_Healthy_Lifestyle_1600x2000_c78c7732-f236-41bf-8f07-e4cf1f7500db.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "WELLFIT Vision",
+            "content": "<p>Let fitness no longer be just a routine, but a lifestyle accepted by everyone. Our smart technology and quality products are designed to help individuals achieve optimal health and happiness.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#2b2b2b",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_LVnCJR"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "multi_column_NmEGL7": {
+      "type": "multi-column",
+      "blocks": {
+        "item_3rMFjF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/About_Wellfit_Walking_Pad_1000X1000_424d397a-ae20-44c2-a5db-c31042793780.webp",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "shopify://collections/walking-pad",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_QFnBX4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/About_Wellfit_Foldable_Treadmill_1000x1000_21109967-2397-4bd1-91c4-14e1b89aca4e.webp",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "shopify://collections/folding-treadmill",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_cFPagV": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_3rMFjF",
+        "item_QFnBX4",
+        "item_cFPagV"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "media_grid_LefVx7": {
+      "type": "media-grid",
+      "blocks": {
+        "image_mLwyfN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM010_9.jpg",
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Gzhj7z": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_D8XYtW": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_dCRRHM": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/WP009-Pink Under Bed 4.5M.mp4",
+            "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "show_video_controls": false,
+            "title": "",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_mLwyfN",
+        "image_Gzhj7z",
+        "image_D8XYtW",
+        "video_dCRRHM"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "image_link_blocks_jNiUgb": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_qXcJkL": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WP009_PINK_900x1400_aa7825d3-2fc6-4305-bdee-d7d710513eed.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_nHchCE": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/IG_Montana_Nicole-_900x1400_92381b23-654a-4b93-a139-604e4026e448.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_QnVYgX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WP009_bfrangos_900x1400_3af3449a-6795-4dc9-96d3-883ca79b386b.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_JkYFxh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/TM010-1_900x1400_b8f547da-470a-48d7-ba82-1dcd7ba1ea8f.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_JdAMPw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WP009-18_900x1400_b015cd9a-015a-48f8-8744-e3917fd88196.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_h3kFzM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WP009-22_900X1400_579537fb-bb7e-4124-9f60-13cad3703d8c.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_tpn7kT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WP009-5_900x1400_9cec6d1e-8fff-4c08-bba8-ca20931091f5.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_M8kmEa": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WP009-1-1_900X1400_0fa00685-e904-4267-b55a-0fe1487c03e2.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_hdLykf": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WP009_mariasol7126_900x1400_d9aa205c-718d-49f5-9089-1a513c7facb0.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_d3pmpm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/TM012-3_900x1400_d0b5c136-590e-4321-b9f9-f007e7d64770.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_qXcJkL",
+        "item_nHchCE",
+        "item_QnVYgX",
+        "item_JkYFxh",
+        "item_JdAMPw",
+        "item_h3kFzM",
+        "item_tpn7kT",
+        "item_M8kmEa",
+        "item_hdLykf",
+        "item_d3pmpm"
+      ],
+      "settings": {
+        "full_width": false,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "WELLFIT IN THE MOVE",
+        "content": "<p>Scroll left and right to see</p>",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "#f0c417",
+        "heading_gradient": ""
+      }
+    },
+    "rich_text_cCVYWp": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_QrQ4Gh": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_j7XEVw": {
+          "type": "heading",
+          "settings": {
+            "text": "We're Local!",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_4pTKRj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Our USA office address is located at<br/>401 RYLAND ST STE 200-A RENO, NV 89502;If you have customer service needs, pls reach out to <strong>service@wellfittreadmill.com</strong>; or call us via <strong>+1(281)777-8190</strong>;<br/>if you are seeking partnership with us, you can reach out to <strong>brand@wellfittreadmill.com</strong></p>"
+          }
+        },
+        "richtext_TPAbQb": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p><strong>Our China Office: </strong>15F1510,Floor 11, Building C, Bairuida BuilIding, Bantian Street, Longgang District,<br/>Shenzhen<br/><br/><strong>Email:</strong> service@wellfittreadmill.com<br/><strong>Phone: </strong>+86 135 3009 4618</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QrQ4Gh",
+        "heading_j7XEVw",
+        "richtext_4pTKRj",
+        "richtext_TPAbQb"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multiple_images_with_text_MwThX8": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_Qbqycd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/3__1_2.jpg",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "Be Seen in the Heart of Times Square",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_JT33cK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/4__1_1.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Be Seen in the Heart of Times Square",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_Qbqycd",
+        "item_JT33cK"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "collage",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "video_AtxrQh": {
+      "type": "video",
+      "blocks": {
+        "play_Ajwfqb": {
+          "type": "play",
+          "disabled": true,
+          "settings": {}
+        },
+        "heading_MM6Ayx": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Video",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "play_Ajwfqb",
+        "heading_MM6Ayx"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": true,
+        "video_size": "auto",
+        "video": "shopify://files/videos/TIME SQUARE-15S(16X9).mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "media_grid_RUBYn9": {
+      "type": "media-grid",
+      "blocks": {
+        "image_Wtt846": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "shopify://products/wellfit-wp009-walking-pad-treadmill-with-voice-control",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_KnDpGq": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 2,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_XmgnF6": {
+          "type": "image",
+          "settings": {
+            "title": "Promote your products",
+            "heading_tag": "h4",
+            "link_url": "",
+            "link_text": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#000000",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_Wtt846",
+        "image_KnDpGq",
+        "image_XmgnF6"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "featured_collection_pqUBhm": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "folding-treadmill",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Featured collection",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_pGRDtP",
+    "main",
+    "rich_text_knYghh",
+    "images_with_text_scrolling_TPLNfp",
+    "multiple_images_with_text_MxFrRL",
+    "images_with_text_scrolling_pgiNaP",
+    "media_with_text_PqM69z",
+    "media_with_text_EHBd7H",
+    "multi_column_NmEGL7",
+    "media_grid_LefVx7",
+    "image_link_blocks_jNiUgb",
+    "rich_text_cCVYWp",
+    "multiple_images_with_text_MwThX8",
+    "video_AtxrQh",
+    "media_grid_RUBYn9",
+    "featured_collection_pqUBhm"
+  ]
+}

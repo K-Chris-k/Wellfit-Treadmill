@@ -1,0 +1,44 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "contact": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "We Are Always Ready To Help",
+        "content": "<p>Choosing the right sports product? Have a great idea for a new product?</p><p>We value your feedback and would love to hear from you. To let us know how we can improve your shopping experience or to ask specific questions about your order, please find our contact information below.</p><p><strong>Support(Only for this official website orders):</strong> service@wellfittreadmill.com</p><p><strong>Phone:</strong> +1 (281) 777-8190</p><p><strong>Support from Amazon Orders: support@uswellfit.com</strong><br/><strong>Available Time</strong>: Monday - Friday 9:00 AM - 3:00 PM(GMT+8).</p>",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "contact"
+  ]
+}

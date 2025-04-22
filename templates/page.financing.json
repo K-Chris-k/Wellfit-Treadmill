@@ -1,0 +1,211 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "image_with_text_overlay_Mfcrct": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_pg8p8e": {
+          "type": "heading",
+          "settings": {
+            "text": "Pay At Your Pace With Klarna&Afterpay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Nm6YFm": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>WELLFIT has partnered with Klarna&Afterpay to offer simple and affordable installment options so you can pay for your purchase over time.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pg8p8e",
+        "richtext_Nm6YFm"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Afterpay_banner_1200x600_d42ca686-98a3-42a1-9a0f-80a183dee585.jpg",
+        "mobile_image": "shopify://shop_images/WELLFIT_WP009_Walking_Pad_Treadmill_Healthy_Lifestyle_600x600_1_81931413-51a3-41c7-88b8-d99b875e4f98.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 35
+      }
+    },
+    "multi_column_YttCW3": {
+      "type": "multi-column",
+      "blocks": {
+        "item_kEnHNc": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1729305433990_e366de4a-01ee-489a-b073-864d85f21542.jpg",
+            "column_size": "2",
+            "title": "1.Add to Cart",
+            "heading_tag": "h4",
+            "content": "<p>Select Klarna or Afterpay at checkout, then enter a few pieces of info for a real-time decision.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_cQPdzp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/finance_with_afterpay_Klarna.jpg",
+            "column_size": "2",
+            "title": "2.Choose Klarna or Afterpay",
+            "heading_tag": "h4",
+            "content": "<p>Pick the monthly payment plan you like best. You’ll never pay more than you agree upfront.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_kEnHNc",
+        "item_cQPdzp"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "How to use Klarna&Afterpay",
+        "content": "",
+        "background": "#f5f5f5",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "specification_table_tQjenw": {
+      "type": "specification-table",
+      "blocks": {
+        "row_9JhWKA": {
+          "type": "row",
+          "settings": {
+            "heading": "(0%APR)Klarna&Afterpay",
+            "value": "<p>4 Interest-free Installments Available</p>"
+          }
+        },
+        "row_k9kMFQ": {
+          "type": "row",
+          "settings": {
+            "heading": "Transparent",
+            "value": "<p>Klarna&Afterpay will inform you in advance of the total amount to be paid before you confirm.This number will never increase.</p>"
+          }
+        },
+        "row_gDFRNH": {
+          "type": "row",
+          "settings": {
+            "heading": "Flexible",
+            "value": "<p>Choose the payment schedule that works best for you, at yourown pace.</p>"
+          }
+        },
+        "row_VyJcbE": {
+          "type": "row",
+          "settings": {
+            "heading": "Fair",
+            "value": "<p>Afterpay will never charge you late fees or penalties ofany kind.</p>"
+          }
+        },
+        "row_DN9pWq": {
+          "type": "row",
+          "settings": {
+            "heading": "☎️Hotline",
+            "value": "<p>Calling:+1(281)777-8190</p><p>Calling Open Time: PST 9:00AM-3:00PM(Mon-Sat)</p>"
+          }
+        },
+        "row_GKEdBF": {
+          "type": "row",
+          "settings": {
+            "heading": "✉️Contact Email:",
+            "value": "<p>service@wellfittreadmill.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_9JhWKA",
+        "row_k9kMFQ",
+        "row_gDFRNH",
+        "row_VyJcbE",
+        "row_DN9pWq",
+        "row_GKEdBF"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Buy With Confidence.",
+        "content": "<p>With Afterpay, you always know exactly what you'l owe and when you'll be donepaying.If you have any questions, please contact us</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "max_rows": 6,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "#000000",
+        "heading_gradient": "",
+        "button_background": "#ffffff",
+        "button_text_color": "",
+        "chart_background": "#ffffff",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "featured_collection_kXNDm3": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "best-selling",
+        "products": [],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 6,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Featured collection",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_Mfcrct",
+    "multi_column_YttCW3",
+    "specification_table_tQjenw",
+    "featured_collection_kXNDm3"
+  ]
+}

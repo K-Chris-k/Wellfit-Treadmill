@@ -1,0 +1,1180 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_EiVWng": {
+      "type": "slideshow",
+      "blocks": {
+        "image_FCb63Q": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Labor_Day_1.jpg",
+            "mobile_image": "shopify://shop_images/Labor_Day_2.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_Lkda34": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Spring_sale_banner_1920x800_no_button.jpg",
+            "mobile_image": "shopify://shop_images/Spring_sale_banner_1080x1350_no_button.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_my6Aja": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/easter_banner_024_pc_no_button.jpg",
+            "mobile_image": "shopify://shop_images/easter_banner_024_mb5_208c7e7a-7cfb-4432-a0a6-a058014c9c9c.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_FCb63Q",
+        "image_Lkda34",
+        "image_my6Aja"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "specification_table_AU7U8D": {
+      "type": "specification-table",
+      "blocks": {
+        "row_NjwVit": {
+          "type": "row",
+          "settings": {
+            "heading": "Discount&Valid Time",
+            "value": "<p><strong>Save Up to $500 </strong>⏰<strong>04.20 - 04.30</strong></p>"
+          }
+        },
+        "row_UcDtJY": {
+          "type": "row",
+          "settings": {
+            "heading": "Financing",
+            "value": "<p><strong>0% APR Klarna&Afterpay payment installments available</strong></p>"
+          }
+        },
+        "row_XYhy9z": {
+          "type": "row",
+          "settings": {
+            "heading": "Call US",
+            "value": "<p><strong>Presale</strong>☎️<strong>Hotline: +1(281)777-8190</strong></p>"
+          }
+        },
+        "row_KXeMHK": {
+          "type": "row",
+          "settings": {
+            "heading": "Delivery",
+            "value": "<p><strong>🚚Estimated Delivery 1-5 day</strong></p>"
+          }
+        },
+        "row_NRmNfz": {
+          "type": "row",
+          "settings": {
+            "heading": "Safe",
+            "value": "<p>✅<strong>30-Day Hassle-free Returns</strong></p>"
+          }
+        },
+        "row_kdqMA6": {
+          "type": "row",
+          "settings": {
+            "heading": "Warranty",
+            "value": "<p><strong>2-3 Year Free Warranty</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "row_NjwVit",
+        "row_UcDtJY",
+        "row_XYhy9z",
+        "row_KXeMHK",
+        "row_NRmNfz",
+        "row_kdqMA6"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "🎉Spring Sale Up To 💰 $500 OFF!",
+        "content": "<p>Spring is here, bringing fresh energy and new beginnings! 🌸 Celebrate Spring with our exclusive sale—save up to $500 for a limited time! 🎉 Take this chance to invest in your health and stay active. Order today and step into a healthier lifestyle! 🚶‍♂️🏃‍♀️✨</p>",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "max_rows": 5,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "#1a1a1a",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "hot_spots_RfkWap": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_wdYneK": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 38,
+            "vertical_position": 39,
+            "horizontal_position_mobile": 48,
+            "vertical_position_mobile": 20,
+            "icon_width": 32,
+            "title": "Exercise anytime, anywhere",
+            "content": "<p>It takes up little space, and you can place a table on top to use your laptop, so you can exercise without any restrictions.</p>"
+          }
+        },
+        "item_NqNweg": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 58,
+            "vertical_position": 40,
+            "horizontal_position_mobile": 40,
+            "vertical_position_mobile": 64,
+            "icon_width": 32,
+            "title": "Safety protection",
+            "content": "<p>The treadmill is equipped with a safety rope, which needs to be clipped to your clothes during exercise. When the safety rope falls off, the treadmill will stop running to prevent you from getting hurt.</p>"
+          }
+        },
+        "item_4dtT33": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 74,
+            "vertical_position": 79,
+            "horizontal_position_mobile": 65,
+            "vertical_position_mobile": 91,
+            "icon_width": 32,
+            "title": "Low noise(less than 40dB), wide running belt and excellent load-bearing capacity",
+            "content": "<p>The brushless motor has very low noise, and the load-bearing capacity of the running belt is over 320LBS.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_wdYneK",
+        "item_NqNweg",
+        "item_4dtT33"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "image": "shopify://shop_images/6_297705dd-ce51-4779-976f-679026dcb8cf.jpg",
+        "mobile_image": "shopify://shop_images/6-1_9ab17d6b-7cd8-4f4f-89bc-167ea622a17b.jpg",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "impact_text_CeJxHX": {
+      "type": "impact-text",
+      "blocks": {
+        "item_EPBbXb": {
+          "type": "item",
+          "settings": {
+            "title": "30000+",
+            "subheading": "",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_k7eEVz": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "2-Year",
+            "subheading": "Free Warranty",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        },
+        "item_DU6fhQ": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "title": "30-Day",
+            "subheading": "Hassle-Free Return",
+            "content": "",
+            "button_text": "",
+            "button_url": "",
+            "animate_impact_text": true,
+            "animate_impact_text_duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "item_EPBbXb",
+        "item_k7eEVz",
+        "item_DU6fhQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_mobile": true,
+        "text_alignment": "center",
+        "impact_text_style": "fill",
+        "text_divider": "line",
+        "impact_text_size_ratio": 0.6,
+        "background": "",
+        "background_gradient": "",
+        "heading_text_color": "#f0c417",
+        "heading_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "section_seiper_TzbfrH": {
+      "type": "Section-seiper",
+      "blocks": {
+        "image_tNtYAC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP009-39_900X1400_b102761e-592c-47cd-af4d-917dcd1b3f1d.jpg",
+            "bg_color": "#ffffff",
+            "name": ""
+          }
+        },
+        "image_8KCepf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM012-6_900X1400_a04702d8-cc74-4ec4-88f3-44dadab1c430.jpg",
+            "bg_color": "#ffffff",
+            "name": ""
+          }
+        },
+        "image_dbUhE4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM007-3_900X1400_28770725-1f66-4728-a399-ab283ef4b4d2.jpg",
+            "bg_color": "#f2edff",
+            "name": ""
+          }
+        },
+        "image_YbdiP9": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/TM012-8_900X1400_bc085c24-d74c-4867-a046-c2b3aeaa4932.jpg",
+            "bg_color": "#ffffff",
+            "name": ""
+          }
+        },
+        "image_rPmiRr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pink_TM010_900x1400_92a9a585-8981-4ec3-80a2-b7e86f7e1e48.jpg",
+            "bg_color": "#f2edff",
+            "name": ""
+          }
+        },
+        "image_NVhwfd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP009-45_900X1400_726b077c-8bed-4333-b837-ec64ad900f5f.jpg",
+            "bg_color": "#ffffff",
+            "name": ""
+          }
+        },
+        "image_KK7UTa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP009-49_900X1400_1b92535d-6574-4c14-b838-95c2344bba7e.jpg",
+            "bg_color": "#ffffff",
+            "name": ""
+          }
+        },
+        "image_UqYD9t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM010-1_900x1400_b8f547da-470a-48d7-ba82-1dcd7ba1ea8f.jpg",
+            "bg_color": "#ffffff",
+            "name": ""
+          }
+        },
+        "image_ik3hUb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM007-2_900X1400_96fa6a50-eb7c-45ec-9211-322392d93eb9.jpg",
+            "bg_color": "#f2edff",
+            "name": ""
+          }
+        },
+        "image_bnmEjx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP009_PINK_900x1400_5483eb1c-9eb7-452d-bbf6-0b48b28fb506.jpg",
+            "bg_color": "#ffffff",
+            "name": ""
+          }
+        },
+        "image_4qBRry": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP009-18_900x1400_b015cd9a-015a-48f8-8744-e3917fd88196.jpg",
+            "bg_color": "#ffffff",
+            "name": ""
+          }
+        },
+        "image_RdcdyV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP009-38_900X1400_ea94ec0f-b5c3-47ba-9c82-8e269dd4b20f.jpg",
+            "bg_color": "#ffffff",
+            "name": ""
+          }
+        },
+        "image_UCTy6E": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP009-22_900X1400_579537fb-bb7e-4124-9f60-13cad3703d8c.jpg",
+            "bg_color": "#ffffff",
+            "name": ""
+          }
+        },
+        "image_fLCmHF": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/WP009-5.jpg",
+            "bg_color": "#ffffff",
+            "name": ""
+          }
+        },
+        "image_mKkV3K": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP009_mariasol7126_900x1400_d9aa205c-718d-49f5-9089-1a513c7facb0.jpg",
+            "bg_color": "#ffffff",
+            "name": ""
+          }
+        },
+        "image_8XzFVx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM007-1_900X1400_b34e4dd5-26a4-4db9-a68a-900803fee8ad.jpg",
+            "bg_color": "#f2edff",
+            "name": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tNtYAC",
+        "image_8KCepf",
+        "image_dbUhE4",
+        "image_YbdiP9",
+        "image_rPmiRr",
+        "image_NVhwfd",
+        "image_KK7UTa",
+        "image_UqYD9t",
+        "image_ik3hUb",
+        "image_bnmEjx",
+        "image_4qBRry",
+        "image_RdcdyV",
+        "image_UCTy6E",
+        "image_fLCmHF",
+        "image_mKkV3K",
+        "image_8XzFVx"
+      ],
+      "settings": {
+        "infinte": "35",
+        "heading": "WELLFIT IN THE MOVE",
+        "text_color": "",
+        "subheading": "Enjoy the freedom to run whenever and wherever you desire. No need for a gym memebership or travelling to the gym. No more worries about hot/rainy🌧️/cold/snowy weather-run in the comfort of your home 🏠 Compact and space-saving, it fits under any table or sofa effortlessly📣",
+        "subheading_color": "",
+        "background_color": ""
+      }
+    },
+    "press_mpMFfP": {
+      "type": "press",
+      "blocks": {
+        "quote_4ixdwj": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/the_gadgeteer.png",
+            "logo_width": 350,
+            "author": "",
+            "content": "Space-saving and easy to move, making it great for home & office use.",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_GPqNXY": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/Women_s_Health.png",
+            "logo_width": 350,
+            "author": "",
+            "content": "They really care women fitness needs",
+            "show_rating": true,
+            "rating": 5
+          }
+        },
+        "quote_kbtgx7": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/Forbes.png",
+            "logo_width": 350,
+            "author": "",
+            "content": "Smart, Lightweight, Portable, Affordable; Also pack with so many features",
+            "show_rating": true,
+            "rating": 5
+          }
+        }
+      },
+      "block_order": [
+        "quote_4ixdwj",
+        "quote_GPqNXY",
+        "quote_kbtgx7"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "press_VgPhyH": {
+      "type": "press",
+      "blocks": {
+        "quote_niXn7q": {
+          "type": "quote",
+          "settings": {
+            "logo": "shopify://shop_images/Forbes.png",
+            "logo_width": 350,
+            "author": "",
+            "content": "Smart, Lightweight, Portable, Affordable; Also pack with so many features",
+            "show_rating": false,
+            "rating": 4
+          }
+        },
+        "quote_NcCLwY": {
+          "type": "quote",
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Write some content about what they says about your store.",
+            "show_rating": true,
+            "rating": 4
+          }
+        },
+        "quote_jUgph8": {
+          "type": "quote",
+          "disabled": true,
+          "settings": {
+            "logo_width": 100,
+            "author": "",
+            "content": "Write some content about what they says about your store.",
+            "show_rating": true,
+            "rating": 4
+          }
+        }
+      },
+      "block_order": [
+        "quote_niXn7q",
+        "quote_NcCLwY",
+        "quote_jUgph8"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_size": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "scrolling_text_AkpCcF": {
+      "type": "scrolling-text",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "text": "Sale Ends On Sep, 5th",
+        "text_size": "small",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "text_gradient": ""
+      }
+    },
+    "media_with_text_QEXHK6": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_HAtrMg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP017_spring_sale_209_1600x1600_f2835393-1cf2-4bb4-a1fe-7809f9aba5b7.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "WP017 10% Auto Incline Walking Pad",
+            "content": "<ul><li>0-10% Auto Incline</li><li>Speed of 1- 4 mph(Adjustable)</li><li>330 Lbs Capacity</li><li>Only Weighs 46.5 Lbs</li><li>Size: 48 x 18.9 x 5 in</li><li>Running Area Size：16×40 in</li><li>2-Year Warranty</li><li>Small Office & Home Friendly</li></ul>",
+            "link_text": "Buy It Now(Save $290, Only $209.99)",
+            "link_url": "shopify://products/wp017-auto-incline-walking-pad",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_HAtrMg"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_YX4LjQ": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_RHTDm3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/8_15428f45-acbb-43fb-9fa8-ec5d43b4baaf.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "TM007-Best Heavy-duty Treadmill with 350Lbs Weight Capacity",
+            "content": "<ul><li>Your ultimate home gym</li><li>45x18 Inch running area</li><li>Hydraulic soft-drop system</li><li>95% Pre-assembled</li><li>3-Year Free Warranty</li><li>With Bluetooth Speaker</li></ul>",
+            "link_text": "Shop Now(Save $400,Only $499.99)",
+            "link_url": "shopify://products/wellfit-tm007-foldable-auto-incline-treadmill",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_C3xWQE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM007_spring_sale_549_1600x1600_ba92d565-bbe4-4e51-bf27-1e7e0460ff38.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "TM007-2025 Upgraded 6-Level Height Ajustable & 15% Auto Incline",
+            "content": "<ul><li>🔥Adjustbale height from <strong>39.5-52</strong> inch</li><li><strong>Good for kids, elders and tall users</strong> (Over 5’8\")</li><li>15% auto incline</li><li>350Lbs weight capacity</li><li>18x45 Inch running area</li><li>Fodable and easy to store</li><li>Hydraulic soft-drop system</li><li>95% Pre-assembled</li><li>3-Year Free Warranty</li><li>With Bluetooth Speaker</li></ul>",
+            "link_text": "Shop Now(Save $350,Only $549.99)",
+            "link_url": "shopify://products/tm007",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_RHTDm3",
+        "image_C3xWQE"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_cb9G8G": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_CKYrmx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM024_spring_sale_559_1600x1600_2c5d173f-ca22-42a2-a5be-9f4c5f5b3e08.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "450LBS-9.9mph-Fit up to 6 Feet Tall People",
+            "content": "<ul><li>Good for tall people, even if you are 6 feet tall.</li><li>Running Area：20×45 in</li><li>95% Pre-assembled</li><li>12 Preset Programs</li><li>0-5% Incline</li><li>🤩<strong>Upgraded-55 inch length & 10% auto incline available(Model TM029)</strong>✨</li><li>3-Year Free Warranty</li></ul>",
+            "link_text": "Shop Now(Save $440, Only $559.99)",
+            "link_url": "shopify://products/tm024-folding-treadmill",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_CKYrmx"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_C9daAm": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_eENijj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM010_spring_sale_219_1600x1600_54d0fced-5feb-4bbc-a673-fa96d3deee5b.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "2025 Upgraded TM010- Smart Folding Treadmill",
+            "content": "<ul><li>Comes Pre-assembled, no assembly needed</li><li>340 Lbs Capacity</li><li><strong>0-10% </strong>Manual Incline</li><li>16x41 Inch Running Area</li><li>Foldable handbar to hang onto</li><li>Small Office & Home Friendly</li><li>With phone/pad holder</li><li>🏃‍♀️ Discover the joy of running anytime</li></ul>",
+            "link_text": "Buy It Now(Save $280, Only $219.99)",
+            "link_url": "shopify://products/wellfit-tm010-2-in-1-folding-incline-treadmill",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_eENijj"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_kdmwWY": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_MnPtE7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM020_spring_sale_259_1600x1600_5b4793d2-c5bc-4398-8bb2-60e2aebc111f.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "3-In-1 Foldable Treadmill with Desk",
+            "content": "<ul><li>Comes Pre-assembled, no assembly needed</li><li>350 Lbs Capacity</li><li><strong>0-5% </strong>Manual Incline</li><li>Come with detachable desk (23.6 x 8 in)</li><li>16 x 41 Inch Running Area</li><li>Foldable handbar to hang onto</li><li>Small Office & Home Friendly</li><li>With phone/pad holder</li><li>🏃‍♀️ Discover the joy of running anytime</li></ul>",
+            "link_text": "Buy It Now(Save $240, Only $259.99)",
+            "link_url": "shopify://products/tm020-treadmill-with-desk",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_MnPtE7"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_YziL4z": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_tHgJkk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM006_spring_sale_399_1600x1600_e6a1eb95-0d95-4b9c-9ead-36ea8f1290e7.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "TM006 Smart Folding Treadmill with Desk",
+            "content": "<ul><li>350Lbs Weight Capacity</li><li>98% Pre-assembled</li><li>12 Preset Programs</li><li>Speed of 0.6-8.7mph</li><li>0-5% Incline</li><li>Built-in Bluetooth music player</li><li>Running Area：18×43.5 in</li><li>3-Year Free Warranty</li></ul>",
+            "link_text": "Shop Now(Save $500, Only $399.99)",
+            "link_url": "shopify://products/wellfit-tm006-incline-foldable-treadmill-walking-pad-treadmill-with-voice-control",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_tHgJkk"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_YBEE6b": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_rcYETx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM015_spring_sale_279_1600x1600_f6dacd70-6862-484a-9c55-080abba8f6f4.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "TM015 Foldable Treadmill with Side Rails",
+            "content": "<ul><li><strong>350 Lbs</strong> Weight Capacity</li><li>Running Belt Size：<strong>16×40 in</strong></li><li><strong>Hydraulic Soft Drop</strong> Folding Mechanism</li><li>Comes <strong>95% Pre-assembled</strong></li><li><strong>2-year</strong> warranty</li><li><strong>30-day </strong>risk free trial</li><li>AI Voice Control | Console Control | 3D VR</li><li>Speed of <strong>1.0 -7.6</strong> mph(Adjustable)</li><li>0-3-6% Incline</li></ul>",
+            "link_text": "Buy It Now(Save $220, Only $279.99)",
+            "link_url": "shopify://products/tm015",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_rcYETx"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_UWKhYH": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_bfVTMY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM030_spring_sale_159_1600x1600_af3c3993-9ab1-4d6d-866d-9bd784403b42.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "TM030-Affordable But Great Quality Treadmill in 2025",
+            "content": "<ul><li>Comes Pre-assembled, no assembly needed</li><li>265 Lbs Capacity</li><li><strong>0-3-6-10% </strong>Manual Incline</li><li>14.76x36.2 Inch Running Area</li><li>Removable handrail to hang onto</li><li>Small Office & Home Friendly</li><li>With phone/pad holder</li><li>🏃‍♀️ Discover the joy of running anytime</li></ul>",
+            "link_text": "Buy It Now(Save $240, Only $159.99)",
+            "link_url": "shopify://products/tm030-treadmill",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_epijUL": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/12_6b30d683-8fbb-4e06-a8a5-7969c5cf811d.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Best Smart Folding Treadmill in 2024",
+            "content": "<ul><li>Comes Pre-assembled, no assembly needed</li><li>320 Lbs Capacity</li><li><strong>0-6% </strong>Manual Incline</li><li>16x41 Inch Running Area</li><li>Foldable handbar to hang onto</li><li>Small Office & Home Friendly</li><li>With phone/ipad holder</li><li>🏃‍♀️ Discover the joy of running anytime</li></ul>",
+            "link_text": "Buy It Now(Save $290, Only $209.99)",
+            "link_url": "shopify://products/wellfit-tm012-2-in-1-smart-treadmill-with-incline",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_bfVTMY",
+        "image_epijUL"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_gTC3XQ": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_i7mFWN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM029_spring_sale_799_1600x1600_9e37dba5-48c7-4932-a34a-491560a2cc6a.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "20x55 Inch-10% Auto Incline Treadmill with 450 lbs Capacity",
+            "content": "<ul><li><strong>450 Lbs</strong> Weight Capacity</li><li>Running Area Size：<strong>20x55 in</strong></li><li><a href=\"https://youtu.be/t13MRKuq050\" target=\"_blank\" title=\"https://youtu.be/t13MRKuq050\"><strong>0-10% Auto Incline, 10 Levels</strong></a></li><li>Good for tall people</li><li>Speed of <strong>1.0-10.0</strong>mph(Adjustable)</li><li><a href=\"https://youtu.be/XOvg9YXo-Bw\" target=\"_blank\" title=\"https://youtu.be/XOvg9YXo-Bw\">Comes 95% Pre-assembled</a></li><li>Heart Rate Monitor</li><li><strong>12</strong> Preset Programs</li><li>3-year warranty</li></ul>",
+            "link_text": "Shop Now(Save $500, Only $799.99)",
+            "link_url": "shopify://products/tm029-auto-incline-folding-treadmill",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_i7mFWN"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_x3yLr9": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_CQjHXm": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/TM012_1.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "TM012-Smart Folding Treadmill in 2025",
+            "content": "<ul><li>Comes Pre-assembled, no assembly needed</li><li>320 Lbs Capacity</li><li><strong>0-6% </strong>Manual Incline</li><li>16x41 Inch Running Area</li><li>Foldable handbar to hang onto</li><li>Small Office & Home Friendly</li><li>With phone/ipad holder</li><li>🏃‍♀️ Discover the joy of running anytime</li></ul>",
+            "link_text": "Buy It Now(Save $ 260, Only $239.99)",
+            "link_url": "shopify://products/wellfit-tm012-2-in-1-smart-treadmill-with-incline",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "image_zdkhLQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM002_spring_sale_259_1600x1600_f2e9c8a0-7063-4a46-affa-fe3f7a0bd722.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "TM002-Folding Treadmill with 16×44 inch Running Belt",
+            "content": "<ul><li>Comes Pre-assembled, no assembly needed</li><li>0-3% Manual Incline</li><li>Speed of 0.6-7.6 mph(Adjustable)</li><li>340 Lbs Weight Capacity</li><li>Foldable handbar to hang onto</li><li>With phone/pad holder</li><li>🏃‍♀️ Discover the joy of running anytime</li></ul>",
+            "link_text": "Buy It Now(Save $240, Only $259.99)",
+            "link_url": "shopify://products/wellfit-tm002-walking-pad-treadmills-with-handle",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_CQjHXm",
+        "image_zdkhLQ"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_ypcrzU": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_FpdxcL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WP023_spring_sale_139_1600x1600_36c89700-fd1c-4da0-bd10-7d113199f912.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "WP023 Under Desk Walking Pad With 10% Incline",
+            "content": "<ul><li>Ready To Use Out Of The Box</li><li>Small Office & Home Friendly</li><li>Running Area：15 x 36 in</li><li>265 Lbs Capacity</li><li>One-Touch Mute Mode</li><li>AI Voice Control | Remote Control | 3D VR</li><li>0-3-6-10% Manual Incline</li><li>Net Weight: 30 Lbs</li><li>Product Size: 42.9 x 18.3 x 4.1 in</li></ul>",
+            "link_text": "Shop Now(Save $140, Only $139.99)",
+            "link_url": "shopify://products/wp023",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#000000",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_FpdxcL"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_EMVL6K": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_z396BA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/TM027_spring_sale_159.99_1600x1600_424cd1b0-98c3-4dba-bb95-6e3213989ebf.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "TM027-Treadmill With Handrail And Mute Mode",
+            "content": "<ul><li>265 Lbs Weight Capacity</li><li>Running Belt Size：14.76 x 36.2 inch</li><li>Small Office & Home Friendly</li><li>Comes 95% Pre-assembled</li><li>One-Touch Mute Mode</li><li>AI Voice Control | App Control | Remote Control</li><li>Speed of 1.0-5.0mph(Adjustable)</li><li>0-3-6-10% Incline</li></ul>",
+            "link_text": "Buy It Now(Save $240, Only $159.99)",
+            "link_url": "shopify://products/tm027",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1a1a1a",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_z396BA"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "slideshow_kmXWxC": {
+      "type": "slideshow",
+      "blocks": {
+        "image_YtCVwE": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/CM_PC_1920_1080.jpg",
+            "mobile_image": "shopify://shop_images/CM_mobile_1920_1920.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "https://www.instagram.com/p/DC5-FI7MW2d/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_YtCVwE"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "17247443137e326c7b": {
+      "type": "apps",
+      "blocks": {
+        "reelup_shoppable_videos_reels_reelup_playlist_ryrEg3": {
+          "type": "shopify://apps/reelup-shoppable-videos-reels/blocks/reelup-playlist/a8ec9e4d-d192-44f7-9c23-595f9ee7dd5b",
+          "settings": {
+            "playlist_id": "rl_pl_5296",
+            "debugging_script": ""
+          }
+        }
+      },
+      "block_order": [
+        "reelup_shoppable_videos_reels_reelup_playlist_ryrEg3"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow_EiVWng",
+    "specification_table_AU7U8D",
+    "hot_spots_RfkWap",
+    "impact_text_CeJxHX",
+    "section_seiper_TzbfrH",
+    "press_mpMFfP",
+    "press_VgPhyH",
+    "main",
+    "scrolling_text_AkpCcF",
+    "media_with_text_QEXHK6",
+    "media_with_text_YX4LjQ",
+    "media_with_text_cb9G8G",
+    "media_with_text_C9daAm",
+    "media_with_text_kdmwWY",
+    "media_with_text_YziL4z",
+    "media_with_text_YBEE6b",
+    "media_with_text_UWKhYH",
+    "media_with_text_gTC3XQ",
+    "media_with_text_x3yLr9",
+    "media_with_text_ypcrzU",
+    "media_with_text_EMVL6K",
+    "slideshow_kmXWxC",
+    "17247443137e326c7b"
+  ]
+}

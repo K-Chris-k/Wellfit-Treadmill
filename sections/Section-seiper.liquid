@@ -1,0 +1,329 @@
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+<style>
+  
+  .com-image-free {
+            background: #e9e9eb;
+            overflow: hidden;
+            padding-bottom: var(--spacer9);
+        }
+
+        .com-image-free .swiper {
+            overflow: visible;
+        }
+
+      /* 持续滚动的动画 */
+  .swiper-wrapper {
+    display: flex;
+    animation: scroll {{ section.settings.infinte   }}s linear infinite;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-2800px);
+    }
+  }
+
+
+        .com-image-free .swiper-wrapper:hover{
+            animation-play-state: paused;
+        }
+
+        .com-image-free .swiper-slide {
+     
+            width: 312px;
+       
+            height: auto;
+         
+        }
+
+        .com-image-free .swiper-slide img {
+          border-radius: 10px
+        }
+        .com-image-free .swiper-slide .image img, .com-image-free .swiper-slide .image svg {
+            width: 100%;
+            border-radius: 12px;
+            height: 280px;
+        }
+
+        .com-image-free .swiper-slide .info {
+            display: flex;
+            align-items: center;
+            margin-top: 16px;
+            gap: 16px;
+        }
+
+        .com-image-free .swiper-slide .info img,.com-image-free .swiper-slide .info svg {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+        }
+        .we-heading {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 110%;
+    text-align: center;
+    color:{{ section.settings.text_color   }} ;
+}
+
+.we-subheading {
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color:{{ section.settings.subheading_color   }} ;
+}
+
+.we-wrapper {
+
+    max-width: 872px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0 auto;
+}.seiper-slider-image {
+    margin-left: 20px;
+}
+
+.we-container.section {
+    padding-bottom: 3rem;
+}
+@media (max-width: 1280px) {
+  .we-heading{
+    font-size: 40px;
+  }
+}
+        @media (max-width: 768px) {
+          .com-image-free .swiper-slide{
+            width: 150px;
+          }
+          .seiper-slider-image {
+    margin-left: 10px;
+}
+          .we-heading{
+                font-size: 26px;
+            font-weight: 700;
+            line-height: 110%;
+            text-align: unset;
+                      }
+            /*.com-image-free{*/
+            /*    padding-bottom: 64px;*/
+            /*}*/
+            /* .com-image-free .swiper-wrapper{
+                animation: move 5s linear .1s infinite normal none running;
+            } */
+            .we-subheading{
+              text-align: unset;
+            }  
+          }
+            @media screen and (max-width: 479px) {
+              .we-heading{
+                font-size: 26px;
+            font-weight: 700;
+            line-height: 110%;
+            text-align: unset;
+                      }
+            }
+
+    
+</style>
+<section class="section-swiper">
+ <div class="com-heading">
+    <div class="we-container section">
+      <div class="we-wrapper">
+        <div class="we-heading">{{ section.settings.heading }}</div>
+        <div class="we-subheading">{{  section.settings.subheading }}</div>
+      </div>
+
+
+    </div>
+    </div>
+
+    <div class="shopify-image-free">
+      <div class="com-image-free">
+
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            {% for block in section.blocks %}
+            <div class="swiper-slide">
+              <div class="seiper-slider-image">
+                {%- if block.settings.image -%}
+                  <img
+                    srcset="{%- if block.settings.image.width >= 375 -%}{{ block.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
+                    {%- if block.settings.image.width >= 550 -%}{{ block.settings.image | image_url: width: 550 }} 550w,{%- endif -%}
+                    {%- if block.settings.image.width >= 750 -%}{{ block.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+                    {%- if block.settings.image.width >= 1100 -%}{{ block.settings.image | image_url: width: 1100 }} 1100w,{%- endif -%}
+                    {%- if block.settings.image.width >= 1500 -%}{{ block.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                    {%- if block.settings.image.width >= 1780 -%}{{ block.settings.image | image_url: width: 1780 }} 1780w,{%- endif -%}
+                    {%- if block.settings.image.width >= 2000 -%}{{ block.settings.image | image_url: width: 2000 }} 2000w,{%- endif -%}
+                    {%- if block.settings.image.width >= 3000 -%}{{ block.settings.image | image_url: width: 3000 }} 3000w,{%- endif -%}
+                    {%- if block.settings.image.width >= 3840 -%}{{ block.settings.image | image_url: width: 3840 }} 3840w,{%- endif -%}
+                    {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
+                    sizes="100vw"
+                    src="{{ block.settings.image | image_url: width: 1500 }}"
+                    loading="eager"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    width="{{ block.settings.image.width }}"
+                    height="{{ block.settings.image.width | divided_by: block.settings.image.aspect_ratio | round }}"
+                  >
+                {%- else -%}
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+              </div>
+             <div class="swiper-info">
+              {%- if block.settings.image_mobile -%}
+              <div class="avatar">
+             
+                  <img
+                    srcset="{%- if block.settings.image_mobile.width >= 375 -%}{{ block.settings.image_mobile | image_url: width: 375 }} 375w,{%- endif -%}
+                    {%- if block.settings.image_mobile.width >= 550 -%}{{ block.settings.image_mobile | image_url: width: 550 }} 550w,{%- endif -%}
+                    {%- if block.settings.image_mobile.width >= 750 -%}{{ block.settings.image_mobile | image_url: width: 750 }} 750w,{%- endif -%}
+                    {%- if block.settings.image_mobile.width >= 1100 -%}{{ block.settings.image_mobile | image_url: width: 1100 }} 1100w,{%- endif -%}
+                    {%- if block.settings.image_mobile.width >= 1500 -%}{{ block.settings.image_mobile | image_url: width: 1500 }} 1500w,{%- endif -%}
+                    {%- if block.settings.image_mobile.width >= 1780 -%}{{ block.settings.image_mobile | image_url: width: 1780 }} 1780w,{%- endif -%}
+                    {%- if block.settings.image_mobile.width >= 2000 -%}{{ block.settings.image_mobile | image_url: width: 2000 }} 2000w,{%- endif -%}
+                    {%- if block.settings.image_mobile.width >= 3000 -%}{{ block.settings.image_mobile | image_url: width: 3000 }} 3000w,{%- endif -%}
+                    {%- if block.settings.image_mobile.width >= 3840 -%}{{ block.settings.image_mobile | image_url: width: 3840 }} 3840w,{%- endif -%}
+                    {{ block.settings.image_mobile | image_url }} {{ block.settings.image_mobile.width }}w"
+                    sizes="100vw"
+                    src="{{ block.settings.image_mobile | image_url: width: 750 }}"
+                    loading="eager"
+                    alt="{{ block.settings.image_mobile.alt | escape }}"
+                    width="{{ block.settings.image_mobile.width }}"
+                    height="{{ block.settings.image_mobile.width | divided_by: block.settings.image_mobile.aspect_ratio | round }}"
+                  >
+             
+              </div>
+            {%- endif -%}
+            {%- if block.settings.name -%}
+              <div class="name body-base">
+                {{ block.settings.name }}
+              </div>
+            {%- endif -%}
+             </div>
+            </div>
+            {% endfor %}
+      </div>
+
+    </div>
+      </div>
+    </div>
+
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+  
+      const swiperWrapper = document.querySelector('.com-image-free .swiper-wrapper');
+      const originalSlides = swiperWrapper.querySelectorAll('.swiper-slide');
+      for (let i = 0; i < 4; i++) { // We do it 2 times to make it 3 in total
+          originalSlides.forEach(slide => {
+              const clonedSlide = slide.cloneNode(true); 
+              swiperWrapper.appendChild(clonedSlide); // Append the cloned slide
+          });
+      }
+  });
+  
+    </script> 
+{% comment %} <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var swiper = new Swiper('.swiper-container', {
+      loop: true,
+      slidesPerView: 'auto', 
+      centeredSlides: true,
+      autoplay: {
+        delay: 0, 
+        disableOnInteraction: false, 
+      },
+      speed: 1000, 
+    });
+    swiper.el.addEventListener('mouseenter', function () {
+      swiper.autoplay.stop();
+    });
+    swiper.el.addEventListener('mouseleave', function () {
+      swiper.autoplay.start();
+    });
+  });
+  </script> {% endcomment %}
+
+{% schema %}
+{
+  "name": "Swiper Seiper",
+  "tag": "section",
+  "class": "section-swiper",
+  "settings": [
+    {
+      "type": "text",
+      "id": "infinte",
+      "label": "自动轮播速度越小越快",
+      "default": "8"
+ 
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+ 
+    },
+    {
+      "type":"color",
+      "id":"text_color",
+      "label": "Heading Colr"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading"
+    },
+    {
+      "type":"color",
+      "id":"subheading_color",
+      "label": "Subheading Colr"
+    },
+    {
+      "type":"color",
+      "id":"background_color",
+      "label": "Background Colr"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image",
+      "name": "Image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+      "type":"color",
+      "id":"bg_color",
+      "label": "Image Background Colr",
+      "default": "#F2EDFF"
+    },
+        {
+          "type": "image_picker",
+          "id": "image_mobile",
+          "label": "logo"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Swiper Seiper",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

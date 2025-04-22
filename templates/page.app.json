@@ -1,0 +1,818 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "multiple_images_with_text_ynTqRR": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_NcC6gk": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WELLFIT_WP001_Walking_Pad_Treadmill_Voice_Control_1200x1600_b3b4ec78-b82e-42e9-ad13-352e623a6ec4.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "World's 1st AI Voice Control Walking Pad&Treadmill",
+            "title": "AI Empowered APP",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_9tNkBR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WELLFIT_WP009_Incline_Under_Desk_Walking_Pad_voice_control2_1200X1600_8d6325ff-80cb-4e2e-ae7c-93da0736b652.jpg",
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "AI Empowered                       Walking Pad & Treadmill",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_NcC6gk",
+        "item_9tNkBR"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "slideshow_P3y3UH": {
+      "type": "slideshow",
+      "blocks": {
+        "image_BLtGP9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Wellfit-App_1920x800_f4844cb7-98aa-43f9-965d-6e1570dc2c3d.jpg",
+            "mobile_image": "shopify://shop_images/WELLFIT-APP-Download_1300x1500_36829dae-48c6-4e21-b30d-5685d1bb8104.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "https://apps.apple.com/cn/app/wellfit-fitness/id6446661326",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_cxwbMd": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BLtGP9",
+        "image_cxwbMd"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "image_with_text_overlay_pGRDtP": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_epG4iJ": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_DJGCLm": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_xRFTY6": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "liquid_ppDQaR": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<p>Use this text to output some custom Liquid code to include widget or dynamic code.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_epG4iJ",
+        "heading_DJGCLm",
+        "richtext_xRFTY6",
+        "liquid_ppDQaR"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Wellfit-App_1920x800_f4844cb7-98aa-43f9-965d-6e1570dc2c3d.jpg",
+        "mobile_image": "shopify://shop_images/WELLFIT-APP-Download_1300x1500_36829dae-48c6-4e21-b30d-5685d1bb8104.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "images_with_text_scrolling_TPLNfp": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_cC9mGV": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_Wnm9Xe": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_z3zWKy": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_cC9mGV",
+        "item_Wnm9Xe",
+        "item_z3zWKy"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "multiple_images_with_text_MxFrRL": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_A4C7T8": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_xHVQFn": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_A4C7T8",
+        "item_xHVQFn"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "media_with_text_TFNzPh": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_xUUqeN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WELLFIT-APP_1500x1500_2d950887-83bc-44cd-a80d-117367a41040.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "WELLFIT App",
+            "content": "<p>WELLFIT App users to enjoy free exclusive fat burning and plastic courses, data-driven training records your every exercise for data analysis, and various personal trainers guide and automatically adjust the speed, inclination or resistance of the machine , guide your fitness with confidence.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#1b1b1b",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xUUqeN"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "images_with_text_scrolling_pgiNaP": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_p4JGwC": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 1",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "item_VqcWTq": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_p4JGwC",
+        "item_VqcWTq"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "media_with_text_PqM69z": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_jdwGFC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WELLFIT-APP-1_4e68058e-1678-4ee4-8814-11698120d441.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Master Your Fitness Data",
+            "content": "<p>Real-time monitoring and analysis of your fitness data to help you exercise scientifically and improve your workout efficiency.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#2b2b2b",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jdwGFC"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "media_with_text_EHBd7H": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_LVnCJR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WELLFIT-APP-2-_1500X1500_e1b73afd-8908-48bb-b8ba-53efa1622578.jpg",
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Engaging Virtual Challenges, Ignite Your Passion for Workout",
+            "content": "<p>Take on virtual map challenges from various global regions, adding fun to your workouts and helping you achieve your health goals.</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#f0f0f0",
+            "background_gradient": "",
+            "text_color": "#2b2b2b",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_LVnCJR"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "video_DhNNGJ": {
+      "type": "video",
+      "blocks": {
+        "play_D9NaYj": {
+          "type": "play",
+          "settings": {}
+        },
+        "heading_CLzpVV": {
+          "type": "heading",
+          "settings": {
+            "text": "Watch App Tutorial Video",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "play_D9NaYj",
+        "heading_CLzpVV"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "autoplay": false,
+        "video_size": "auto",
+        "external_video_url": "https://youtu.be/VtayqauZl7s",
+        "poster": "shopify://shop_images/WELLFIT_WP009_Walking_Pad_Treadmill_App_1600x2000_c223e336-08e7-4175-af9f-5153acbc8a11.jpg",
+        "text_color": "#f0f0f0",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_ELYxDW": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_rbLqYY": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_cGtxYU": {
+          "type": "heading",
+          "settings": {
+            "text": "More Fun in the App",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_Hwjaeq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Work with WELLFIT/ZWIFT/Kinomap/Apple Health App</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_rbLqYY",
+        "heading_cGtxYU",
+        "richtext_Hwjaeq"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multi_column_NmEGL7": {
+      "type": "multi-column",
+      "blocks": {
+        "item_3rMFjF": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/About_Wellfit_Walking_Pad_1000X1000_424d397a-ae20-44c2-a5db-c31042793780.webp",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "shopify://collections/walking-pad",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_QFnBX4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/About_Wellfit_Foldable_Treadmill_1000x1000_21109967-2397-4bd1-91c4-14e1b89aca4e.webp",
+            "column_size": "2",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "shopify://collections/folding-treadmill",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_cFPagV": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_3rMFjF",
+        "item_QFnBX4",
+        "item_cFPagV"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "start",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "slideshow_BUkrGM": {
+      "type": "slideshow",
+      "blocks": {
+        "image_JVwkkh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Connect_with_Kinomap_app_1464X600_b2635c31-1d48-4c1f-b875-990a3f9e4d85.jpg",
+            "mobile_image": "shopify://shop_images/Connect_with_Kinomap_app_600X450_8d71ab15-5978-46a9-82a2-5037f9717ca2.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_E8H7bH": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_JVwkkh",
+        "image_E8H7bH"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "slideshow_qp7jrn": {
+      "type": "slideshow",
+      "blocks": {
+        "image_BKL744": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Connect_with_Zwift_app_1464X600_3c8d54c3-77a3-4432-a8cd-ac62f0d8432a.jpg",
+            "mobile_image": "shopify://shop_images/Connect_with_Zwift_app_600x450_c01a2e9e-c810-42f3-9448-63b096d32f1c.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_apnbmG": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "Tell your story",
+            "title": "Slide 2",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BKL744",
+        "image_apnbmG"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
+      }
+    },
+    "image_with_text_overlay_Gh6JDU": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_CHzphD": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_Nf83nN": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_4dJhe8": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_CHzphD",
+        "heading_Nf83nN",
+        "richtext_4dJhe8"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Apple_Health_1464x600_8122f98d-be2a-4249-9fb0-f406e9950c75.jpg",
+        "mobile_image": "shopify://shop_images/Apple_Health_600x450_28d55d48-d1fa-49b4-afcf-459454dcaa04.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_knYghh": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_DqEgTa": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "About Wellfit"
+          }
+        },
+        "heading_AUGBx6": {
+          "type": "heading",
+          "settings": {
+            "text": "Discover more ways to exercise",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_C96j8A": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Choose the perfect workout from a variety of carefully selected options based on your mood, goals, music taste, experience level, and schedule, all on the WELLFIT App. We continuously update our content to bring you more choices!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_DqEgTa",
+        "heading_AUGBx6",
+        "richtext_C96j8A"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "image_with_text_overlay_VGQjej": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_T4NdtG": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_TjMFU8": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_T4NdtG",
+        "heading_TjMFU8"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Wellfit-App_3840x906_69605bd5-a8fe-4d30-816f-06dce81206f7.jpg",
+        "mobile_image": "shopify://shop_images/Wellfit-App3_13000x1500_e5468207-f5cd-4f79-bbec-46c9b742de37.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "multiple_images_with_text_ynTqRR",
+    "slideshow_P3y3UH",
+    "image_with_text_overlay_pGRDtP",
+    "main",
+    "images_with_text_scrolling_TPLNfp",
+    "multiple_images_with_text_MxFrRL",
+    "media_with_text_TFNzPh",
+    "images_with_text_scrolling_pgiNaP",
+    "media_with_text_PqM69z",
+    "media_with_text_EHBd7H",
+    "video_DhNNGJ",
+    "rich_text_ELYxDW",
+    "multi_column_NmEGL7",
+    "slideshow_BUkrGM",
+    "slideshow_qp7jrn",
+    "image_with_text_overlay_Gh6JDU",
+    "rich_text_knYghh",
+    "image_with_text_overlay_VGQjej"
+  ]
+}
